@@ -1,0 +1,15 @@
+vendorCode: mpa
+code: csp
+name: MPA Content Security Best Practices Common Guidelines
+url: >-
+  https://www.motionpictures.org/what-we-do/safeguarding-creativity/additional-resources/#content-protection-best-practices
+description: MPA Content Security Best Practices Common Guidelines
+id: 0dc390ac-4f68-49b6-8401-4c93a64e2829
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 996ef2ef-57fa-466c-9f5d-6801d1ec0cca
+vendorName: MPA
+logo: https://cdn.auditmation.io/logos/mpa.png

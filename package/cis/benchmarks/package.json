@@ -1,0 +1,30 @@
+{
+  "name": "@auditlogic/suite-cis-benchmarks",
+  "version": "0.2.2",
+  "description": "Suite package benchmarks for vendor CIS.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.png"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "cis.benchmarks",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@auditlogic/vendor-cis": "^0.1.2"
+  }
+}

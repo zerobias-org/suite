@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-iec-60601",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-iec-60601",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-iec": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-iec": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-iec/1.0.0/117b33341c34366092de69f0f7c224e1285db82e",
+      "integrity": "sha512-JDqjNMJUZBQ1WUX0luODeovmnx7lL6NaIm/bwkZVggsPx82NUHK8Ib+slJa9nerSScRlW9CJxFdM+mYN9jbqPQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-iec": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-iec/1.0.0/117b33341c34366092de69f0f7c224e1285db82e",
+      "integrity": "sha512-JDqjNMJUZBQ1WUX0luODeovmnx7lL6NaIm/bwkZVggsPx82NUHK8Ib+slJa9nerSScRlW9CJxFdM+mYN9jbqPQ=="
+    }
+  }
+}

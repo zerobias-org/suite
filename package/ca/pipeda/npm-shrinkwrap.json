@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-ca-pipeda",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-ca-pipeda",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-ca": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-ca": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-ca/1.0.0/1d6898c989d50bb7057e809fe7a49c826799e288",
+      "integrity": "sha512-3EsCLP+geIJPCjVPmGZxZff6GohtMFAkoiqiwrZ1/qCJ1zZIhhioibZ4ehN9DBXKu7+whOZ5HkPl1uYInBUS9w==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-ca": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-ca/1.0.0/1d6898c989d50bb7057e809fe7a49c826799e288",
+      "integrity": "sha512-3EsCLP+geIJPCjVPmGZxZff6GohtMFAkoiqiwrZ1/qCJ1zZIhhioibZ4ehN9DBXKu7+whOZ5HkPl1uYInBUS9w=="
+    }
+  }
+}

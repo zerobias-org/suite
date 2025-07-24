@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-google-gcp",
+  "version": "1.0.9",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-google-gcp",
+      "version": "1.0.9",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-google": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-google": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-google/1.0.7/6da6c2bd0c1d14ea33911caf31b583cbad374bb5",
+      "integrity": "sha512-87VnS8TdANMpIrWSRHsw9o6PSD0rN6o++KLFM4cuFQsT1hhHgjRUkItetAwNg7o41dm2LfiB7u0WrPWiVEtklw==",
+      "license": "ISC"
+    }
+  }
+}

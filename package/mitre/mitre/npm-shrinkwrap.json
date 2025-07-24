@@ -1,0 +1,33 @@
+{
+  "name": "@auditlogic/suite-mitre-mitre",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-mitre-mitre",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-mitre": "^0.2.1"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-mitre": {
+      "version": "0.2.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-mitre/0.2.1/2372f5eb2385ad7c1b0d8c771fa803396ece6dbf",
+      "integrity": "sha512-hA87V11DBQFyNLB3qbvP2shHcJM6oddfWvmzzYJUdZ0Sch/w78ot9Yn5OXjedshb5jknHpPTsA2WTPNRl+19ng==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-mitre": {
+      "version": "0.2.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-mitre/0.2.1/2372f5eb2385ad7c1b0d8c771fa803396ece6dbf",
+      "integrity": "sha512-hA87V11DBQFyNLB3qbvP2shHcJM6oddfWvmzzYJUdZ0Sch/w78ot9Yn5OXjedshb5jknHpPTsA2WTPNRl+19ng=="
+    }
+  }
+}

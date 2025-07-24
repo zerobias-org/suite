@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-owasp-wstg",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-owasp-wstg",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-owasp": "^1.0.1"
+      }
+    },
+    "node_modules/@auditlogic/vendor-owasp": {
+      "version": "1.0.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-owasp/1.0.1/9ad3b0a1874717385c417ec12767b76ed55ae69c",
+      "integrity": "sha512-MOeo5WNAmSdAomUONbvYjRf0gn0oaRQDlX6MOP3UQrr/7XB1+LcxQ1xG35HffrS6eS2/o0I1zEMPrTUSOhxSQw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-owasp": {
+      "version": "1.0.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-owasp/1.0.1/9ad3b0a1874717385c417ec12767b76ed55ae69c",
+      "integrity": "sha512-MOeo5WNAmSdAomUONbvYjRf0gn0oaRQDlX6MOP3UQrr/7XB1+LcxQ1xG35HffrS6eS2/o0I1zEMPrTUSOhxSQw=="
+    }
+  }
+}

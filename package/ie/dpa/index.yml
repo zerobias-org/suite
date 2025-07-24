@@ -1,0 +1,14 @@
+vendorCode: ie
+code: dpa
+name: Data Protection Act (2003)
+url: http://www.irishstatutebook.ie/2003/en/act/pub/0006/print.html
+description: Data Protection Act (2003)
+id: 3e37bb90-ad40-42d4-bf62-b07278d7a25b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 83b9ca4f-b0fc-4fe5-bc29-8a3643044298
+vendorName: Ireland
+logo: https://cdn.auditmation.io/logos/ie.svg

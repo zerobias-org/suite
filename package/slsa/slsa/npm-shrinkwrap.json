@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-slsa-slsa",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-slsa-slsa",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-slsa": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-slsa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-slsa/1.0.0/a74848ee900961dfb0164a7c47e790c301177c14",
+      "integrity": "sha512-Qv297Y0++reGYi5lxMk3Geb8zW39BdjlCJ/Ql4HZfybex0X9HVlzhqFg6bNlPujLvmrCikQXxK/RQ03uUVA5lA==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-slsa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-slsa/1.0.0/a74848ee900961dfb0164a7c47e790c301177c14",
+      "integrity": "sha512-Qv297Y0++reGYi5lxMk3Geb8zW39BdjlCJ/Ql4HZfybex0X9HVlzhqFg6bNlPujLvmrCikQXxK/RQ03uUVA5lA=="
+    }
+  }
+}

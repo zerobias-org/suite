@@ -1,0 +1,33 @@
+{
+  "name": "@auditlogic/suite-cis-csc",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-cis-csc",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-cis": "^0.1.2"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-cis": {
+      "version": "0.1.2",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-cis/0.1.2/f190db892e8e3d71ef031972e89ed06f3cc235a5",
+      "integrity": "sha512-XA+ZRbFFtZgM/uhB2iZXTOnaTcU5S/5Hq/LnEDmANPh32pHfGvKtTuJgn24XaAiwLN8482aeZOnLYYuIfBFb+g==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-cis": {
+      "version": "0.1.2",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-cis/0.1.2/f190db892e8e3d71ef031972e89ed06f3cc235a5",
+      "integrity": "sha512-XA+ZRbFFtZgM/uhB2iZXTOnaTcU5S/5Hq/LnEDmANPh32pHfGvKtTuJgn24XaAiwLN8482aeZOnLYYuIfBFb+g=="
+    }
+  }
+}

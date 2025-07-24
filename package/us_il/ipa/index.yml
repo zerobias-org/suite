@@ -1,0 +1,14 @@
+vendorCode: us_il
+code: ipa
+name: Identity Protection Act (IPA)
+url: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3174&ChapterID=2
+description: Identity Protection Act (IPA)
+id: 88d2cbb0-f115-4d25-8f6a-5edf6cf421ab
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: e5228a6a-ed7e-4ea1-b747-a22dc140c095
+vendorName: Illinois
+logo: https://cdn.auditmation.io/logos/us_il.png

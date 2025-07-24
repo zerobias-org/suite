@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-tisax-isa",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-tisax-isa",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-tisax": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-tisax": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-tisax/1.0.0/d65164d6a4b6bda7b5b3e8770f88d953d5e96ccb",
+      "integrity": "sha512-pqohv5bO2Hmo5m81Q6YyN1FhIIX696hIlS6Gbo/j1bTe9tEAU0yb0/knQ+YTSAg3yfgLUFz2s15cFXe/aqH0uw==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-tisax": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-tisax/1.0.0/d65164d6a4b6bda7b5b3e8770f88d953d5e96ccb",
+      "integrity": "sha512-pqohv5bO2Hmo5m81Q6YyN1FhIIX696hIlS6Gbo/j1bTe9tEAU0yb0/knQ+YTSAg3yfgLUFz2s15cFXe/aqH0uw=="
+    }
+  }
+}

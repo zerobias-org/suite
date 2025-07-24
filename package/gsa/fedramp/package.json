@@ -1,0 +1,30 @@
+{
+  "name": "@auditlogic/suite-gsa-fedramp",
+  "version": "1.0.3",
+  "description": "Suite package fedramp for vendor gsa.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "gsa.fedramp",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@auditlogic/vendor-gsa": "^1.0.3"
+  }
+}

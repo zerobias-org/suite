@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-sparta-counter",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-sparta-counter",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-sparta": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-sparta": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-sparta/1.0.0/945a1cbf7b732675f83a42ca08742d38e93c2e4e",
+      "integrity": "sha512-fG1Un8dsIAgRKag30XzqVWhuSqeL7UwEzRIed1jS4be0IX5RJA9JWXkDT86uW2lHSA10twL9/64Ows31r+pA7g==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-sparta": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-sparta/1.0.0/945a1cbf7b732675f83a42ca08742d38e93c2e4e",
+      "integrity": "sha512-fG1Un8dsIAgRKag30XzqVWhuSqeL7UwEzRIed1jS4be0IX5RJA9JWXkDT86uW2lHSA10twL9/64Ows31r+pA7g=="
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-id-gov_regulation",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-id-gov_regulation",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-id": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-id": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-id/1.0.0/22d7ad00c841dad0aa421fc99849830535530fa4",
+      "integrity": "sha512-07B2R08mQHAg1InuzDhZzZMxKEvZtV7tkv+2uciIyV2CQByDyRgJuKQ4mzrzPoZoVE6xNKuddjkoMV0NToLylg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-id": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-id/1.0.0/22d7ad00c841dad0aa421fc99849830535530fa4",
+      "integrity": "sha512-07B2R08mQHAg1InuzDhZzZMxKEvZtV7tkv+2uciIyV2CQByDyRgJuKQ4mzrzPoZoVE6xNKuddjkoMV0NToLylg=="
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@auditlogic/suite-zerobias-generic",
+  "version": "1.0.1",
+  "description": "Generic",
+  "author": "team@auditmation.io",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "package/zerobias/generic/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@auditlogic/vendor-zerobias": "^1.0.0"
+  },
+  "auditmation": {
+    "dataloader-version": "3.4.5",
+    "import-artifact": "suite",
+    "package": "zerobias.generic"
+  }
+}

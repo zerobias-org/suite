@@ -1,0 +1,14 @@
+vendorCode: sa
+code: otcc
+name: 'Operational Technology Cybersecurity Controls (OTCC -1: 2022)'
+url: https://nca.gov.sa/otcc_en.pdf
+description: 'Operational Technology Cybersecurity Controls (OTCC -1: 2022)'
+id: 15cd79b8-29b0-440d-a6d9-5c02ddd29c90
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 95f50e38-08de-44b9-891b-6187c181e21b
+vendorName: Saudi Arabia
+logo: https://cdn.auditmation.io/logos/sa.svg

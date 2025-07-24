@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-openid-connect",
+  "version": "1.1.2",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-openid-connect",
+      "version": "1.1.2",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-openid": "^1.0.1"
+      }
+    },
+    "node_modules/@auditlogic/vendor-openid": {
+      "version": "1.1.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-openid/1.1.0/3f7c315eb24825d2fa03317ad13589e00743e34c",
+      "integrity": "sha512-ppT+jW1XdPG+n9HqXlH0vn65YtISFVHbXhZ6L+jiDqjLRENZSZMJygUtH8qFcj3bT704C05y156qbQDK2QnT0g==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-openid": {
+      "version": "1.1.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-openid/1.1.0/3f7c315eb24825d2fa03317ad13589e00743e34c",
+      "integrity": "sha512-ppT+jW1XdPG+n9HqXlH0vn65YtISFVHbXhZ6L+jiDqjLRENZSZMJygUtH8qFcj3bT704C05y156qbQDK2QnT0g=="
+    }
+  }
+}

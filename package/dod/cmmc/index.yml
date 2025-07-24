@@ -1,0 +1,13 @@
+
+id: bb2cb659-8615-58f5-bb5f-267d1e30d1be
+code: cmmc
+name: CMMC
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://dodcio.defense.gov/CMMC/
+description: Cybersecurity Maturity Model Certification
+logo: https://cdn.auditmation.io/logos/dod-cmmc.svg
+vendorId: 0231f94f-a672-5208-ac09-ead46da82147
+vendorCode: dod
+vendorName: Department of Defense

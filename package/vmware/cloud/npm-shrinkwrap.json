@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-vmware-cloud",
+  "version": "1.0.9",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-vmware-cloud",
+      "version": "1.0.9",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-vmware": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-vmware": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-vmware/1.0.7/a58b85a66562bb19d81f04992b433594377bf8e9",
+      "integrity": "sha512-zMi+V1bm0PdC0hK65o26ns8MTTeJJfjVLy09jFJuvY4ZL2m4lWkAzFWGwfNsT8f5rCQ+ehwMuNot6UE7kw+ntA==",
+      "license": "ISC"
+    }
+  }
+}

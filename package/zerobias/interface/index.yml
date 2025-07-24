@@ -1,0 +1,17 @@
+id: 91ffe27f-a821-4be6-8d2e-feb62c5b107c
+name: Interface
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-26T14:57:16.900Z'
+updated: '2024-11-26T14:57:16.900Z'
+code: interface
+status: verified
+description: Interface
+aliases: []
+logo: https://cdn.auditmation.io/logos/zerobias-interface.svg
+url: https://zerobias.com/
+vendorId: 2d2ad6e2-7d68-4cde-ba51-4440e4d6a158
+vendorCode: zerobias
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

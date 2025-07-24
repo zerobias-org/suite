@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-knowbe4-security",
+  "version": "1.1.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-knowbe4-security",
+      "version": "1.1.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-knowbe4": "^1.0.6"
+      }
+    },
+    "node_modules/@auditlogic/vendor-knowbe4": {
+      "version": "1.0.6",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-knowbe4/1.0.6/2c810c2e067490434b0ab69d29874c2e4fb33daa",
+      "integrity": "sha512-52wFftsA7r+gr0HoiYL0lSxXilI114DCI6a9OQZRwOUEyAlvOhP53Rh8oiKvKEJqcodZXdIf4xn6cS1f0Kz0Vw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-knowbe4": {
+      "version": "1.0.6",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-knowbe4/1.0.6/2c810c2e067490434b0ab69d29874c2e4fb33daa",
+      "integrity": "sha512-52wFftsA7r+gr0HoiYL0lSxXilI114DCI6a9OQZRwOUEyAlvOhP53Rh8oiKvKEJqcodZXdIf4xn6cS1f0Kz0Vw=="
+    }
+  }
+}

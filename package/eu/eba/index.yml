@@ -1,0 +1,19 @@
+vendorCode: eu
+code: eba
+name: >-
+  European Banking Authority (EBA) Guidelines on ICT and security risk
+  management
+url: >-
+  https://resilience.enisa.europa.eu/article-13/guideline-for-minimum-security-measures/Article_13a_ENISA_Technical_Guideline_On_Security_Measures_v2_0.pdf
+description: >-
+  European Banking Authority (EBA) Guidelines on ICT and security risk
+  management
+id: 424cbc03-bdce-4db9-a576-c6e636ff4513
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+vendorName: EU
+logo: https://cdn.auditmation.io/logos/eu.png

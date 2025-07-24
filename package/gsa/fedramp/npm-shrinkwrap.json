@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-gsa-fedramp",
+  "version": "1.0.3",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-gsa-fedramp",
+      "version": "1.0.3",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-gsa": "^1.0.3"
+      }
+    },
+    "node_modules/@auditlogic/vendor-gsa": {
+      "version": "1.0.3",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-gsa/1.0.3/ffa6391cf1e690784039a7a93249aec5b9ec85b4",
+      "integrity": "sha512-o6PFjDCJNWq6EkuhBD885ZVxpPd6cURrgXlOp5hGCkOX9abx7xesE+Tx+xBdBs7ft6EGQXTykjhw02UW7+g0lg==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-gsa": {
+      "version": "1.0.3",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-gsa/1.0.3/ffa6391cf1e690784039a7a93249aec5b9ec85b4",
+      "integrity": "sha512-o6PFjDCJNWq6EkuhBD885ZVxpPd6cURrgXlOp5hGCkOX9abx7xesE+Tx+xBdBs7ft6EGQXTykjhw02UW7+g0lg=="
+    }
+  }
+}

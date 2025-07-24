@@ -1,0 +1,14 @@
+vendorCode: us_tx
+code: bc251
+name: BC521
+url: http://www.legis.state.tx.us/tlodocs/85R/billtext/pdf/HB00008F.pdf#navpanes=0
+description: BC521
+id: 2fe12965-3762-48ef-9d93-ffcf97981bf5
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 9ebfa0e0-fa80-472d-a128-26909e20e9fb
+vendorName: Texas
+logo: https://cdn.auditmation.io/logos/us_tx.png

@@ -1,0 +1,17 @@
+id: c0498370-54cd-4f85-b7a7-93e5ad7036c6
+name: EO
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-08T19:15:48.558Z'
+updated: '2024-10-08T19:15:48.558Z'
+code: eo
+status: verified
+description: '  The President of the United States manages the operations of the Executive branch of Government through Executive orders'
+aliases: []
+logo: https://cdn.auditmation.io/logos/whitehouse-eo.png
+url: https://www.federalregister.gov/presidential-documents/executive-orders
+vendorId: 4281348c-d376-4fc0-8c1d-bfe6809d1d51
+vendorCode: whitehouse
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

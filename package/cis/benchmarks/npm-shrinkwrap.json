@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-cis-benchmarks",
+  "version": "0.2.2",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-cis-benchmarks",
+      "version": "0.2.2",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-cis": "^0.1.2"
+      }
+    },
+    "node_modules/@auditlogic/vendor-cis": {
+      "version": "0.1.2",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-cis/0.1.2/f190db892e8e3d71ef031972e89ed06f3cc235a5",
+      "integrity": "sha512-XA+ZRbFFtZgM/uhB2iZXTOnaTcU5S/5Hq/LnEDmANPh32pHfGvKtTuJgn24XaAiwLN8482aeZOnLYYuIfBFb+g==",
+      "license": "ISC"
+    }
+  }
+}

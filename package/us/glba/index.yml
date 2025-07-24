@@ -1,0 +1,14 @@
+vendorCode: us
+code: glba
+name: Gramm Leach Bliley Act (GLBA) - CFR 314
+url: https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314
+description: Gramm Leach Bliley Act (GLBA) - CFR 314
+id: d5a079a3-3624-4ce1-bc80-585384784752
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

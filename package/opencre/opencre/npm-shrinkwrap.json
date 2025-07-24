@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-opencre-opencre",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-opencre-opencre",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-opencre": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-opencre": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-opencre/1.0.0/83dd86d9ba18ae70bc47a3373ad14c17988cca94",
+      "integrity": "sha512-h4mM5QO2yK+f8nQYlXY3SzGSDhF0Gq6KsZyfbuUK16Ewa8FkC1I1SXBodg7Ul+OXf0vehhodpeii5kidqcVejw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-opencre": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-opencre/1.0.0/83dd86d9ba18ae70bc47a3373ad14c17988cca94",
+      "integrity": "sha512-h4mM5QO2yK+f8nQYlXY3SzGSDhF0Gq6KsZyfbuUK16Ewa8FkC1I1SXBodg7Ul+OXf0vehhodpeii5kidqcVejw=="
+    }
+  }
+}

@@ -1,0 +1,15 @@
+vendorCode: swift
+code: swift
+name: SWIFT Customer Security Controls Framework
+url: >-
+  https://www.swift.com/myswift/customer-security-programme-csp/security-controls
+description: SWIFT Customer Security Controls Framework
+id: e29bb240-592c-4126-b0b5-90a8d0f25b93
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: e40144c8-d662-478a-ac86-c7095f096b63
+vendorName: SWIFT
+logo: https://cdn.auditmation.io/logos/swift.png

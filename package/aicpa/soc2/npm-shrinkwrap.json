@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-aicpa-soc2",
+  "version": "1.0.5",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-aicpa-soc2",
+      "version": "1.0.5",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-aicpa": "^1.1.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-aicpa": {
+      "version": "1.1.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-aicpa/1.1.0/7ac99fbd6231a26ca619c856196acadf2d7708e4",
+      "integrity": "sha512-q8RrpjUb90/M5yzlVZbJiryHKRccKCSM2Q64Yx0LKa2WK+fpDtVk5AbsouQrZmQmXx9qVdt6xZ3ZyU/URYXM6Q==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-aicpa": {
+      "version": "1.1.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-aicpa/1.1.0/7ac99fbd6231a26ca619c856196acadf2d7708e4",
+      "integrity": "sha512-q8RrpjUb90/M5yzlVZbJiryHKRccKCSM2Q64Yx0LKa2WK+fpDtVk5AbsouQrZmQmXx9qVdt6xZ3ZyU/URYXM6Q=="
+    }
+  }
+}

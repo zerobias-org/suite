@@ -1,0 +1,14 @@
+vendorCode: us_ma
+code: ma_201
+name: 201 CMR 17.00
+url: https://www.leg.state.nv.us/App/NELIS/REL/80th2019/Bill/6365/Tex
+description: 201 CMR 17.00
+id: 81ac56ca-42d8-4112-ad47-0a111836f671
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 4d900a73-2567-443a-96f4-125c669f772d
+vendorName: Massachusetts
+logo: https://cdn.auditmation.io/logos/us_ma.jpg

@@ -1,0 +1,14 @@
+vendorCode: se
+code: pda
+name: Personal Data Act
+url: http://www.datainspektionen.se/in-english/legislation/the-personal-data-act/
+description: Personal Data Act
+id: ebff0d3e-5bf1-411c-9f1a-aa57a7f61108
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: dd898eae-39cd-45db-977b-1fe976ae1282
+vendorName: Sweden
+logo: https://cdn.auditmation.io/logos/se.svg

@@ -1,0 +1,14 @@
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+code: '27001'
+status: active
+id: ae864ffb-28af-5478-bbc9-c181133cdde4
+name: ISO-27001
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+vendorCode: iso
+vendorName: ISO
+url: https://www.iso.org/isoiec-27001-information-security.html
+description: Information Security Management Systems (ISMS) - Requirements
+logo: https://cdn.auditmation.io/logos/iso-27001.svg

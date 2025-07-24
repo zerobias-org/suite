@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-microsoft-365",
+  "version": "1.0.10",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-microsoft-365",
+      "version": "1.0.10",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-microsoft": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-microsoft": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-microsoft/1.0.7/ca5124c51b5ae4150cceb39c279336f5956cb519",
+      "integrity": "sha512-70MEjzch8MQ8owg6x3GXzMWxcF49+NKxjvlG5jZYw4DdSC3AamHvsvwZxoaqnHidH716ZpiV+gYVHHfspQsDVA==",
+      "license": "ISC"
+    }
+  }
+}

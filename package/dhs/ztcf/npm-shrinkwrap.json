@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-dhs-ztcf",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-dhs-ztcf",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-dhs": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-dhs": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dhs/1.0.0/fa2bfa09897d45a57cca3955e07992eda991a486",
+      "integrity": "sha512-qQYsoPQcL//faZgmJdU225coK5kSKkkMz5XMegdDozkvnoQUpdzO/aRFfM3JExuTZqOgiXCW8p6KfA2Pl/XnAQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-dhs": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dhs/1.0.0/fa2bfa09897d45a57cca3955e07992eda991a486",
+      "integrity": "sha512-qQYsoPQcL//faZgmJdU225coK5kSKkkMz5XMegdDozkvnoQUpdzO/aRFfM3JExuTZqOgiXCW8p6KfA2Pl/XnAQ=="
+    }
+  }
+}

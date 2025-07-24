@@ -1,0 +1,15 @@
+vendorCode: sg
+code: pdpa
+name: Personal Data Protection Act of 2012
+url: >-
+  http://statutes.agc.gov.sg/aol/download/0/0/pdf/binaryFile/pdfFile.pdf?CompId:2f46a4ee-0962-49e4-8e8d-eac45eff42b2
+description: Personal Data Protection Act of 2012
+id: 329a8f55-442a-4fe1-b6cb-bdd975b2a9b4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 55343187-8053-4e96-b151-2da577902550
+vendorName: Singapore
+logo: https://cdn.auditmation.io/logos/sg.svg

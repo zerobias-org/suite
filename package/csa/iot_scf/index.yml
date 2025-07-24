@@ -1,0 +1,15 @@
+vendorCode: csa
+code: iot_scf
+name: CSA IoT Security Controls Framework v2
+url: >-
+  https://cloudsecurityalliance.org/artifacts/csa-iot-security-controls-framework-v2/
+description: CSA IoT Security Controls Framework v2
+id: c032797a-a501-4a76-b6fa-7c9628d91f6d
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: fdf8ab2a-3f91-4175-9ebf-8b3adbe606ea
+vendorName: CSA
+logo: https://cdn.auditmation.io/logos/csa.svg

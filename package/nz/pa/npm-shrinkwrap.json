@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-nz-pa",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-nz-pa",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-nz": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-nz": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-nz/1.0.0/11cddef7c51620674cebf634f51373bf9fa5aef2",
+      "integrity": "sha512-KDPTOlfjev2t4OKBxtwXyi0ryDYAMDl4Ioy0HOV0KXaBS3TEI91dUqenGNYMgwk1tEVsoC5hzDICcAoGYdNXsg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-nz": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-nz/1.0.0/11cddef7c51620674cebf634f51373bf9fa5aef2",
+      "integrity": "sha512-KDPTOlfjev2t4OKBxtwXyi0ryDYAMDl4Ioy0HOV0KXaBS3TEI91dUqenGNYMgwk1tEVsoC5hzDICcAoGYdNXsg=="
+    }
+  }
+}

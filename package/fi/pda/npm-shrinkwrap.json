@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-fi-pda",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-fi-pda",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-fi": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-fi": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-fi/1.0.0/0bf6978c2e9dfe42b11810509231c877340c8a06",
+      "integrity": "sha512-9pD0SiQoGY+Ge3XwLsV/sMqnz0kzclLx9cHuRYF3Gc54pdEztevnnMr2JyXIqiCHO9vOMVgm2d0cfJXRa65sWw==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-fi": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-fi/1.0.0/0bf6978c2e9dfe42b11810509231c877340c8a06",
+      "integrity": "sha512-9pD0SiQoGY+Ge3XwLsV/sMqnz0kzclLx9cHuRYF3Gc54pdEztevnnMr2JyXIqiCHO9vOMVgm2d0cfJXRa65sWw=="
+    }
+  }
+}

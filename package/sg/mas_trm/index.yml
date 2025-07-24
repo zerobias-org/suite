@@ -1,0 +1,19 @@
+vendorCode: sg
+code: mas_trm
+name: >-
+  Monitory Authority of Singapore (MAS) Technology Risk Management (TRM)
+  Guidelines
+url: >-
+  https://www.mas.gov.sg/-/media/MAS/Regulations-and-Financial-Stability/Regulatory-and-Supervisory-Framework/Risk-Management/TRM-Guidelines-18-January-2021.pdf
+description: >-
+  Monitory Authority of Singapore (MAS) Technology Risk Management (TRM)
+  Guidelines
+id: 8ed63e14-fb54-4753-9674-aaba5bbaba0f
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 55343187-8053-4e96-b151-2da577902550
+vendorName: Singapore
+logo: https://cdn.auditmation.io/logos/sg.svg

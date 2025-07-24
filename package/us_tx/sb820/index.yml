@@ -1,0 +1,15 @@
+vendorCode: us_tx
+code: sb820
+name: 2019 - SB820
+url: >-
+  https://www.legiscan.com/TX/text/SB820/id/2027614/Texas-2019-SB820-Enrolled.html
+description: 2019 - SB820
+id: bb2046e6-d54e-449f-a48d-5914377827b9
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 9ebfa0e0-fa80-472d-a128-26909e20e9fb
+vendorName: Texas
+logo: https://cdn.auditmation.io/logos/us_tx.png

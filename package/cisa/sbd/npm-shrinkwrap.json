@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-cisa-sbd",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-cisa-sbd",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-cisa": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-cisa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-cisa/1.0.0/d23614d196ca24c3e8463b0a3fc9cff50697a12f",
+      "integrity": "sha512-Utfr5slh10KvGdrr7SJnELHmi1MaJ5DrWRzdrd1z0QBPg6ODgxMx5WcuacxvXXnbmab+hgoFwXd3bHruoKA5kw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-cisa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-cisa/1.0.0/d23614d196ca24c3e8463b0a3fc9cff50697a12f",
+      "integrity": "sha512-Utfr5slh10KvGdrr7SJnELHmi1MaJ5DrWRzdrd1z0QBPg6ODgxMx5WcuacxvXXnbmab+hgoFwXd3bHruoKA5kw=="
+    }
+  }
+}

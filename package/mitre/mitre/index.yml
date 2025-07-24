@@ -1,0 +1,14 @@
+vendorCode: mitre
+code: mitre
+name: MITRE ATT&CK - NIST 800-53 mappings
+url: https://mitre-engenuity.org/blog/2022/01/13/nist-800-53-control-mappings/
+description: MITRE ATT&CK - NIST 800-53 mappings
+id: 5e8d34e6-9f35-49df-845b-52bde43bb32b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: c2f7554f-8fd0-5bb9-8630-b257bd7a1499
+vendorName: mitre
+logo: https://cdn.auditmation.io/logos/mitre.svg

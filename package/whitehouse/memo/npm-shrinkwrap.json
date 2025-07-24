@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-whitehouse-memo",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-whitehouse-memo",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-whitehouse": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-whitehouse": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-whitehouse/1.0.0/3f0fc9b9437df9356179d9c5c83bdf3e5bdeb1db",
+      "integrity": "sha512-e3a8zUw1nnhmokFglXNm27EAVwi1E5RK0LHoVWJYRwy6okunrJMAGScUgEOWiyXGD2e8jy4yzDrCcGVwnIswfQ==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-whitehouse": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-whitehouse/1.0.0/3f0fc9b9437df9356179d9c5c83bdf3e5bdeb1db",
+      "integrity": "sha512-e3a8zUw1nnhmokFglXNm27EAVwi1E5RK0LHoVWJYRwy6okunrJMAGScUgEOWiyXGD2e8jy4yzDrCcGVwnIswfQ=="
+    }
+  }
+}

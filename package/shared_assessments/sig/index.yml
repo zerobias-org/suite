@@ -1,0 +1,14 @@
+vendorCode: shared_assessments
+code: sig
+name: Shared Assessments Standard Information Gathering Questionnaire (SIG)
+url: https://sharedassessments.org/sig/
+description: Shared Assessments Standard Information Gathering Questionnaire (SIG)
+id: 4bc53c62-09e6-44bf-86e0-9cface18bd2b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: eef63030-7bff-45b4-bcdc-988345ccbe23
+vendorName: Shared Assessments
+logo: https://cdn.auditmation.io/logos/shared_assessments.png

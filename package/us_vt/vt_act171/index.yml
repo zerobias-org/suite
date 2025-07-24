@@ -1,0 +1,15 @@
+vendorCode: us_vt
+code: vt_act171
+name: Act 171 of 2018 (Data Broker Registration Act)
+url: >-
+  https://legislature.vermont.gov/Documents/2018/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf
+description: Act 171 of 2018 (Data Broker Registration Act)
+id: 10a5e66c-2a46-422c-85f9-0ba1d5a2cdab
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: ff8099e3-4103-4820-8aac-303f7a59281a
+vendorName: Vermont
+logo: https://cdn.auditmation.io/logos/us_vt.png

@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-isaca-cobit",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-isaca-cobit",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-isaca": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-isaca": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-isaca/1.0.0/f85839c1d61681dfa28c9b14d1853509981fccc0",
+      "integrity": "sha512-YC1QbrrRH9v43OE0j9AQqLPwnhTMklU5lgi2S97RkBHCTj1mUfFNoqwStPSyb1TwuiTK+APYowaUxcUew7qniA==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-isaca": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-isaca/1.0.0/f85839c1d61681dfa28c9b14d1853509981fccc0",
+      "integrity": "sha512-YC1QbrrRH9v43OE0j9AQqLPwnhTMklU5lgi2S97RkBHCTj1mUfFNoqwStPSyb1TwuiTK+APYowaUxcUew7qniA=="
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-amazon-aws",
+  "version": "1.0.10",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-amazon-aws",
+      "version": "1.0.10",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-amazon": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-amazon": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-amazon/1.0.7/4bfdec2b99b1170338fdcb397be32cfa186eaa92",
+      "integrity": "sha512-Eg2P5YmkzTzfCOCmWoWVWVWek4gl2Psa3voIFj0+7YG12YrwkiZQlW94p9kiysmweeY6N6FXngOEzP21+91y4A==",
+      "license": "ISC"
+    }
+  }
+}

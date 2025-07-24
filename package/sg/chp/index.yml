@@ -1,0 +1,14 @@
+vendorCode: sg
+code: chp
+name: Cyber Hygiene Practice
+url: https://www.mas.gov.sg/-/media/MAS/Notices/PDF/MAS-Notice-132.pdf
+description: Cyber Hygiene Practice
+id: 64fabe6d-b86c-47b2-9467-8169342e8958
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 55343187-8053-4e96-b151-2da577902550
+vendorName: Singapore
+logo: https://cdn.auditmation.io/logos/sg.svg

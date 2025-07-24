@@ -1,0 +1,14 @@
+vendorCode: eu
+code: enisa
+name: ENISA NIS2 (Directive (EU) 2022/2555)
+url: https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new
+description: ENISA NIS2 (Directive (EU) 2022/2555)
+id: 1de8a6ef-9a8f-4c00-a3b1-12d787cfa778
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+vendorName: EU
+logo: https://cdn.auditmation.io/logos/eu.png

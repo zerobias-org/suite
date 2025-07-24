@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-bsi-standard",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-bsi-standard",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-bsi": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-bsi": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-bsi/1.0.0/8e38de12f67f08051892a21ebb53a042cd27859b",
+      "integrity": "sha512-JgQii6tUNokS8HxfKy3Tf59L2Qgx5IMMcG+CucmQL72VcAIuSOzB6kit7ZFYfFiFeQvqIEfAvP+h+fryoFoSuw==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-bsi": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-bsi/1.0.0/8e38de12f67f08051892a21ebb53a042cd27859b",
+      "integrity": "sha512-JgQii6tUNokS8HxfKy3Tf59L2Qgx5IMMcG+CucmQL72VcAIuSOzB6kit7ZFYfFiFeQvqIEfAvP+h+fryoFoSuw=="
+    }
+  }
+}

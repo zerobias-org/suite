@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-tr-rppdecs",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-tr-rppdecs",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-tr": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-tr": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-tr/1.0.0/bb7a20a91404f06b03723cfa3017272a0310a835",
+      "integrity": "sha512-Bzb4kvlKhMtNCJqfrqJxePi5MkTvmGBJ1HjBhM56Dn2Nq3L3sDJxq2E8b4JGxFvF3EVumP9Zo6u/P9u3S4YmwA==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-tr": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-tr/1.0.0/bb7a20a91404f06b03723cfa3017272a0310a835",
+      "integrity": "sha512-Bzb4kvlKhMtNCJqfrqJxePi5MkTvmGBJ1HjBhM56Dn2Nq3L3sDJxq2E8b4JGxFvF3EVumP9Zo6u/P9u3S4YmwA=="
+    }
+  }
+}

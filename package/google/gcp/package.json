@@ -1,0 +1,30 @@
+{
+  "name": "@auditlogic/suite-google-gcp",
+  "version": "1.0.9",
+  "description": "Suite package gcp for vendor google",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "google.gcp",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@auditlogic/vendor-google": "^1.0.7"
+  }
+}

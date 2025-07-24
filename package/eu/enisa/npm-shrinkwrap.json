@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-eu-enisa",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-eu-enisa",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-eu": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-eu": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-eu/1.0.0/0a9f3cc9e11a3c577096eb6d5c3a3ee9e4342f3c",
+      "integrity": "sha512-T2Q/PI6EnOGwt+NKL/yn5sMbS6Tza+i6yD+JBPXrh67lUYCKs3uxgXaou718bV5E0d8N45HCJ/jJygWtYNyaKQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-eu": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-eu/1.0.0/0a9f3cc9e11a3c577096eb6d5c3a3ee9e4342f3c",
+      "integrity": "sha512-T2Q/PI6EnOGwt+NKL/yn5sMbS6Tza+i6yD+JBPXrh67lUYCKs3uxgXaou718bV5E0d8N45HCJ/jJygWtYNyaKQ=="
+    }
+  }
+}

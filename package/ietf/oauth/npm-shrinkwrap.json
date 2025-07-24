@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-ietf-oauth",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-ietf-oauth",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-ietf": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-ietf": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-ietf/1.0.0/a9390aab77e8dc26dcb8aa5587c45ca87000b8b2",
+      "integrity": "sha512-XusGuV0/ettYL1Adcwq4uTN/wJm9hNf7ZbstGtUXsmYHxrW442RLU1CC11vx/h+pknSwv8Zp436dQ8z5AVirMA==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-ietf": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-ietf/1.0.0/a9390aab77e8dc26dcb8aa5587c45ca87000b8b2",
+      "integrity": "sha512-XusGuV0/ettYL1Adcwq4uTN/wJm9hNf7ZbstGtUXsmYHxrW442RLU1CC11vx/h+pknSwv8Zp436dQ8z5AVirMA=="
+    }
+  }
+}

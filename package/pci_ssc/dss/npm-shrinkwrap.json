@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-pci_ssc-dss",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-pci_ssc-dss",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-pci_ssc": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-pci_ssc": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-pci_ssc/1.0.0/627b1f38b8300bf6aaf7150f95c797b62358219a",
+      "integrity": "sha512-VyJGHXalIki+XfamC7LzNjUrQUiPm/XIee0Y0JoKaXkSfuItZ8YAL7Chi/3yHVDNrCBq7qByu1GB6D61ULj2Vg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-pci_ssc": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-pci_ssc/1.0.0/627b1f38b8300bf6aaf7150f95c797b62358219a",
+      "integrity": "sha512-VyJGHXalIki+XfamC7LzNjUrQUiPm/XIee0Y0JoKaXkSfuItZ8YAL7Chi/3yHVDNrCBq7qByu1GB6D61ULj2Vg=="
+    }
+  }
+}

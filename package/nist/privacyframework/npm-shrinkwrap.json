@@ -1,0 +1,33 @@
+{
+  "name": "@auditlogic/suite-nist-privacyframework",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-nist-privacyframework",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-nist": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-nist/1.0.7/69cb07ddb552798b9187b749b3bfeb5359111187",
+      "integrity": "sha512-Bq9uno0v6B9pmZhxfh3veYvLeZDSyx6O0RgrPTxwnTHoESA4Zj93sBKA0cm39t8Z/3sP9ZTZ9vOz/D/l8LVo8g==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-nist": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-nist/1.0.7/69cb07ddb552798b9187b749b3bfeb5359111187",
+      "integrity": "sha512-Bq9uno0v6B9pmZhxfh3veYvLeZDSyx6O0RgrPTxwnTHoESA4Zj93sBKA0cm39t8Z/3sP9ZTZ9vOz/D/l8LVo8g=="
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@auditlogic/suite-disa-stig",
+  "version": "1.1.1",
+  "description": "Suite package for vendor DISA",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "suite/"
+  },
+  "dependencies": {
+    "@auditlogic/vendor-disa": "^1.1.1"
+  },
+  "files": [
+    "index.yml",
+    "catalog.yml"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "nx:prepublish": "../../../scripts/prepublish.sh"
+  },
+  "auditmation": {
+    "package": "disa.stig",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-neverfail-nfcc",
+  "version": "1.1.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-neverfail-nfcc",
+      "version": "1.1.1",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-neverfail": "^1.1.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-neverfail": {
+      "version": "1.1.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-neverfail/1.1.0/0418321b7e45d1955a90f11d2a571c1025cd56ad",
+      "integrity": "sha512-KkcE4bfMFby5lhywGxVR5Bm1+Avl2Q2wKA30nWDzk7R7tOOiJFGNcgiyWJHC2Xz+SZC2ymU7eJBdBzShM6uuvA==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-neverfail": {
+      "version": "1.1.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-neverfail/1.1.0/0418321b7e45d1955a90f11d2a571c1025cd56ad",
+      "integrity": "sha512-KkcE4bfMFby5lhywGxVR5Bm1+Avl2Q2wKA30nWDzk7R7tOOiJFGNcgiyWJHC2Xz+SZC2ymU7eJBdBzShM6uuvA=="
+    }
+  }
+}

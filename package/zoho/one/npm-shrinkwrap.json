@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-zoho-one",
+  "version": "1.1.2",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-zoho-one",
+      "version": "1.1.2",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-zoho": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-zoho": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-zoho/1.0.7/1b1efb77ac35bebef782e1713a9094834d6375cc",
+      "integrity": "sha512-HW1AB3DvjHZSbXEXdAtcAk6JwK1tpdH1+YSuWOi6oXnFsp1jHX2eB4+8ePTn5JxM8KREkOj96695M1t1fytjkA==",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@auditlogic/suite-dod-ztra",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-dod-ztra",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-dod": "^0.1.2"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-dod": {
+      "version": "0.1.2",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dod/0.1.2/c3489bdafb52a5fb74b26fa15942ef4692e75cfa",
+      "integrity": "sha512-W5PL4oYikwqci2TfrbO86T5nUBZRSbNfTxsWL4gr5FrkP/b/2Gwv0weVrxFDAglfnsQww6H+uCSZDOlgrov6ww==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-dod": {
+      "version": "0.1.2",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dod/0.1.2/c3489bdafb52a5fb74b26fa15942ef4692e75cfa",
+      "integrity": "sha512-W5PL4oYikwqci2TfrbO86T5nUBZRSbNfTxsWL4gr5FrkP/b/2Gwv0weVrxFDAglfnsQww6H+uCSZDOlgrov6ww=="
+    }
+  }
+}

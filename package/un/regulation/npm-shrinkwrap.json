@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-un-regulation",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-un-regulation",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-un": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-un": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-un/1.0.0/e30287590789dec663172e70c0cdff568ba6a34f",
+      "integrity": "sha512-4hIhfEalr2nDE4Gn+NSzWf7Sm5Hfl57fBRhDQG+IxgtAy4CFK1QvejbJMaDnCIt7aJzmxWrNnQIJKBazC1WdPA==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-un": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-un/1.0.0/e30287590789dec663172e70c0cdff568ba6a34f",
+      "integrity": "sha512-4hIhfEalr2nDE4Gn+NSzWf7Sm5Hfl57fBRhDQG+IxgtAy4CFK1QvejbJMaDnCIt7aJzmxWrNnQIJKBazC1WdPA=="
+    }
+  }
+}

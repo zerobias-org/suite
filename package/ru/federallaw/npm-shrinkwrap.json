@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-ru-federallaw",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-ru-federallaw",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-ru": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-ru": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-ru/1.0.0/93232c12bdadb0f47affa41fb307e2d44f6d7a05",
+      "integrity": "sha512-fyhRxoYV8A8YseJxcl7vcprQzngDduSUSOwtRbppI+HstzI1w14U0TY54QJxzQqMuutWNm+TDXLJBqEcEAUIEQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-ru": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-ru/1.0.0/93232c12bdadb0f47affa41fb307e2d44f6d7a05",
+      "integrity": "sha512-fyhRxoYV8A8YseJxcl7vcprQzngDduSUSOwtRbppI+HstzI1w14U0TY54QJxzQqMuutWNm+TDXLJBqEcEAUIEQ=="
+    }
+  }
+}

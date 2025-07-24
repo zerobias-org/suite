@@ -1,0 +1,17 @@
+id: 0a452815-977f-41ee-a0fe-90de57e90279
+name: National Archives and Records Administration
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+code: nara
+status: verified
+description: The National Archives and Records Administration (NARA) is an independent agency of the United States government within the executive branch, charged with the preservation and documentation of government and historical records.
+aliases: []
+logo: https://cdn.auditmation.io/logos/us-nara.png
+url: https://www.archives.gov/
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorCode: us
+tags: []
+background: >-
+  It is also tasked with increasing public access to those documents that make up the National Archives. NARA is officially responsible for maintaining and publishing the legally authentic and authoritative copies of acts of Congress, presidential directives, and federal regulations. NARA also transmits votes of the Electoral College to Congress. It also examines Electoral College and constitutional amendment ratification documents for prima facie legal sufficiency and an authenticating signature.
+
+  The National Archives, and its publicly exhibited Charters of Freedom, which include the original United States Declaration of Independence, Constitution of the United States, United States Bill of Rights, Emancipation Proclamation (starting in 2026), and many other historical documents, is headquartered in the National Archives Building in Washington, D.C.

@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-oasisopen-saml",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-oasisopen-saml",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-oasisopen": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-oasisopen": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-oasisopen/1.0.0/4c6560b3b24a574429fc7040a96601d46bdebd8a",
+      "integrity": "sha512-Ll2a/qSGyYBhsF+BFyIMu6sbCPYkZQ0VWsFZe08LUaT04QRDkYnWtzZlJxhH0Vb6vxLD5pilcHY0jfAfyJXDQQ==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-oasisopen": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-oasisopen/1.0.0/4c6560b3b24a574429fc7040a96601d46bdebd8a",
+      "integrity": "sha512-Ll2a/qSGyYBhsF+BFyIMu6sbCPYkZQ0VWsFZe08LUaT04QRDkYnWtzZlJxhH0Vb6vxLD5pilcHY0jfAfyJXDQQ=="
+    }
+  }
+}

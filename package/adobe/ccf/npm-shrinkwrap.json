@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-adobe-ccf",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-adobe-ccf",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-adobe": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-adobe": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-adobe/1.0.0/ede0f567f51a308bc251ba61e50eefe810f72efd",
+      "integrity": "sha512-T8SrScli92Edd9WqyRU1MV6Xnf6caqH6GONBnt88XJ/hK1YIdCmXtUotyezvsXrnaETUxPr9zAE5YdJnKEpQiw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-adobe": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-adobe/1.0.0/ede0f567f51a308bc251ba61e50eefe810f72efd",
+      "integrity": "sha512-T8SrScli92Edd9WqyRU1MV6Xnf6caqH6GONBnt88XJ/hK1YIdCmXtUotyezvsXrnaETUxPr9zAE5YdJnKEpQiw=="
+    }
+  }
+}

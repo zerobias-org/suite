@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-qa-pdppl",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-qa-pdppl",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-qa": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-qa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-qa/1.0.0/909eca745d8b699dd68e4e7ac8e1b3fb286820e7",
+      "integrity": "sha512-iN3mINwmRPBQJqC6rHNuh9cbPvCOSqzAgbX7qUoFdNPQDlMLbUHz9fICgdkZuj1YhU4uJlrMKGAVFN6wDUb7yQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-qa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-qa/1.0.0/909eca745d8b699dd68e4e7ac8e1b3fb286820e7",
+      "integrity": "sha512-iN3mINwmRPBQJqC6rHNuh9cbPvCOSqzAgbX7qUoFdNPQDlMLbUHz9fICgdkZuj1YhU4uJlrMKGAVFN6wDUb7yQ=="
+    }
+  }
+}

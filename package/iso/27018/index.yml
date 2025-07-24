@@ -1,0 +1,14 @@
+vendorCode: iso
+code: '27018'
+name: 27018 - Code of Practice for PI in Public Clouds Acting as PI Processors
+url: https://www.iso.org/standard/61498.html
+description: 27018 - Code of Practice for PI in Public Clouds Acting as PI Processors
+id: 72ceca93-54bd-4f6a-b861-be832f373b77
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+vendorName: ISO
+logo: https://cdn.auditmation.io/logos/iso.svg

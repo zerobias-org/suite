@@ -1,0 +1,33 @@
+{
+  "name": "@auditlogic/suite-iso-27017",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-iso-27017",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-iso": "^1.0.3"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-iso": {
+      "version": "1.0.3",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-iso/1.0.3/24519450dd80d0d229700c4adba5c6b8c0082637",
+      "integrity": "sha512-kqVCrc8zYcDpbejHUuWhpsF8fKOOyIorYixloEbsjUP96enAxmlr/RqyL+J18idGY2UUhU+vhE1e+SaY69G3jg==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-iso": {
+      "version": "1.0.3",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-iso/1.0.3/24519450dd80d0d229700c4adba5c6b8c0082637",
+      "integrity": "sha512-kqVCrc8zYcDpbejHUuWhpsF8fKOOyIorYixloEbsjUP96enAxmlr/RqyL+J18idGY2UUhU+vhE1e+SaY69G3jg=="
+    }
+  }
+}

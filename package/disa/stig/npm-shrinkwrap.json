@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-disa-stig",
+  "version": "1.1.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-disa-stig",
+      "version": "1.1.1",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-disa": "^1.1.1"
+      }
+    },
+    "node_modules/@auditlogic/vendor-disa": {
+      "version": "1.1.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-disa/1.1.1/367a4f0507428e27e96c58dc382b5f14f1294d75",
+      "integrity": "sha512-0sXh5f7f6+oF0rjS21NKxm3s4MpQaWWglkOh24uxzucPBXIOmQAKCfyqc9dT6XiQ2RwqQdufrWmoDurrrOjr3w==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-disa": {
+      "version": "1.1.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-disa/1.1.1/367a4f0507428e27e96c58dc382b5f14f1294d75",
+      "integrity": "sha512-0sXh5f7f6+oF0rjS21NKxm3s4MpQaWWglkOh24uxzucPBXIOmQAKCfyqc9dT6XiQ2RwqQdufrWmoDurrrOjr3w=="
+    }
+  }
+}

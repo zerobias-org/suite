@@ -1,0 +1,30 @@
+{
+  "name": "@auditlogic/suite-owasp-scvs",
+  "version": "1.0.0",
+  "description": "Software Component Verification Standard",
+  "author": "team@auditmation.io",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "package/owasp/scvs/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@auditlogic/vendor-owasp": "^1.0.1"
+  },
+  "auditmation": {
+    "dataloader-version": "3.4.5",
+    "import-artifact": "suite",
+    "package": "owasp.scvs"
+  }
+}

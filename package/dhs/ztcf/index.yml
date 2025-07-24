@@ -1,0 +1,13 @@
+vendorCode: dhs
+code: ztcf
+name: Zero Trust Cybersecurity Framework (ZTCF)
+url: https://www.dhs.gov
+description: ' DHS Zero Trust Cybersecurity Framework (ZTCF)'
+id: 6ea3b053-de0b-441c-a3a9-5914b42bc609
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-03-12T03:14:31.049Z
+updated: 2025-03-12T03:14:31.049Z
+status: active
+type: suite
+vendorId: 1508f9b6-3d54-44a5-9fd1-ff301e5035f0
+vendorName: DHS

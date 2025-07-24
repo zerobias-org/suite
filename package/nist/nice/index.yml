@@ -1,0 +1,17 @@
+id: 5f0b9b2f-c6c8-47fc-81d1-a875acddd770
+name: NICE
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-20T22:19:41.285Z'
+updated: '2024-05-20T22:19:41.285Z'
+code: nice
+status: verified
+description: >-
+  The mission of NICE is to energize, promote, and coordinate a robust community working together to advance an integrated ecosystem of cybersecurity education, training, and workforce development. NICE fulfills this mission by coordinating with government, academic, and industry partners to build on existing successful programs, facilitate change and innovation, and bring leadership and vision to increase the number of skilled cybersecurity professionals helping to keep our Nation secure.
+logo: https://cdn.auditmation.io/logos/nist-nice.png
+url: https://www.nist.gov/itl/applied-cybersecurity/nice/about
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

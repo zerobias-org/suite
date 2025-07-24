@@ -1,0 +1,14 @@
+vendorCode: us
+code: sox
+name: Sarbanes Oxley Act (SOX)
+url: http://www.sec.gov/about/laws/soa2002.pdf
+description: Sarbanes Oxley Act (SOX)
+id: d843f106-b532-40e3-90ae-7d292ae928a3
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

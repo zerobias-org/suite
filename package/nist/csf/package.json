@@ -1,0 +1,30 @@
+{
+  "name": "@auditlogic/suite-nist-csf",
+  "version": "1.0.4",
+  "description": "Suite package Cloud Security Framework for vendor nist.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auditlogic/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.png"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "nist.csf",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@auditlogic/vendor-nist": "^1.0.7"
+  }
+}

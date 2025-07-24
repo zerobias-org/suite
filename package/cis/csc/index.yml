@@ -1,0 +1,14 @@
+vendorCode: cis
+code: csc
+name: Critical Security Controls (CSC)
+url: https://www.cisecurity.org/controls/v8/
+description: Critical Security Controls (CSC)
+id: 0a82ba17-623b-41be-89b6-6cfad0bb5042
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0fdbe79a-a734-5d0e-9e72-6952376ec65e
+vendorName: CIS
+logo: https://cdn.auditmation.io/logos/cis.png

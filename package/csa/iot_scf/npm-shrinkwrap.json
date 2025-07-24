@@ -1,0 +1,33 @@
+{
+  "name": "@auditlogic/suite-csa-iot_scf",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-csa-iot_scf",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-csa": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-csa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-csa/1.0.0/e3fec0834290a3863e852eb73c056c97bf3f8672",
+      "integrity": "sha512-YK92eKgGLFMDX2ZK6h+kk8zUZvwnudRZEVLjicL/CKkjibl0V/0JcKtUs7GxVf8NiWAzaulUSy4Ejp01Wa7GEA==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-csa": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-csa/1.0.0/e3fec0834290a3863e852eb73c056c97bf3f8672",
+      "integrity": "sha512-YK92eKgGLFMDX2ZK6h+kk8zUZvwnudRZEVLjicL/CKkjibl0V/0JcKtUs7GxVf8NiWAzaulUSy4Ejp01Wa7GEA=="
+    }
+  }
+}

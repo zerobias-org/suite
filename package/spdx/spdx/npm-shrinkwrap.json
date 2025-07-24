@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-spdx-spdx",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-spdx-spdx",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-spdx": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-spdx": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-spdx/1.0.0/fbf53afb815387bfe619b61ae3a714065bd917ef",
+      "integrity": "sha512-lORNVYcHCN61xIfY4tbZzVadvkirQtEab8mVlLxbc6AbcWMX7efKUwjGaJYeOL0VBxQQ/NWNI2tdi2N17WJdew==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-spdx": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-spdx/1.0.0/fbf53afb815387bfe619b61ae3a714065bd917ef",
+      "integrity": "sha512-lORNVYcHCN61xIfY4tbZzVadvkirQtEab8mVlLxbc6AbcWMX7efKUwjGaJYeOL0VBxQQ/NWNI2tdi2N17WJdew=="
+    }
+  }
+}

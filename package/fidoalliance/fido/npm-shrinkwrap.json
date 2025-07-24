@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-fidoalliance-fido",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-fidoalliance-fido",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-fidoalliance": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-fidoalliance": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-fidoalliance/1.0.0/2688811d9c5f961c14959368e73fedc1849aea19",
+      "integrity": "sha512-ztCxENQ2Q3t0RYDkU2ZfCCZRImeWI3nq28rokZGzO0dw63BoCyPYzUd/mkSzZ7kScFazrxC6S2OvMFGxCieM9g==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-fidoalliance": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-fidoalliance/1.0.0/2688811d9c5f961c14959368e73fedc1849aea19",
+      "integrity": "sha512-ztCxENQ2Q3t0RYDkU2ZfCCZRImeWI3nq28rokZGzO0dw63BoCyPYzUd/mkSzZ7kScFazrxC6S2OvMFGxCieM9g=="
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-gb-caf",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-gb-caf",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-gb": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-gb": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-gb/1.0.0/9f1ce945e88dc9fd661a63ea0b1d36a1f9a11837",
+      "integrity": "sha512-1adB71SDW6EFt9swY9lvvW2/A6K6Z2qFYJNtt0nCtAxtW32uxblvNBUSdjyxOwUrhbLsf2ktJbrsVzSRnZmGrg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-gb": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-gb/1.0.0/9f1ce945e88dc9fd661a63ea0b1d36a1f9a11837",
+      "integrity": "sha512-1adB71SDW6EFt9swY9lvvW2/A6K6Z2qFYJNtt0nCtAxtW32uxblvNBUSdjyxOwUrhbLsf2ktJbrsVzSRnZmGrg=="
+    }
+  }
+}

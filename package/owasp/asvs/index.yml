@@ -1,0 +1,16 @@
+id: 742d9ff8-a76e-41f9-889d-5a2a266efab8
+name: ASVS
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-20T20:13:31.669Z'
+updated: '2024-05-20T20:13:31.669Z'
+code: asvs
+status: verified
+description: Application Security Verification Standard
+logo: https://cdn.auditmation.io/logos/owasp-asvs.png
+url: https://owasp.org/www-project-application-security-verification-standard/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

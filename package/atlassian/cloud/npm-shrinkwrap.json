@@ -1,0 +1,22 @@
+{
+  "name": "@auditlogic/suite-atlassian-cloud",
+  "version": "1.1.1",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-atlassian-cloud",
+      "version": "1.1.1",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-atlassian": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-atlassian": {
+      "version": "1.0.7",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-atlassian/1.0.7/3c3c000848797155927f45c230019d7d1adcf5a5",
+      "integrity": "sha512-O/DKXhirBH9tXhVaWkPTAQ+xbzh3XOuj4IpzRd0vjRhdbfGqjIl2vW3CWkdvSevTCLT4XAj8jwqqhsdI3PnCFA==",
+      "license": "ISC"
+    }
+  }
+}

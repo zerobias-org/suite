@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-sei-cert",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-sei-cert",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-sei": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-sei": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-sei/1.0.0/5fe22af2903b202c14b16f709d01a1265547612c",
+      "integrity": "sha512-tskckpdkHFq7jR4hZEcfcCsy9yVDnkdBIhfh8MSRtURqyKRbqcwPFatrkZkA20mpsspt/vhRAfrU5C9nfu4F6g==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-sei": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-sei/1.0.0/5fe22af2903b202c14b16f709d01a1265547612c",
+      "integrity": "sha512-tskckpdkHFq7jR4hZEcfcCsy9yVDnkdBIhfh8MSRtURqyKRbqcwPFatrkZkA20mpsspt/vhRAfrU5C9nfu4F6g=="
+    }
+  }
+}

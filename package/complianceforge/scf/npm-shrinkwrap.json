@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-complianceforge-scf",
+  "version": "1.0.3",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-complianceforge-scf",
+      "version": "1.0.3",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-complianceforge": "^1.0.3"
+      }
+    },
+    "node_modules/@auditlogic/vendor-complianceforge": {
+      "version": "1.0.3",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-complianceforge/1.0.3/82fe9fb213cb8f213e5c95b996a518ed369df6b9",
+      "integrity": "sha512-3r50nWmPk951pYgqj34V/aqdGH5scPjbM8EgaoO0/wsXwOnlMlJZmFSkPN+mu+JOAky2GTpOK6YCGGXxMXFdCw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-complianceforge": {
+      "version": "1.0.3",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-complianceforge/1.0.3/82fe9fb213cb8f213e5c95b996a518ed369df6b9",
+      "integrity": "sha512-3r50nWmPk951pYgqj34V/aqdGH5scPjbM8EgaoO0/wsXwOnlMlJZmFSkPN+mu+JOAky2GTpOK6YCGGXxMXFdCw=="
+    }
+  }
+}

@@ -1,0 +1,15 @@
+vendorCode: sa
+code: sama_csf
+name: Saudi Arabian Monetary Authority (SAMA) Cyber Security Framework (CSF)
+url: >-
+  https://www.sama.gov.sa/en-US/Laws/FinanceRules/SAMA%20Cyber%20Security%20Framework%20v1.0%20final_updated.pdf
+description: Saudi Arabian Monetary Authority (SAMA) Cyber Security Framework (CSF)
+id: 65753d7c-1d6d-4056-8e2e-57bf3702ff1e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 95f50e38-08de-44b9-891b-6187c181e21b
+vendorName: Saudi Arabia
+logo: https://cdn.auditmation.io/logos/sa.svg

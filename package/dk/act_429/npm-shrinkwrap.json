@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-dk-act_429",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-dk-act_429",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-dk": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-dk": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dk/1.0.0/39410e492fdd87d093815e6e3d54f81ee39d08df",
+      "integrity": "sha512-9slejeGDUU5n5IdYtxeS5o24tP9F39KKGepu25D9DeIUXX8qCyaA3lpKCj3dCyqKmlsPYFlFQ7gBN+MxVGxW7g==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-dk": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dk/1.0.0/39410e492fdd87d093815e6e3d54f81ee39d08df",
+      "integrity": "sha512-9slejeGDUU5n5IdYtxeS5o24tP9F39KKGepu25D9DeIUXX8qCyaA3lpKCj3dCyqKmlsPYFlFQ7gBN+MxVGxW7g=="
+    }
+  }
+}

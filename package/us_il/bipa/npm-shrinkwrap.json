@@ -1,0 +1,37 @@
+{
+  "name": "@auditlogic/suite-us_il-bipa",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-us_il-bipa",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-us_il": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-us_il": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-us_il/1.0.0/0415f90ce3703d81efe95c1b9f315d30aeead78b",
+      "integrity": "sha512-MXfOYnjIO6WR2b2dbif738ypWTMVRXX66zn8B9iV8OYhohqMxoXO80J1wdM4zeBW7cmpNaS+Xz8repeMn+wrbQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-us_il": {
+      "version": "1.0.0",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-us_il/1.0.0/0415f90ce3703d81efe95c1b9f315d30aeead78b",
+      "integrity": "sha512-MXfOYnjIO6WR2b2dbif738ypWTMVRXX66zn8B9iV8OYhohqMxoXO80J1wdM4zeBW7cmpNaS+Xz8repeMn+wrbQ=="
+    }
+  }
+}

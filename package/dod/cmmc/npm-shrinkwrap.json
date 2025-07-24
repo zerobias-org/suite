@@ -1,0 +1,29 @@
+{
+  "name": "@auditlogic/suite-dod-cmmc",
+  "version": "0.1.2",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@auditlogic/suite-dod-cmmc",
+      "version": "0.1.2",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/vendor-dod": "^0.1.1"
+      }
+    },
+    "node_modules/@auditlogic/vendor-dod": {
+      "version": "0.1.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dod/0.1.1/716598bb9daf0d4c11135623b765b5995c823f96",
+      "integrity": "sha512-gKErM+BJqJhmtPL/3b51BsG/0tqiqYpV3FG+49fc92NnASphhIZBptN1DemvbtxpjfrbO+opTBhL9QqgZtMG0A==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@auditlogic/vendor-dod": {
+      "version": "0.1.1",
+      "resolved": "https://npm.pkg.github.com/download/@auditlogic/vendor-dod/0.1.1/716598bb9daf0d4c11135623b765b5995c823f96",
+      "integrity": "sha512-gKErM+BJqJhmtPL/3b51BsG/0tqiqYpV3FG+49fc92NnASphhIZBptN1DemvbtxpjfrbO+opTBhL9QqgZtMG0A=="
+    }
+  }
+}

@@ -1,0 +1,14 @@
+vendorCode: pci_ssc
+code: dss
+name: Payment Card Industry Data Security Standard (PCI DSS)
+url: https://www.pcisecuritystandards.org/document_library
+description: Payment Card Industry Data Security Standard (PCI DSS)
+id: d7bb93b7-5d50-45f0-92bd-3004d0c7a057
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 3b73828a-e6a3-414a-a4e4-c0d55d2a5769
+vendorName: PCI SSC
+logo: https://cdn.auditmation.io/logos/pci_ssc.png
