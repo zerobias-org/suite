@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-zerobias-interface",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-zerobias-interface",
+  "version": "1.0.1",
   "description": "Interface",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-zerobias": "^1.0.0"
+    "@zerobias-org/vendor-zerobias": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

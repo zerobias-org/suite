@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-id-gov_regulation",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-id-gov_regulation",
+  "version": "1.0.1",
   "description": "suite package for id-gov_regulation",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-id": "^1.0.0"
+    "@zerobias-org/vendor-id": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

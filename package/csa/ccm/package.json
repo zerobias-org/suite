@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-csa-ccm",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-csa-ccm",
+  "version": "1.0.1",
   "description": "Cloud Controls Matrix ",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-csa": "^1.0.0"
+    "@zerobias-org/vendor-csa": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

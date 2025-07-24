@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-cisa-ssdaf",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-cisa-ssdaf",
+  "version": "1.0.1",
   "description": "suite package for cisa-ssdaf",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-cisa": "^1.0.1"
+    "@zerobias-org/vendor-cisa": "^1.0.1"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

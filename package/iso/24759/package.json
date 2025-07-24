@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-iso-24759",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-iso-24759",
+  "version": "1.0.1",
   "description": "ISO/IEC 24759:2017 specifies the methods to be used by testing laboratories to test whether the cryptographic module conforms to the requirements specified in ISO/IEC 19790:2012.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-iso": "^1.0.3"
+    "@zerobias-org/vendor-iso": "^1.0.3"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

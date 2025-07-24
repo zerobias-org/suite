@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-nist-label",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-nist-label",
+  "version": "1.0.1",
   "description": "This document provides recommended criteria for a cybersecurity labeling effort for consumer software practices.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-nist": "^1.0.7"
+    "@zerobias-org/vendor-nist": "^1.0.7"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

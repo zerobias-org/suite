@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-whitehouse-executiveorder",
-  "version": "1.0.1",
+  "name": "@zerobias-org/suite-whitehouse-executiveorder",
+  "version": "1.0.2",
   "description": "The President of the United States manages the operations of the Executive branch of Government through Executive orders",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-whitehouse": "^1.0.0"
+    "@zerobias-org/vendor-whitehouse": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

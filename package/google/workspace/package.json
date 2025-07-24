@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-google-workspace",
-  "version": "1.0.10",
+  "name": "@zerobias-org/suite-google-workspace",
+  "version": "1.0.11",
   "description": "Suite package workspace for vendor google.",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -25,6 +25,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-google": "^1.0.7"
+    "@zerobias-org/vendor-google": "^1.0.7"
   }
 }

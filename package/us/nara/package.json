@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-us-nara",
-  "version": "1.0.1",
+  "name": "@zerobias-org/suite-us-nara",
+  "version": "1.0.2",
   "description": "The National Archives and Records Administration (NARA) is an independent agency of the United States government within the executive branch, charged with the preservation and documentation of government and historical records",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.png"
   ],
   "dependencies": {
-    "@auditlogic/vendor-us": "^1.0.0"
+    "@zerobias-org/vendor-us": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-disa-stig",
-  "version": "1.1.1",
+  "name": "@zerobias-org/suite-disa-stig",
+  "version": "1.1.2",
   "description": "Suite package for vendor DISA",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "directory": "suite/"
   },
   "dependencies": {
-    "@auditlogic/vendor-disa": "^1.1.1"
+    "@zerobias-org/vendor-disa": "^1.1.1"
   },
   "files": [
     "index.yml",

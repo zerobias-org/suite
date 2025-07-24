@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-sa-cscc",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-sa-cscc",
+  "version": "1.0.1",
   "description": "suite package for sa-cscc",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-sa": "^1.0.0"
+    "@zerobias-org/vendor-sa": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

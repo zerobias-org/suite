@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-neverfail-nfcc",
-  "version": "1.1.1",
+  "name": "@zerobias-org/suite-neverfail-nfcc",
+  "version": "1.1.2",
   "description": "Suite package nfcc for vendor neverfail",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -25,6 +25,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-neverfail": "^1.1.0"
+    "@zerobias-org/vendor-neverfail": "^1.1.0"
   }
 }

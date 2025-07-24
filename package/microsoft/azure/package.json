@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-microsoft-azure",
-  "version": "1.0.9",
+  "name": "@zerobias-org/suite-microsoft-azure",
+  "version": "1.0.10",
   "description": "Suite package azure for vendor microsoft",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -25,6 +25,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-microsoft": "^1.0.7"
+    "@zerobias-org/vendor-microsoft": "^1.0.7"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-auditmation-generic",
-  "version": "0.2.1",
+  "name": "@zerobias-org/suite-auditmation-generic",
+  "version": "0.2.2",
   "description": "Suite package generic for vendor auditmation.",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,6 +26,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-auditmation": "^1.0.8"
+    "@zerobias-org/vendor-auditmation": "^1.0.8"
   }
 }

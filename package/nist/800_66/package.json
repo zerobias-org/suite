@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-nist-800_66",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-nist-800_66",
+  "version": "1.0.1",
   "description": "suite package for nist-800_66",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-nist": "^1.0.7"
+    "@zerobias-org/vendor-nist": "^1.0.7"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

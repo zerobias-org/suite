@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-iso-19790",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-iso-19790",
+  "version": "1.0.1",
   "description": "This International Standard defines four security levels for cryptographic modules to provide for a wide spectrum of data sensitivity.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-iso": "^1.0.3"
+    "@zerobias-org/vendor-iso": "^1.0.3"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

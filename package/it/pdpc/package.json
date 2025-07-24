@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-it-pdpc",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-it-pdpc",
+  "version": "1.0.1",
   "description": "suite package for it-pdpc",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-it": "^1.0.0"
+    "@zerobias-org/vendor-it": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

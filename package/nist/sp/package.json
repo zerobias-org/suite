@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-nist-sp",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-nist-sp",
+  "version": "1.0.1",
   "description": "Special Publication",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-nist": "^1.0.7"
+    "@zerobias-org/vendor-nist": "^1.0.7"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

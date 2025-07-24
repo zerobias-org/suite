@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-ie-dpa",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-ie-dpa",
+  "version": "1.0.1",
   "description": "suite package for ie-dpa",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-ie": "^1.0.0"
+    "@zerobias-org/vendor-ie": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

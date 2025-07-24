@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-us_nv-sb220",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-us_nv-sb220",
+  "version": "1.0.1",
   "description": "suite package for us_nv-sb220",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-us_nv": "^1.0.0"
+    "@zerobias-org/vendor-us_nv": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

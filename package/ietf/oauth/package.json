@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-ietf-oauth",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-ietf-oauth",
+  "version": "1.0.1",
   "description": "The OAuth authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-ietf": "^1.0.0"
+    "@zerobias-org/vendor-ietf": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

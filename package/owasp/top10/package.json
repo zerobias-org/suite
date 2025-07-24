@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-owasp-top10",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-owasp-top10",
+  "version": "1.0.1",
   "description": "The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-owasp": "^1.0.1"
+    "@zerobias-org/vendor-owasp": "^1.0.1"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

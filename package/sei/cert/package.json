@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-sei-cert",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-sei-cert",
+  "version": "1.0.1",
   "description": "SEI CERT Coding Standards",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-sei": "^1.0.0"
+    "@zerobias-org/vendor-sei": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

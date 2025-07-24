@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-coso-coso",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-coso-coso",
+  "version": "1.0.1",
   "description": "suite package for coso-coso",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-coso": "^1.0.0"
+    "@zerobias-org/vendor-coso": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-oasisopen-saml",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-oasisopen-saml",
+  "version": "1.0.1",
   "description": "Defines the syntax and semantics for XML-encoded assertions about authentication, attributes, and authorization, and for the protocols that convey this information.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-oasisopen": "^1.0.0"
+    "@zerobias-org/vendor-oasisopen": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

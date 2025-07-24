@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-swift-swift",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-swift-swift",
+  "version": "1.0.1",
   "description": "suite package for swift-swift",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-swift": "^1.0.0"
+    "@zerobias-org/vendor-swift": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

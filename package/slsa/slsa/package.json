@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-slsa-slsa",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-slsa-slsa",
+  "version": "1.0.1",
   "description": "SLSA is a set of incrementally adoptable guidelines for supply chain security, established by industry consensus.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-slsa": "^1.0.0"
+    "@zerobias-org/vendor-slsa": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

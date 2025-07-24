@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-iec-sae",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-iec-sae",
+  "version": "1.0.1",
   "description": "suite package for iec-sae",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "logo.*"
   ],
   "dependencies": {
-    "@auditlogic/vendor-iec": "^1.0.0"
+    "@zerobias-org/vendor-iec": "^1.0.0"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh"

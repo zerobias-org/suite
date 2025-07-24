@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-tenable-platform",
-  "version": "0.4.1",
+  "name": "@zerobias-org/suite-tenable-platform",
+  "version": "0.4.2",
   "description": "Suite package platform for vendor tenable.",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -26,6 +26,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-tenable": "^0.2.1"
+    "@zerobias-org/vendor-tenable": "^0.2.1"
   }
 }

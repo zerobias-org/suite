@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-nist-csf",
-  "version": "1.0.4",
+  "name": "@zerobias-org/suite-nist-csf",
+  "version": "1.0.5",
   "description": "Suite package Cloud Security Framework for vendor nist.",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -25,6 +25,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-nist": "^1.0.7"
+    "@zerobias-org/vendor-nist": "^1.0.7"
   }
 }

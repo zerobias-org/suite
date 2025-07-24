@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-atlassian-cloud",
-  "version": "1.1.1",
+  "name": "@zerobias-org/suite-atlassian-cloud",
+  "version": "1.1.2",
   "description": "Suite package cloud for vendor atlassian.",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -25,6 +25,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@auditlogic/vendor-atlassian": "^1.0.7"
+    "@zerobias-org/vendor-atlassian": "^1.0.7"
   }
 }

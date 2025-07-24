@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-fidoalliance-fido",
-  "version": "1.0.0",
+  "name": "@zerobias-org/suite-fidoalliance-fido",
+  "version": "1.0.1",
   "description": "The FIDO Alliance developed FIDO Authentication standards based on public key cryptography for authentication that is more secure than passwords and SMS OTPs, simpler for consumers to use, and easier for service providers to deploy and manage. FIDO Authentication enables password-only logins to be replaced with secure and fast login experiences across websites and apps.",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@auditlogic/vendor-fidoalliance": "^1.0.0"
+    "@zerobias-org/vendor-fidoalliance": "^1.0.0"
   },
   "auditmation": {
     "dataloader-version": "3.4.5",

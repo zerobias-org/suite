@@ -1,6 +1,6 @@
 {
-  "name": "@auditlogic/suite-dod-disa",
-  "version": "0.2.1",
+  "name": "@zerobias-org/suite-dod-disa",
+  "version": "0.2.2",
   "description": "Suite package disa for vendor dod.",
   "author": "team@neverfail.com",
   "license": "ISC",
