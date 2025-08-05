@@ -1,0 +1,18 @@
+id: 3d5e1f5b-aa22-4f16-aed2-998bcf0893da
+name: Automated Threats to Web Applications
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-13T14:52:18.932Z'
+updated: '2024-11-13T14:52:18.932Z'
+code: oat
+status: verified
+description: >-
+  The OWASP Automated Threats to Web Applications Project has completed a review of reports, academic and other papers, news stories and vulnerability taxonomies/listings to identify, name and classify these scenarios – automated by software causing a divergence from accepted behavior producing one or more undesirable effects on a web application, but excluding tool-based exploitation of single-issue vulnerabilities.
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-oat.png
+url: https://owasp.org/www-project-automated-threats-to-web-applications/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

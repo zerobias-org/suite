@@ -1,0 +1,14 @@
+vendorCode: us_co
+code: cpa
+name: Colorado Privacy Act
+url: https://leg.colorado.gov/sites/default/files/2021a_190_signed.pdf
+description: Colorado Privacy Act
+id: 7547433b-157f-4800-be27-23933dac95f9
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: c801f1aa-1e8a-4e44-a69b-3340967ed46c
+vendorName: Colorado
+logo: https://cdn.auditmation.io/logos/us_co.png

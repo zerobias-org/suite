@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-oasisopen-saml",
+  "version": "1.0.2-rc.1",
+  "description": "Defines the syntax and semantics for XML-encoded assertions about authentication, attributes, and authorization, and for the protocols that convey this information.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/oasisopen/saml/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-oasisopen": "latest"
+  },
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "suite",
+    "package": "oasisopen.saml"
+  }
+}

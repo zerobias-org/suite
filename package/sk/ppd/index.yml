@@ -1,0 +1,15 @@
+vendorCode: sk
+code: ppd
+name: Protection of Personal Data (122/2013)
+url: >-
+  https://www.dataprotection.gov.sk/uoou/sites/default/files/kcfinder/files/Act_122-2013_84-2014_en.pdf
+description: Protection of Personal Data (122/2013)
+id: c4cef958-cf52-4597-a53f-26686dc1ff94
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 08b135a2-e0c8-4b45-be6d-e59982440bfa
+vendorName: Slovak Republic
+logo: https://cdn.auditmation.io/logos/sk.svg

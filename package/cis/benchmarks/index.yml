@@ -1,0 +1,14 @@
+vendorId: 0fdbe79a-a734-5d0e-9e72-6952376ec65e
+code: benchmarks
+status: active
+id: 744d39c9-ca5e-53d9-a3f6-843347e30d33 # Check this
+name: CIS Benchmarks
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2023-25-10T14:48:35.455Z
+updated: 2023-25-10T14:48:35.455Z
+vendorCode: cis
+vendorName: Center for Internet Security
+url: https://www.cisecurity.org/cis-benchmarks
+description: CIS Benchmarks
+logo: https://cdn.auditmation.io/logos/cis-benchmarks.png

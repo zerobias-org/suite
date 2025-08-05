@@ -1,0 +1,12 @@
+id: b3152a1d-69ac-5e2c-bd5e-61a70cc7b980
+code: connect
+name: OpenID Connect
+status: verified
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://openid.net/developers/discover-openid-and-openid-connect/
+description: OpenID Connect
+logo: https://cdn.auditmation.io/logos/openid-connect.png
+vendorId: f1bb4f16-05d8-5b7f-a2da-e074c3935bf0
+vendorCode: openid
+vendorName: OpenID

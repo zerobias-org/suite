@@ -1,0 +1,12 @@
+vendorId: 0aef30af-755f-555b-a9ab-aa353d05d054
+code: cloud
+status: active
+id: 1a4825e9-b8a3-5c10-849d-bbca22362719
+name: Atlassian Cloud
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: atlassian
+vendorName: Atlassian
+url: https://www.atlassian.com/cloud
+description: Atlassian Cloud
+logo: https://cdn.auditmation.io/logos/atlassian-cloud.svg

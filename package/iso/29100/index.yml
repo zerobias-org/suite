@@ -1,0 +1,14 @@
+vendorCode: iso
+code: '29100'
+name: 29100 - Privacy Framework
+url: https://www.iso.org/standard/45123.html
+description: 29100 - Privacy Framework
+id: cda8fa83-fb32-47bd-8456-558a8e8f90c7
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+vendorName: ISO
+logo: https://cdn.auditmation.io/logos/iso.svg

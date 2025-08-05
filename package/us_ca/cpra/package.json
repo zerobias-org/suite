@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-us_ca-cpra",
+  "version": "1.0.2-rc.1",
+  "description": "suite package for us_ca-cpra",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/us_ca/cpra/"
+  },
+  "auditmation": {
+    "package": "us_ca.cpra",
+    "import-artifact": "suite",
+    "dataloader-version": "5.0.14"
+  },
+  "engines": {
+    "node": ">=16.11.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-us_ca": "latest"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  }
+}

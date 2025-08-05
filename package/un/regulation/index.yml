@@ -1,0 +1,15 @@
+vendorCode: un
+code: regulation
+name: UN Regulation No. 155 - Cyber security and cyber security management system
+url: >-
+  https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security
+description: UN Regulation No. 155 - Cyber security and cyber security management system
+id: e08ae74b-632c-4626-b944-4fe05b28cc1e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 5d0077dd-265c-4dcc-8d8b-f792b595de7b
+vendorName: United Nations
+logo: https://cdn.auditmation.io/logos/un.png

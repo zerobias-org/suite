@@ -1,0 +1,14 @@
+vendorId: 4b6966dd-14e0-538f-9e95-0129fac641ca
+code: cloud
+status: active
+id: a7d3fa89-eee1-5e1f-a0c8-74ab6db6b681
+name: VMware Cloud
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-06T12:07:57.465Z
+updated: 2021-11-24T20:05:49.784Z
+vendorCode: vmware
+vendorName: VMware
+url: https://www.vmware.com/cloud-solutions.html
+description: VMware Cloud
+logo: https://cdn.auditmation.io/logos/vmware-cloud.svg

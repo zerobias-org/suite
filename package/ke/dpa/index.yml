@@ -1,0 +1,15 @@
+vendorCode: ke
+code: dpa
+name: Kenya Data Protection Act
+url: >-
+  http://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/2019/TheDataProtectionAct__No24of2019.pdf
+description: Kenya Data Protection Act
+id: 1a13cd78-25b4-43d5-8479-b20622a169fe
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: d92693f2-6dd8-49cc-b23c-bf98171b7ff4
+vendorName: Kenya
+logo: https://cdn.auditmation.io/logos/ke.svg

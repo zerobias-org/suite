@@ -1,0 +1,14 @@
+vendorCode: bm
+code: dpa
+name: Data Protection Act
+url: https://www.privacy.bm/legislation
+description: Data Protection Act
+id: e5d020b2-9ba9-43a7-8fb2-933b48a9ddfc
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 4af51235-ce59-4b38-9884-5a8c473df9e3
+vendorName: Bermuda
+logo: https://cdn.auditmation.io/logos/bm.svg

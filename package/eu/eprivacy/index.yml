@@ -1,0 +1,14 @@
+vendorCode: eu
+code: eprivacy
+name: ePrivacy Directive
+url: http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=41241
+description: ePrivacy Directive
+id: 8a7c5e38-4a5c-44cf-a2e4-ee636abce990
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+vendorName: EU
+logo: https://cdn.auditmation.io/logos/eu.png

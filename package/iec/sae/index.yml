@@ -1,0 +1,14 @@
+vendorCode: iec
+code: sae
+name: ISO/SAE 21434:2021 - Road vehicles ‚Äî Cybersecurity engineering
+url: https://www.iso.org/standard/70918.html
+description: ISO/SAE 21434:2021 - Road vehicles ‚Äî Cybersecurity engineering
+id: 73bfe4fc-a870-47e5-8284-f99e30516b49
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 26e923e1-c3bd-4141-95bb-69f45b883da9
+vendorName: IEC
+logo: https://cdn.auditmation.io/logos/iec.png

@@ -1,0 +1,14 @@
+vendorCode: br
+code: lgpd
+name: General Data Protection Law (LGPD)
+url: http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709.htm
+description: General Data Protection Law (LGPD)
+id: 826d8ae8-e643-44b5-b3c6-cfc708e2c054
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 7d0ec2d0-b67f-4589-96b5-946116c9aee7
+vendorName: Brazil
+logo: https://cdn.auditmation.io/logos/br.svg

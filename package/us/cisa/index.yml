@@ -1,0 +1,14 @@
+vendorCode: us
+code: cisa
+name: CISA Cross-Sector Cybersecurity Performance Goals (CPG)
+url: https://www.cisa.gov/cpg
+description: CISA Cross-Sector Cybersecurity Performance Goals (CPG)
+id: 51f1cdaf-5e7c-4073-9b82-16cf7b36c5de
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

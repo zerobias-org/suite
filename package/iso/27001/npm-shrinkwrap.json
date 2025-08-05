@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-iso-27001",
+  "version": "1.0.7",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-iso-27001",
+      "version": "1.0.7",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-iso": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-iso": {
+      "version": "1.0.5",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-iso/-/vendor-iso-1.0.5.tgz",
+      "integrity": "sha512-LsubI5Og0TUJ4P15kuDXMq/nbxtSj2XDYG6Oza4B+JPmfdhXINh0CdEfCwJhV0yZTIFdy3hgnVVwQLQg2asSoQ==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-iso": {
+      "version": "1.0.5",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-iso/-/vendor-iso-1.0.5.tgz",
+      "integrity": "sha512-LsubI5Og0TUJ4P15kuDXMq/nbxtSj2XDYG6Oza4B+JPmfdhXINh0CdEfCwJhV0yZTIFdy3hgnVVwQLQg2asSoQ=="
+    }
+  }
+}

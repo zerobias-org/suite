@@ -1,0 +1,14 @@
+vendorCode: us
+code: framp
+name: United States Risk and Authorization Management Program (FedRAMP)
+url: https://www.fedramp.gov/
+description: United States Risk and Authorization Management Program (FedRAMP)
+id: c4837e4b-0622-40ec-9837-ac00a60fb2f5
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

@@ -1,0 +1,15 @@
+vendorCode: qa
+code: pdppl
+name: Personal Data Privacy Protection Law (PDPPL)
+url: >-
+  https://compliance.qcert.org/sites/default/files/library/2020-11/Law%20No.%20%2813%29%20of%202016%20%20on%20Protecting%20Personal%20Data%20Privacy%20-%20English.pdf
+description: Personal Data Privacy Protection Law (PDPPL)
+id: 6d8b294d-18cd-45f0-936e-a4f7aa06ad8c
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: acc6d90b-c131-4feb-a901-173dc2fdcb79
+vendorName: Qatar
+logo: https://cdn.auditmation.io/logos/qa.svg

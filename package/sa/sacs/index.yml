@@ -1,0 +1,15 @@
+vendorCode: sa
+code: sacs
+name: SACS-002 - Third Party Cybersecurity Standard
+url: >-
+  https://www.aramco.com/-/media/downloads/working-with-us/ccc/sacs-002-third-party-cybersecurity-standard.pdf
+description: SACS-002 - Third Party Cybersecurity Standard
+id: 3b1223ab-49c0-46ab-9b9b-94bc8dd15240
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 95f50e38-08de-44b9-891b-6187c181e21b
+vendorName: Saudi Arabia
+logo: https://cdn.auditmation.io/logos/sa.svg

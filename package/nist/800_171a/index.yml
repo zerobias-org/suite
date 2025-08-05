@@ -1,0 +1,18 @@
+vendorCode: nist
+code: 800_171a
+name: >-
+  NIST SP 800-171A - Assessing Security Requirements for Controlled Unclassified
+  Information
+url: https://csrc.nist.gov/pubs/sp/800/171/a/r3/final
+description: >-
+  NIST SP 800-171A - Assessing Security Requirements for Controlled Unclassified
+  Information
+id: 2a83d54f-c240-4ffe-a136-63b0628af10e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-03-13T03:55:52.989Z
+updated: 2025-03-13T03:55:52.989Z
+status: active
+type: suite
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+logo: https://cdn.auditmation.io/logos/nist.svg

@@ -1,0 +1,21 @@
+vendorCode: us
+code: dhs
+name: >-
+  Department of Homeland Security (DHS) Cybersecurity and Infrastructure
+  Security Agency (CISA) Trusted Internet Connections 3.0 Security Capabilities
+  Catalog
+url: >-
+  https://www.cisa.gov/sites/default/files/2023-12/CISA%20TIC%203.0%20Security%20Capabilities%20Catalog_508c.pdf
+description: >-
+  Department of Homeland Security (DHS) Cybersecurity and Infrastructure
+  Security Agency (CISA) Trusted Internet Connections 3.0 Security Capabilities
+  Catalog
+id: 1aad6474-f0c3-473f-b6c9-1dcc51070ce2
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

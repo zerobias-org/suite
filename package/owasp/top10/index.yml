@@ -1,0 +1,18 @@
+id: a926f356-d2de-4f5c-b730-b6d7f40b41b0
+name: Top 10
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-12T20:07:23.804Z'
+updated: '2024-11-12T20:07:23.804Z'
+code: top10
+status: verified
+description: >-
+  The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-top10.png
+url: https://owasp.org/Top10/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

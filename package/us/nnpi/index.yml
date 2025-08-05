@@ -1,0 +1,15 @@
+vendorCode: us
+code: nnpi
+name: Naval Nuclear Propulsion Information (NNPI)
+url: >-
+  https://www.secnav.navy.mil/doni/Directives/09000%20General%20Ship%20Design%20and%20Support/09-200%20Propulsion%20Plants%20Support/N9210.3%20(Unclas%20Portion).pdf
+description: Naval Nuclear Propulsion Information (NNPI)
+id: 4ba9e9cb-91b5-46b2-887f-d8cfdf789975
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

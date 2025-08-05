@@ -1,0 +1,18 @@
+vendorCode: us
+code: nerc
+name: >-
+  North American Electric Reliability Corporation Critical Infrastructure
+  Protection (NERC CIP)
+url: http://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx
+description: >-
+  North American Electric Reliability Corporation Critical Infrastructure
+  Protection (NERC CIP)
+id: 74c964fd-2ef9-4856-8841-fa1b200de18b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

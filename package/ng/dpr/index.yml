@@ -1,0 +1,15 @@
+vendorCode: ng
+code: dpr
+name: Nigeria Data Protection Regulation
+url: >-
+  https://nitda.gov.ng/wp-content/uploads/2020/11/NigeriaDataProtectionRegulation11.pdf
+description: Nigeria Data Protection Regulation
+id: 9c0968ee-afde-452b-838c-092a46280727
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 199b995b-1a6c-49d8-a3fd-e4ece0efe97a
+vendorName: Nigeria
+logo: https://cdn.auditmation.io/logos/ng.svg

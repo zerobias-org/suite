@@ -1,0 +1,18 @@
+vendorCode: iso
+code: '42001'
+name: >-
+  ISO/IEC 42001:2023 - Information technology - Artificial intelligence -
+  Management system
+url: https://www.iso.org/standard/81230.html
+description: >-
+  ISO/IEC 42001:2023 - Information technology - Artificial intelligence -
+  Management system
+id: 7f1f837b-db35-447c-9e8a-42e585886a32
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+vendorName: ISO
+logo: https://cdn.auditmation.io/logos/iso.svg

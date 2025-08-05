@@ -1,0 +1,14 @@
+vendorCode: ru
+code: federallaw
+name: Federal Law of 27 July 2006 N 152-FZ
+url: 'http://www.rg.ru/2006/07/29/personaljnye-dannye-dok.html '
+description: Federal Law of 27 July 2006 N 152-FZ
+id: 1b90dba7-7418-43fe-892f-a5611aef1598
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 8c1bcc03-9e02-48b6-a198-fe2571ec7dd1
+vendorName: Russia
+logo: https://cdn.auditmation.io/logos/ru.svg

@@ -1,0 +1,15 @@
+vendorCode: hk
+code: pdo
+name: Personal Data Ordinance
+url: >-
+  http://www.blis.gov.hk/blis_pdf.nsf/CurAllEngDoc/B4DF8B4125C4214D482575EF000EC5FF/$FILE/CAP_486_e_b5.pdf
+description: Personal Data Ordinance
+id: 5b9ee131-d38c-4aae-a39e-23a008579904
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 025cc23e-8fb1-4133-aaa0-5afd0be00216
+vendorName: Hong Kong
+logo: https://cdn.auditmation.io/logos/hk.svg

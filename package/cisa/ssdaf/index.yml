@@ -1,0 +1,14 @@
+vendorCode: cisa
+code: ssdaf
+name: CISA Secure Software Development Attestation Form (SSDAF)
+url: https://www.cisa.gov/secure-software-attestation-form
+description: CISA Secure Software Development Attestation Form (SSDAF)
+id: 3e0f8163-64f6-4414-ad3f-0522f47b4abb
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-03-03T02:51:27.581Z
+updated: 2025-03-03T02:51:27.581Z
+status: active
+type: suite
+vendorId: 9908adfe-7b94-4673-93b5-4d7594b00da5
+vendorName: CISA
+logo: https://cdn.auditmation.io/logos/cisa.png

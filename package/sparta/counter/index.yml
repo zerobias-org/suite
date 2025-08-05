@@ -1,0 +1,14 @@
+vendorCode: sparta
+code: counter
+name: Space Attack Research & Tactic Analysis (SPARTA) Countermeasures
+url: https://sparta.aerospace.org/countermeasures/SPARTA
+description: Space Attack Research & Tactic Analysis (SPARTA) Countermeasures
+id: 89a34345-29d8-4679-b8ee-c1dc7c3aa87d
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: ba248064-e484-4676-856f-ff1b8cd02611
+vendorName: SPARTA
+logo: https://cdn.auditmation.io/logos/sparta.png
