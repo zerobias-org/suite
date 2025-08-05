@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-complianceforge-scf",
+  "version": "1.0.4",
+  "description": "Suite package Secure Controls Framework for vendor complianceforge.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.png"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "complianceforge.scf",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-complianceforge": "^1.0.3"
+  }
+}

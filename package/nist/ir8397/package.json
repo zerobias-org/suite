@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-nist-ir8397",
+  "version": "1.0.1",
+  "description": "To ensure that software is sufficiently safe and secure, software must be designed, built, de- livered, and maintained well. Frequent and thorough verification by developers as early as possible in the software development life cycle (SDLC) is one critical element of software security assurance.",
+  "author": "team@auditmation.io",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/nist/ir8397/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-nist": "^1.0.7"
+  },
+  "auditmation": {
+    "dataloader-version": "3.4.5",
+    "import-artifact": "suite",
+    "package": "nist.ir8397"
+  }
+}

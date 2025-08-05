@@ -1,0 +1,31 @@
+{
+  "name": "@zerobias-org/suite-tenable-platform",
+  "version": "0.4.2",
+  "description": "Suite package platform for vendor tenable.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "test:integration": "dataloader"
+  },
+  "tenable": {
+    "package": "tenable.platform",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-tenable": "^0.2.1"
+  }
+}

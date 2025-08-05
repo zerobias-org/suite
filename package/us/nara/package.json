@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-us-nara",
+  "version": "1.0.2",
+  "description": "The National Archives and Records Administration (NARA) is an independent agency of the United States government within the executive branch, charged with the preservation and documentation of government and historical records",
+  "author": "team@auditmation.io",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/us/nara/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.png"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-us": "^1.0.0"
+  },
+  "auditmation": {
+    "dataloader-version": "3.4.5",
+    "import-artifact": "suite",
+    "package": "us.nara"
+  }
+}

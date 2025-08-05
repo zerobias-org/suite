@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-google-workspace",
+  "version": "1.0.11",
+  "description": "Suite package workspace for vendor google.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "google.workspace",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-google": "^1.0.7"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@zerobias-org/suite-us-cmmc",
+  "version": "1.0.1",
+  "description": "suite package for us-cmmc",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/us/cmmc/"
+  },
+  "auditmation": {
+    "package": "us.cmmc",
+    "import-artifact": "suite",
+    "dataloader-version": "3.6.6"
+  },
+  "engines": {
+    "node": ">=16.11.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-us": "^1.0.0"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@zerobias-org/suite-iec-sae",
+  "version": "1.0.1",
+  "description": "suite package for iec-sae",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/iec/sae/"
+  },
+  "auditmation": {
+    "package": "iec.sae",
+    "import-artifact": "suite",
+    "dataloader-version": "3.6.6"
+  },
+  "engines": {
+    "node": ">=16.11.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-iec": "^1.0.0"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  }
+}

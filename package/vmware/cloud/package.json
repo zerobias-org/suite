@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-vmware-cloud",
+  "version": "1.0.10",
+  "description": "Suite package cloud for vendor vmware",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "vmware.cloud",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-vmware": "^1.0.7"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-amazon-aws",
+  "version": "1.0.11",
+  "description": "Suite package aws for vendor amazon.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "amazon.aws",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-amazon": "^1.0.7"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-fidoalliance-fido",
+  "version": "1.0.1",
+  "description": "The FIDO Alliance developed FIDO Authentication standards based on public key cryptography for authentication that is more secure than passwords and SMS OTPs, simpler for consumers to use, and easier for service providers to deploy and manage. FIDO Authentication enables password-only logins to be replaced with secure and fast login experiences across websites and apps.",
+  "author": "team@auditmation.io",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/fidoalliance/fido/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-fidoalliance": "^1.0.0"
+  },
+  "auditmation": {
+    "dataloader-version": "3.4.5",
+    "import-artifact": "suite",
+    "package": "fidoalliance.fido"
+  }
+}
