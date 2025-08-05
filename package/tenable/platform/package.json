@@ -22,7 +22,7 @@
     "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
     "validate": "ts-node ../../../scripts/validate.ts"
   },
-  "tenable": {
+  "auditmation": {
     "package": "tenable.platform",
     "import-artifact": "suite",
     "dataloader-version": "5.0.14"
