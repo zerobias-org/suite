@@ -1,0 +1,14 @@
+vendorCode: at
+code: dsg
+name: Federal Act concerning the Protection of Personal Data (DSG 2000)
+url: https://www.ris.bka.gv.at/Dokumente/Erv/ERV_1999_1_165/ERV_1999_1_165.pdf
+description: Federal Act concerning the Protection of Personal Data (DSG 2000)
+id: 189d6ca1-b18d-4948-83ec-3969b254a1ce
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 3a4ad2ac-28ea-48a8-9462-39f0d725ad47
+vendorName: Austria
+logo: https://cdn.auditmation.io/logos/at.svg

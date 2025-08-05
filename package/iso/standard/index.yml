@@ -1,0 +1,18 @@
+id: a2639738-2aad-4130-b9f4-73b2c65be2aa
+name: Standard
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-02T15:33:57.353Z'
+updated: '2024-10-02T15:33:57.353Z'
+code: standard
+status: verified
+description: >-
+  ISO standards are internationally agreed by experts Think of them as a formula that describes the best way of doing something
+aliases: []
+logo: https://cdn.auditmation.io/logos/iso-standard.png
+url: https://www.iso.org/standards.html
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+vendorCode: iso
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

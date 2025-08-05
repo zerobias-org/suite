@@ -1,0 +1,16 @@
+id: b14c68fc-7e53-495a-8eef-edb0713d2b20
+name: CCM
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-18T17:01:08.719Z'
+updated: '2024-06-18T17:01:08.719Z'
+code: ccm
+status: verified
+description: 'Cloud Controls Matrix '
+logo: https://cdn.auditmation.io/logos/csa-ccm.png
+url: https://cloudsecurityalliance.org/research/cloud-controls-matrix
+vendorId: fdf8ab2a-3f91-4175-9ebf-8b3adbe606ea
+vendorCode: csa
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

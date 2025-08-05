@@ -1,0 +1,15 @@
+vendorCode: coso
+code: coso
+name: Committee of Sponsoring Organizations (COSO) 2017 Framework
+url: >-
+  https://www.coso.org/Shared%20Documents/2017-COSO-ERM-Integrating-with-Strategy-and-Performance-Executive-Summary.pdf
+description: Committee of Sponsoring Organizations (COSO) 2017 Framework
+id: 0adc0eb2-f320-47e7-9b51-630ad11d0d7b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 9bb33b12-f789-427e-93b4-26c9bd7e825f
+vendorName: COSO
+logo: https://cdn.auditmation.io/logos/coso.png

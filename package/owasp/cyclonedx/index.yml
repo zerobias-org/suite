@@ -1,0 +1,18 @@
+id: 3bc2bf7a-a3a3-4a00-a5ae-6a468d322278
+name: CycloneDX
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-25T16:11:54.522Z'
+updated: '2024-06-25T16:11:54.522Z'
+code: cyclonedx
+status: verified
+description: >-
+  OWASP CycloneDX is a full-stack Bill of Materials (BOM) standard that provides advanced supply chain capabilities for cyber risk reduction
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-cyclonedx.svg
+url: https://cyclonedx.org/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

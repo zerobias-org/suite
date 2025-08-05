@@ -1,0 +1,14 @@
+vendorId: d3676c22-03b8-5e8b-bc04-44e14e4c0ecc
+code: soc2
+status: active
+id: 37e1022a-8d61-5559-b13b-25b1ee1e8d0c
+name: SOC2
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T14:48:35.455Z
+updated: 2022-11-08T14:48:35.455Z
+vendorCode: aicpa
+vendorName: AICPA
+url: https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/socforserviceorganizations
+description: Service Organization Control (SOC2)
+logo: https://cdn.auditmation.io/logos/aicpa-soc2.svg

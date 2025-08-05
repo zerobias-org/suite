@@ -1,0 +1,16 @@
+id: 890d6a82-a242-4924-8d1d-fe4610f1438f
+name: FIPS
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-16T16:48:41.364Z'
+updated: '2024-05-16T16:48:41.364Z'
+code: fips
+status: verified
+description: Federal information processing standards (FIPS)
+logo: https://cdn.auditmation.io/logos/nist-fips.svg
+url: https://csrc.nist.gov/publications/fips
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

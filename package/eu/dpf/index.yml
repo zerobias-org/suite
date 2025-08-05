@@ -1,0 +1,14 @@
+vendorCode: eu
+code: dpf
+name: EU-US Data Privacy Framework
+url: https://www.dataprivacyframework.gov/s/
+description: EU-US Data Privacy Framework
+id: df71d008-dc05-47b3-af43-28dcc77c0d6b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+vendorName: EU
+logo: https://cdn.auditmation.io/logos/eu.png

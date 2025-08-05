@@ -1,0 +1,18 @@
+id: 83d1f0ae-a860-41ff-b333-f16e72a064a8
+name: SAML
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-07-04T21:01:32.349Z'
+updated: '2024-07-04T21:01:32.349Z'
+code: saml
+status: verified
+description: >-
+  Defines the syntax and semantics for XML-encoded assertions about authentication, attributes, and authorization, and for the protocols that convey this information.
+aliases: []
+logo: https://cdn.auditmation.io/logos/oasisopen-saml.png
+url: https://www.oasis-open.org/standard/saml/
+vendorId: 02e80f36-dfaf-4b67-9b49-b85545f1f4b9
+vendorCode: oasisopen
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

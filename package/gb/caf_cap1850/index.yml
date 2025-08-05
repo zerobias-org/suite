@@ -1,0 +1,15 @@
+vendorCode: gb
+code: caf_cap1850
+name: Cyber Assessment Framework (CAF) for Aviation Guidance (CAP1850)
+url: >-
+  https://publicapps.caa.co.uk/modalapplication.aspx?appid=11&mode=detail&id=9295
+description: Cyber Assessment Framework (CAF) for Aviation Guidance (CAP1850)
+id: fbfb0d5e-5f75-44c0-bd81-d37e8eb97735
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e3a84bbe-3736-4f71-b2a4-27422dad17a3
+vendorName: United Kingdom
+logo: https://cdn.auditmation.io/logos/gb.svg

@@ -1,0 +1,14 @@
+vendorCode: nz
+code: ism
+name: New Zealand Information Security Manual (NZISM)
+url: https://www.nzism.gcsb.govt.nz/ism-document/
+description: New Zealand Information Security Manual (NZISM)
+id: 4f81dcc1-cb51-43aa-b5ab-3d6d13054eaf
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: a493c9e5-6c2e-4c0a-8b1b-96286b700478
+vendorName: New Zealand
+logo: https://cdn.auditmation.io/logos/nz.svg

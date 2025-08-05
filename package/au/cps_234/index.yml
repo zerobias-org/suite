@@ -1,0 +1,15 @@
+vendorCode: au
+code: cps_234
+name: Prudential Standard CPS 234 Information Security
+url: >-
+  https://www.apra.gov.au/sites/default/files/cps_234_july_2019_for_public_release.pdf
+description: Prudential Standard CPS 234 Information Security
+id: f850c051-15bd-448b-a096-85c3febfb3cc
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 8a1d5dce-fed8-4512-8758-3169a6267db4
+vendorName: Australia
+logo: https://cdn.auditmation.io/logos/au.svg

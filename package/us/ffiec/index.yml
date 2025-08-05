@@ -1,0 +1,15 @@
+vendorCode: us
+code: ffiec
+name: United States Financial Institutions Examination Council (FFIEC)
+url: >-
+  https://www.ffiec.gov/pdf/cybersecurity/FFIEC_CAT_App_B_Map_to_NIST_CSF_June_2015_PDF4.pdf
+description: United States Financial Institutions Examination Council (FFIEC)
+id: fe4a482e-7196-47f4-b4e5-c2c379234174
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

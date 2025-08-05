@@ -1,0 +1,14 @@
+vendorId: 6e0dcb34-f587-57ea-9940-ba654c962c56
+code: gcp
+status: active
+id: aa02feb3-63ad-5384-98ca-f4036a285555
+name: Google Cloud
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-23T15:17:46.633Z
+updated: 2021-11-24T20:05:03.732Z
+vendorCode: google
+vendorName: Google
+url: https://cloud.google.com/
+description: Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.
+logo: https://cdn.auditmation.io/logos/google-gcp.svg

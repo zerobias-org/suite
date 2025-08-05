@@ -1,0 +1,12 @@
+vendorId: f6b6f862-3012-5f64-a523-4b1f28296829
+code: "365"
+status: active
+id: 3614c700-b6bc-5542-a65d-8d2982bc9fa4
+name: Microsoft365
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: microsoft
+vendorName: Microsoft
+url: https://www.microsoft.com/en-us/microsoft-365
+description: Microsoft 365
+logo: https://cdn.auditmation.io/logos/microsoft-365.svg

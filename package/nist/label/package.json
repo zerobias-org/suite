@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-nist-label",
+  "version": "1.0.1",
+  "description": "This document provides recommended criteria for a cybersecurity labeling effort for consumer software practices.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/nist/label/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-nist": "latest"
+  },
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "suite",
+    "package": "nist.label"
+  }
+}

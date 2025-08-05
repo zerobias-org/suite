@@ -1,0 +1,18 @@
+id: 809ecd3f-2b55-4734-a4b3-1e4f750211a6
+name: NIST IR 8397
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-05-26T21:16:35.105Z'
+updated: '2025-05-26T21:16:35.105Z'
+code: ir8397
+status: verified
+description: >-
+  To ensure that software is sufficiently safe and secure, software must be designed, built, de- livered, and maintained well. Frequent and thorough verification by developers as early as possible in the software development life cycle (SDLC) is one critical element of software security assurance.
+aliases: []
+logo: https://cdn.auditmation.io/logos/nist-ir8397.svg
+url: https://csrc.nist.gov/pubs/ir/8397/final
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

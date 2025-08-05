@@ -1,0 +1,14 @@
+vendorCode: tw
+code: pdpa
+name: Personal Data Protection Act
+url: http://law.moj.gov.tw/Eng/LawClass/LawAll.aspx?PCode=I0050021
+description: Personal Data Protection Act
+id: 369725cc-3726-419e-a272-e02111f169e4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 8399c2ff-408e-4424-ae9f-ac48b8a2af62
+vendorName: Taiwan
+logo: https://cdn.auditmation.io/logos/tw.svg

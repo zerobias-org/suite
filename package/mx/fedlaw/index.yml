@@ -1,0 +1,15 @@
+vendorCode: mx
+code: fedlaw
+name: Federal Law on Protection of Personal Data held by Private Parties
+url: >-
+  https://privacyassociation.org/media/pdf/knowledge_center/Mexico_Federal_Data_Protection_Act_July2010.pdf
+description: ' Federal Law on Protection of Personal Data held by Private Parties'
+id: 6b2de7c3-9e0a-42e6-a74c-53152b7f5681
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 50d9241c-71f4-40e6-a7bb-52443b7b6974
+vendorName: Mexico
+logo: https://cdn.auditmation.io/logos/mx.svg

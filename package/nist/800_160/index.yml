@@ -1,0 +1,14 @@
+vendorCode: nist
+code: '800_160'
+name: NIST SP 800-160 - Systems Security Engineering
+url: https://csrc.nist.gov/publications/detail/sp/800-160/final
+description: NIST SP 800-160 - Systems Security Engineering
+id: f4235962-092a-4640-aaa8-03362fdfbbc3
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+logo: https://cdn.auditmation.io/logos/nist.svg

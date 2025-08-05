@@ -1,0 +1,14 @@
+vendorCode: jp
+code: appi
+name: Act on the Protection of Personal Information
+url: https://www.ppc.go.jp/files/pdf/APPI_english.pdf
+description: Act on the Protection of Personal Information
+id: a5c5df5e-0ce9-4fb2-a798-036e0728a348
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: f6af2c65-b3a1-4688-b357-5822c88e7027
+vendorName: Japan
+logo: https://cdn.auditmation.io/logos/jp.svg

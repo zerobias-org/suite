@@ -1,0 +1,12 @@
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+code: '800218'
+status: active
+id: 4c4d7625-12d3-546c-b2c3-e3722deffca3
+name: NIST 800-218 (SSDF)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: nist
+vendorName: NIST
+url: https://csrc.nist.gov/publications/detail/sp/800-218/final
+description: Secure Software Development Framework (SSDF) Version 1.1
+logo: https://cdn.auditmation.io/logos/nist-800-218.svg

@@ -1,0 +1,14 @@
+vendorCode: de
+code: fdpa
+name: Federal Data Protection Act
+url: https://www.gesetze-im-internet.de/englisch_bdsg/englisch_bdsg.pdf
+description: Federal Data Protection Act
+id: e17da489-e061-475f-b9f6-9b01bddc692d
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 778ebf4b-9f43-4695-9232-e1a577b83407
+vendorName: Germany
+logo: https://cdn.auditmation.io/logos/de.svg

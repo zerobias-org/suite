@@ -1,0 +1,17 @@
+id: dd94989b-6053-4dde-ace1-da0dd4eec410
+name: CERT
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-26T14:16:54.637Z'
+updated: '2024-06-26T14:16:54.637Z'
+code: cert
+status: verified
+description: SEI CERT Coding Standards
+aliases: []
+logo: https://cdn.auditmation.io/logos/sei-cert.png
+url: https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards
+vendorId: 6bca452d-c43e-4a6e-94e1-b1d985b6a7d8
+vendorCode: sei
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

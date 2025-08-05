@@ -1,0 +1,14 @@
+vendorCode: it
+code: pdpc
+name: Personal Data Protection Code
+url: http://www.privacy.it/privacycode-en.html
+description: Personal Data Protection Code
+id: 95a6aec7-65ca-458e-925a-76e26ea77d79
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 6115174e-a65d-43c3-9e4e-9b292ed989a2
+vendorName: Italy
+logo: https://cdn.auditmation.io/logos/it.svg

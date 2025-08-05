@@ -1,0 +1,14 @@
+vendorCode: us_va
+code: cdpa
+name: Consumer Data Protection Act
+url: https://lis.virginia.gov/cgi-bin/legp604.exe?212+ful+CHAP0035+pdf
+description: Consumer Data Protection Act
+id: 298cee96-a337-4e34-91d4-2b4875f20462
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: ec9a0d62-876e-4ecf-b3ca-efe613e20862
+vendorName: Virginia
+logo: https://cdn.auditmation.io/logos/us_va.png

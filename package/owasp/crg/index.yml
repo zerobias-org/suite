@@ -1,0 +1,18 @@
+id: 3a833605-966a-4187-84f4-6e5624bceb5a
+name: Code Review Guide
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-13T15:01:35.271Z'
+updated: '2024-11-13T15:01:35.271Z'
+code: crg
+status: verified
+description: >-
+  OWASP Code Review Guide is a technical book written for those responsible for code reviews (management, developers, security professionals)
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-crg.png
+url: https://owasp.org/www-project-code-review-guide/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

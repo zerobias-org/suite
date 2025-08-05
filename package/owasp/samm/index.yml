@@ -1,0 +1,16 @@
+id: 2a1460f1-1327-435c-832a-a6dcd0bc9038
+name: SAMM
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-20T20:17:57.057Z'
+updated: '2024-05-20T20:17:57.057Z'
+code: samm
+status: verified
+description: Software Assurance Maturity Model
+logo: https://cdn.auditmation.io/logos/owasp-samm.png
+url: https://owaspsamm.org/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

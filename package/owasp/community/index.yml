@@ -1,0 +1,18 @@
+id: a2b34b1d-c2d3-419a-aae9-8e17676f02d6
+name: Community
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-13T15:16:14.868Z'
+updated: '2024-11-13T15:16:14.868Z'
+code: community
+status: verified
+description: >-
+  OWASP Community Pages are a place where OWASP can accept community contributions for security-related content.
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-community.png
+url: https://owasp.org/www-community/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

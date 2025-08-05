@@ -1,0 +1,15 @@
+vendorCode: ph
+code: dpa
+name: Data Privacy Act of 2012
+url: >-
+  https://privacy.gov.ph/implementing-rules-and-regulations-of-republic-act-no-10173-known-as-the-data-privacy-act-of-2012/
+description: Data Privacy Act of 2012
+id: 969c5aa8-0e03-4108-abaf-397f709ce5cf
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 6393942e-e2ce-449d-8abe-f56c18ac9663
+vendorName: Philippines
+logo: https://cdn.auditmation.io/logos/ph.svg

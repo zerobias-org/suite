@@ -1,0 +1,18 @@
+vendorCode: nist
+code: '800_161'
+name: >-
+  NIST SP 800-161 - Cybersecurity Supply Chain Risk Management Practices for
+  Systems and Organizations
+url: https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final
+description: >-
+  NIST SP 800-161 - Cybersecurity Supply Chain Risk Management Practices for
+  Systems and Organizations
+id: 254641d4-cfc7-4066-aca4-322bf7781e0e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+logo: https://cdn.auditmation.io/logos/nist.svg

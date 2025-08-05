@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-fidoalliance-fido",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-fidoalliance-fido",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-fidoalliance": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-fidoalliance": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-fidoalliance/-/vendor-fidoalliance-1.0.2.tgz",
+      "integrity": "sha512-YFwbQcGqx/9V3mz6Oajv/DVQrXkZwNlOMLjbHWeUtmbYjWb0lvv9lz6RMQURpSuV7mYQJS9+zPMcigmo0mT7rg==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-fidoalliance": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-fidoalliance/-/vendor-fidoalliance-1.0.2.tgz",
+      "integrity": "sha512-YFwbQcGqx/9V3mz6Oajv/DVQrXkZwNlOMLjbHWeUtmbYjWb0lvv9lz6RMQURpSuV7mYQJS9+zPMcigmo0mT7rg=="
+    }
+  }
+}

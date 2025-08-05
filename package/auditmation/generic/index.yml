@@ -1,0 +1,12 @@
+id: c1fc1db2-b010-58c4-9dc9-db88fabb98ad
+code: generic
+name: Generic
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://auditmation.io/
+description: Generic Products .
+logo: https://cdn.auditmation.io/logos/auditmation-generic.svg
+vendorId: f3f8d442-1711-55a0-9229-42c36d634df5
+vendorCode: auditmation
+vendorName: Auditmation

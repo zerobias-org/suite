@@ -1,0 +1,12 @@
+id: 785d84e1-ff3b-570a-90f0-c20981081b20
+code: interface
+name: Interface
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://auditmation.io/
+description: Interface .
+logo: https://cdn.auditmation.io/logos/auditmation-interface.svg
+vendorId: f3f8d442-1711-55a0-9229-42c36d634df5
+vendorCode: auditmation
+vendorName: Auditmation

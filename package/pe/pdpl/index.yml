@@ -1,0 +1,15 @@
+vendorCode: pe
+code: pdpl
+name: ' Personal Data Protection Law'
+url: >-
+  https://www.huntonprivacyblog.com/wp-content/uploads/sites/18/migrated/Peru%20Data%20Protection%20Law%20July%2028_EN%20_2_.pdf
+description: Personal Data Protection Law
+id: 5bd739a5-8761-495d-a30e-014a3230e4b4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 6c3c0538-a3ff-4af3-88df-c3cd512585a8
+vendorName: Peru
+logo: https://cdn.auditmation.io/logos/pe.svg

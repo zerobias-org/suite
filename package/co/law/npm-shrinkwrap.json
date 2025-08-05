@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-co-law",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-co-law",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-co": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-co": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-co/-/vendor-co-1.0.2.tgz",
+      "integrity": "sha512-AygO7jCRDTWM/Ra1BjjbiQh1KClJGrO4AGAcPEWfOeyy+w+lnEgIVFR7g68PWBIdyxV0Iz2OVgD7jpLapfzpxg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-co": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-co/-/vendor-co-1.0.2.tgz",
+      "integrity": "sha512-AygO7jCRDTWM/Ra1BjjbiQh1KClJGrO4AGAcPEWfOeyy+w+lnEgIVFR7g68PWBIdyxV0Iz2OVgD7jpLapfzpxg=="
+    }
+  }
+}

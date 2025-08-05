@@ -1,0 +1,14 @@
+vendorCode: naic
+code: mdl
+name: Insurance Data Security Model Law (MDL-668)
+url: https://www.naic.org/store/free/MDL-668.pdf
+description: Insurance Data Security Model Law (MDL-668)
+id: 4f7892cf-9b7a-4972-a932-ac1743103b1f
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 434eba72-f9f7-4057-992a-f45e13e348cb
+vendorName: NAIC
+logo: https://cdn.auditmation.io/logos/naic.png

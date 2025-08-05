@@ -1,0 +1,15 @@
+vendorCode: ca
+code: osfi
+name: B-13
+url: >-
+  https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b13-jul-let.aspx
+description: B-13
+id: 3886d021-e535-4b9a-889b-49ca3ae57e74
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 715a0b01-baf6-48fd-b827-a763d06339ab
+vendorName: Canada
+logo: https://cdn.auditmation.io/logos/ca.svg

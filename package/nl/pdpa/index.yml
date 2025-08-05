@@ -1,0 +1,15 @@
+vendorCode: nl
+code: pdpa
+name: Personal Data Protection Act
+url: >-
+  https://www.akd.nl/t/Documents/17-03-2016_ENG_Wet-bescherming-persoonsgegevens.pdf
+description: Personal Data Protection Act
+id: 9c1a437e-fcc9-4fe2-b849-e97afda3fe82
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: ad6f5da3-88e7-4386-9a6a-523d70e00740
+vendorName: Netherlands
+logo: https://cdn.auditmation.io/logos/nl.svg

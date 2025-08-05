@@ -1,0 +1,15 @@
+vendorCode: jp
+code: ismap
+name: Japan Information System Security Management and Assessment Program (ISMAP)
+url: >-
+  https://www.ismap.go.jp/csm/en?id=kb_article_view&sysparm_article=KB0010301&sys_kb_id=4d06b8701b4f011013a78665cc4bcbd2&spa=1
+description: Japan Information System Security Management and Assessment Program (ISMAP)
+id: eb327790-0626-40c4-aeb5-05c048a05b71
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: f6af2c65-b3a1-4688-b357-5822c88e7027
+vendorName: Japan
+logo: https://cdn.auditmation.io/logos/jp.svg

@@ -1,0 +1,15 @@
+vendorCode: us_ca
+code: sb328
+name: SB327
+url: >-
+  https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB327
+description: SB327
+id: 67be7d78-91a3-4e40-b8c3-fe0310214274
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: ee896469-daa6-4ee1-a5a9-299cbc8b0999
+vendorName: California
+logo: https://cdn.auditmation.io/logos/us_ca.png

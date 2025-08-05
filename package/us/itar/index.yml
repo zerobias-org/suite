@@ -1,0 +1,15 @@
+vendorCode: us
+code: itar
+name: International Traffic in Arms Regulation (ITAR) [limited to Part 120]
+url: >-
+  https://www.ecfr.gov/cgi-bin/text-idx?SID=70e390c181ea17f847fa696c47e3140a&mc=true&node=pt22.1.120&rgn=div
+description: International Traffic in Arms Regulation (ITAR) [limited to Part 120]
+id: 1b0318ec-bd53-4ea2-b7ba-0f672bdda59f
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

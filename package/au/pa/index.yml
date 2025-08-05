@@ -1,0 +1,14 @@
+vendorCode: au
+code: pa
+name: Privacy Act of 1998
+url: https://www.comlaw.gov.au/Details/C2015C00089
+description: Privacy Act of 1998
+id: 40ebd588-d990-4f6b-874f-3294f18c7d1c
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 8a1d5dce-fed8-4512-8758-3169a6267db4
+vendorName: Australia
+logo: https://cdn.auditmation.io/logos/au.svg

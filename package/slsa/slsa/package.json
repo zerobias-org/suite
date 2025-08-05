@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-slsa-slsa",
+  "version": "1.0.1",
+  "description": "SLSA is a set of incrementally adoptable guidelines for supply chain security, established by industry consensus.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/slsa/slsa/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-slsa": "latest"
+  },
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "suite",
+    "package": "slsa.slsa"
+  }
+}

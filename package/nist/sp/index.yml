@@ -1,0 +1,17 @@
+id: 03a9a46e-33d7-443e-8f49-88bbf2a4b85c
+name: SP
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-01T18:01:44.295Z'
+updated: '2024-10-01T18:01:44.295Z'
+code: sp
+status: verified
+description: Special Publication
+aliases: []
+logo: https://cdn.auditmation.io/logos/nist-sp.svg
+url: https://csrc.nist.gov/publications/sp
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

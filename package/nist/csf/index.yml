@@ -1,0 +1,14 @@
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+code: csf
+status: active
+id: 0b659149-494a-5d69-900a-e886bf19df27
+name: CSF
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+vendorCode: nist
+vendorName: NIST
+url: https://www.nist.gov/cyberframework
+description: NIST Cloud Security Framework
+logo: https://cdn.auditmation.io/logos/nist-csf.png

@@ -1,0 +1,15 @@
+vendorCode: au
+code: aee
+name: Australia Essential Eight
+url: >-
+  https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight
+description: Australia Essential Eight
+id: 248f7f4d-f58b-44c3-a729-1f5bc0850ad0
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 8a1d5dce-fed8-4512-8758-3169a6267db4
+vendorName: Australia
+logo: https://cdn.auditmation.io/logos/au.svg

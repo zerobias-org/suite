@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-cisa-ssdaf",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-cisa-ssdaf",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-cisa": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-cisa": {
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-cisa/-/vendor-cisa-1.0.3.tgz",
+      "integrity": "sha512-XJBjEnoRHqiDzUdrFgasOEQe8R39dlEpKgxcrIS8pWhM7wsdkamoWw42qQIn0XRObdquOlJb5QPFzzols6JOGw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-cisa": {
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-cisa/-/vendor-cisa-1.0.3.tgz",
+      "integrity": "sha512-XJBjEnoRHqiDzUdrFgasOEQe8R39dlEpKgxcrIS8pWhM7wsdkamoWw42qQIn0XRObdquOlJb5QPFzzols6JOGw=="
+    }
+  }
+}
