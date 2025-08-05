@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-iso-27001",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-iso-27001",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-iso": "latest"

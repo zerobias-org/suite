@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-microsoft-azure",
-  "version": "1.0.10",
-  "lockfileVersion": 3,
+  "version": "1.0.11",
+  "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-microsoft-azure",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-microsoft": "latest"
@@ -17,6 +17,13 @@
       "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-microsoft/-/vendor-microsoft-1.0.8.tgz",
       "integrity": "sha512-QlTtGEH38cMDqWRJPs6jVEnJUZhwEIuGUYoGJGIhk/XzzwelaOdtqKymwX1adN7pC5fQaZ+UtGV2xmISx8C9yQ==",
       "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-microsoft": {
+      "version": "1.0.8",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-microsoft/-/vendor-microsoft-1.0.8.tgz",
+      "integrity": "sha512-QlTtGEH38cMDqWRJPs6jVEnJUZhwEIuGUYoGJGIhk/XzzwelaOdtqKymwX1adN7pC5fQaZ+UtGV2xmISx8C9yQ=="
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-800-171",
-  "version": "0.1.5-rc.1",
+  "version": "0.1.5",
   "description": "Suite package 800-171 for vendor nist.",
   "author": "team@zerobias.com",
   "license": "ISC",

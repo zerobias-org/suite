@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-tenable-platform",
-  "version": "0.4.3-rc.1",
+  "version": "0.4.3",
   "description": "Suite package platform for vendor tenable.",
   "author": "team@zerobias.com",
   "license": "ISC",

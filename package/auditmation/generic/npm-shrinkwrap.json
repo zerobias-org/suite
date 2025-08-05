@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-auditmation-generic",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-auditmation-generic",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-auditmation": "latest"

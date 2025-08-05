@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-dod-cmmc",
-  "version": "0.1.4-rc.1",
+  "version": "0.1.4",
   "description": "Suite package cmmc for vendor dod.",
   "author": "team@zerobias.com",
   "license": "ISC",

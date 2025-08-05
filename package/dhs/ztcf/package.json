@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-dhs-ztcf",
-  "version": "1.0.2-rc.1",
+  "version": "1.0.2",
   "description": "suite package for dhs-ztcf",
   "author": "team@zerobias.com",
   "license": "ISC",
