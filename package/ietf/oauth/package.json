@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-ietf-oauth",
-  "version": "1.0.2-rc.0",
+  "version": "1.0.2-rc.1",
   "description": "The OAuth authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.",
   "author": "team@zerobias.com",
   "license": "ISC",

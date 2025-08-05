@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-google-gcp",
-  "version": "1.0.11-rc.0",
+  "version": "1.0.11-rc.1",
   "description": "Suite package gcp for vendor google",
   "author": "team@zerobias.com",
   "license": "ISC",

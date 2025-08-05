@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-oasisopen-saml",
-  "version": "1.0.2-rc.0",
+  "version": "1.0.2-rc.1",
   "description": "Defines the syntax and semantics for XML-encoded assertions about authentication, attributes, and authorization, and for the protocols that convey this information.",
   "author": "team@zerobias.com",
   "license": "ISC",

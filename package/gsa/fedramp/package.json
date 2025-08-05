@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-gsa-fedramp",
-  "version": "1.0.5-rc.0",
+  "version": "1.0.5-rc.1",
   "description": "Suite package fedramp for vendor gsa.",
   "author": "team@zerobias.com",
   "license": "ISC",

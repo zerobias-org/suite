@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-vmware-cloud",
-  "version": "1.0.11-rc.0",
+  "version": "1.0.11-rc.1",
   "description": "Suite package cloud for vendor vmware",
   "author": "team@zerobias.com",
   "license": "ISC",

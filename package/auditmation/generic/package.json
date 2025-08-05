@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-auditmation-generic",
-  "version": "0.2.3-rc.0",
+  "version": "0.2.3-rc.1",
   "description": "Suite package generic for vendor auditmation.",
   "author": "team@zerobias.com",
   "license": "ISC",

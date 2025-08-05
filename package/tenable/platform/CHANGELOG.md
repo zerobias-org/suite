@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3-rc.1](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-tenable-platform@0.4.3-rc.0...@zerobias-org/suite-tenable-platform@0.4.3-rc.1) (2025-08-05)
+
+**Note:** Version bump only for package @zerobias-org/suite-tenable-platform
+
+
+
+
+
 ## [0.4.3-rc.0](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-tenable-platform@0.4.2...@zerobias-org/suite-tenable-platform@0.4.3-rc.0) (2025-08-05)
 
 
