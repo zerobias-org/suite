@@ -1,0 +1,14 @@
+vendorId: 91cdaadd-564e-56c7-a49b-bebb823d8582
+code: fedramp
+status: active
+id: 60176c09-4264-5180-b6ab-c1da54ad2b84
+name: FedRAMP
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+vendorCode: gsa
+vendorName: GSA
+url: https://www.gsa.gov/technology/government-it-initiatives/fedramp
+description: GSA Federal Risk and Authorization Management Program (FedRAMP)
+logo: https://cdn.auditmation.io/logos/gsa-fedramp.svg

@@ -1,0 +1,14 @@
+vendorCode: iec
+code: '60601'
+name: IEC TR 60601-4-5:2021
+url: https://webstore.iec.ch/publication/64703
+description: IEC TR 60601-4-5:2021
+id: d908d31b-43b6-45e6-a9cb-df21a0ce8a01
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 26e923e1-c3bd-4141-95bb-69f45b883da9
+vendorName: IEC
+logo: https://cdn.auditmation.io/logos/iec.png

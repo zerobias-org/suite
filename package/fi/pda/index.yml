@@ -1,0 +1,14 @@
+vendorCode: fi
+code: pda
+name: Personal Data Act (986/2000)
+url: http://www.finlex.fi/en/laki/kaannokset/1999/en19990523.pdf
+description: Personal Data Act (986/2000)
+id: 5810d0ce-7ca3-4296-adb4-f2eef99d683b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 6d2d8fa0-3e68-4a51-87ed-00299179f288
+vendorName: Finland
+logo: https://cdn.auditmation.io/logos/fi.svg

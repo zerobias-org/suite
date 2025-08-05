@@ -1,0 +1,15 @@
+vendorCode: us
+code: ztfc
+name: Department of Homeland Security (DHS) Zero Trust Capability Framework (ZTCF)
+url: >-
+  http://www.consumer.ftc.gov/sites/default/files/articles/pdf/pdf-0111-fair-credit-reporting-act.pdf
+description: Department of Homeland Security (DHS) Zero Trust Capability Framework (ZTCF)
+id: 26ba2977-df6a-4d16-a6f6-65b83c42e86e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

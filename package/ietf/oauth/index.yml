@@ -1,0 +1,17 @@
+id: b19b0811-fb5b-41e7-8bcd-a9b899a75753
+name: OAuth
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-16T14:21:58.619Z'
+updated: '2024-05-16T14:21:58.619Z'
+code: oauth
+status: verified
+description: >-
+  The OAuth authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.
+logo: https://cdn.auditmation.io/logos/ietf-oauth.svg
+url: https://datatracker.ietf.org/doc/html/rfc6749
+vendorId: 8fc249f2-5bf1-4468-a29b-b05835ba6e3d
+vendorCode: ietf
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

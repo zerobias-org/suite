@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-owasp-cyclonedx",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-owasp-cyclonedx",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-owasp": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-owasp": {
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-owasp/-/vendor-owasp-1.0.3.tgz",
+      "integrity": "sha512-uACP4R7TYI0kopB1rFDP30r2b7hTLzFTKftb/QHiazm4j6c0yl3YSSdwctRyH+Wu/MNq3qs6acAA24B63p16LQ==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-owasp": {
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-owasp/-/vendor-owasp-1.0.3.tgz",
+      "integrity": "sha512-uACP4R7TYI0kopB1rFDP30r2b7hTLzFTKftb/QHiazm4j6c0yl3YSSdwctRyH+Wu/MNq3qs6acAA24B63p16LQ=="
+    }
+  }
+}

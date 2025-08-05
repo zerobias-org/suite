@@ -1,0 +1,14 @@
+vendorCode: us_il
+code: bipa
+name: Biometric Information Privacy Act (PIPA)
+url: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004&ChapterID=57
+description: Biometric Information Privacy Act (PIPA)
+id: 57a39419-fef6-4046-b5a7-ab32abc3cd89
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e5228a6a-ed7e-4ea1-b747-a22dc140c095
+vendorName: Illinois
+logo: https://cdn.auditmation.io/logos/us_il.png

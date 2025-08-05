@@ -1,0 +1,15 @@
+vendorCode: us
+code: nstc
+name: National Science & Technology Council (NSTC) NSPM-33
+url: >-
+  https://www.whitehouse.gov/wp-content/uploads/2022/01/010422-NSPM-33-Implementation-Guidance.pdf
+description: National Science & Technology Council (NSTC) NSPM-33
+id: 0db4362e-8ee4-4ad0-8f24-5af097c1aa59
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

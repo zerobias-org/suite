@@ -1,0 +1,18 @@
+id: 6601e166-cbeb-49a4-8862-b73fa63b81ac
+name: Cheat Sheet Series
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-13T14:43:10.327Z'
+updated: '2024-11-13T14:43:10.327Z'
+code: css
+status: verified
+description: >-
+  The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics. These cheat sheets were created by various application security professionals who have expertise in specific topics
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-css.png
+url: https://cheatsheetseries.owasp.org/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

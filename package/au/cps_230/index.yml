@@ -1,0 +1,15 @@
+vendorCode: au
+code: cps_230
+name: Prudential Standard CPS 230 - Operational Risk Management
+url: >-
+  https://www.apra.gov.au/sites/default/files/2023-07/Prudential%20Standard%20CPS%20230%20Operational%20Risk%20Management%20-%20clean.pdf 
+description: Prudential Standard CPS 230 - Operational Risk Management
+id: a1a85ddf-804c-49bf-9e1a-660a52d8cb38
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 8a1d5dce-fed8-4512-8758-3169a6267db4
+vendorName: Australia
+logo: https://cdn.auditmation.io/logos/au.svg

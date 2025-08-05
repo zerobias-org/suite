@@ -1,0 +1,14 @@
+vendorCode: us_te
+code: ipa
+name: Information Protection Act
+url: http://www.statutes.legis.state.tx.us/Docs/BC/htm/BC.521.htm
+description: Information Protection Act
+id: 1077f777-90ab-4ec6-88fd-9eb8743ce5ec
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 11e4d9af-ffaf-4c4c-acef-f2bef1d6f748
+vendorName: Tennessee
+logo: https://cdn.auditmation.io/logos/us_te.jpg

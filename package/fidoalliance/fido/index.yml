@@ -1,0 +1,18 @@
+id: dd6389d0-37af-49a0-8bb3-cb59380d5689
+name: FIDO
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-07-04T21:10:18.451Z'
+updated: '2024-07-04T21:10:18.451Z'
+code: fido
+status: verified
+description: >-
+  The FIDO Alliance developed FIDO Authentication standards based on public key cryptography for authentication that is more secure than passwords and SMS OTPs, simpler for consumers to use, and easier for service providers to deploy and manage. FIDO Authentication enables password-only logins to be replaced with secure and fast login experiences across websites and apps.
+aliases: []
+logo: https://cdn.auditmation.io/logos/fidoalliance-fido.svg
+url: https://fidoalliance.org/fido2/
+vendorId: eab080d7-7e90-4351-887e-e300a54ce3ef
+vendorCode: fidoalliance
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

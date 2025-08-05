@@ -1,0 +1,15 @@
+vendorCode: isaca
+code: cobit
+name: Control Objectives for Information and Related Technologies (COBIT)
+url: >-
+  http://www.isaca.org/COBIT/Pages/COBIT-2019-Framework-Governance-and-Management-Objectives.aspx
+description: Control Objectives for Information and Related Technologies (COBIT)
+id: 1a1bebc7-5103-4042-9b2c-8fd0fd7bc707
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 9f8e67a6-369b-42c5-a1d6-c3d63e7fa492
+vendorName: ISACA
+logo: https://cdn.auditmation.io/logos/isaca.png

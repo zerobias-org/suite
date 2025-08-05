@@ -1,0 +1,15 @@
+vendorCode: es
+code: ict_ccn_stic_825
+name: ICT Security Guide CCN-STIC 825
+url: >-
+  https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2148-ccn-stic-825-ens-national-security-framework-27001-certifications/file.html
+description: ICT Security Guide CCN-STIC 825
+id: 39d692c2-d5ac-4250-9f0e-5d920d1df523
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: f917c423-7e52-49a7-9070-65676ea91a92
+vendorName: Spain
+logo: https://cdn.auditmation.io/logos/es.svg

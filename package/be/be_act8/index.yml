@@ -1,0 +1,15 @@
+vendorCode: be
+code: be_act8
+name: Act of 8 December 1992
+url: >-
+  http://www.privacycommission.be/sites/privacycommission/files/documents/Privacy_Act_1992.pdf
+description: Act of 8 December 1992
+id: 26db8d4c-0107-42f1-b79f-6c4dff8d29d0
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 67d7a8cd-d0d0-4999-85ea-a29cde658262
+vendorName: Belgium
+logo: https://cdn.auditmation.io/logos/be.svg

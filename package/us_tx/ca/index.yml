@@ -1,0 +1,15 @@
+vendorCode: us_tx
+code: ca
+name: Cybersecurity Act
+url: >-
+  https://dir.texas.gov/resource-library-item/security-controls-standards-catalog
+description: Cybersecurity Act
+id: e16bfe3e-0eaf-41f0-aad0-6df980016af3
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 9ebfa0e0-fa80-472d-a128-26909e20e9fb
+vendorName: Texas
+logo: https://cdn.auditmation.io/logos/us_tx.png

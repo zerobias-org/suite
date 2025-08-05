@@ -1,0 +1,17 @@
+id: 0ecb62e2-68af-4d35-b5fa-b566c2324ef9
+name: Generic
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-22T14:20:05.131Z'
+updated: '2024-11-22T14:20:05.131Z'
+code: generic
+status: verified
+description: Generic
+aliases: []
+logo: https://cdn.auditmation.io/logos/zerobias-generic.svg
+url: https://zerobias.com/
+vendorId: 2d2ad6e2-7d68-4cde-ba51-4440e4d6a158
+vendorCode: zerobias
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

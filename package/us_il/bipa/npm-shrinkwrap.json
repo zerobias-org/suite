@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-us_il-bipa",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_il-bipa",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_il": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_il": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_il/-/vendor-us_il-1.0.2.tgz",
+      "integrity": "sha512-8mREYjjO8goCgMymI3w7DxyzD3wqJIPzZmJrPcq7nddhR7LraWwp5zA3PKjB1U/FRyZVrneJyZngc0bcT97lBQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-us_il": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_il/-/vendor-us_il-1.0.2.tgz",
+      "integrity": "sha512-8mREYjjO8goCgMymI3w7DxyzD3wqJIPzZmJrPcq7nddhR7LraWwp5zA3PKjB1U/FRyZVrneJyZngc0bcT97lBQ=="
+    }
+  }
+}

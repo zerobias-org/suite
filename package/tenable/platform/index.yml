@@ -1,0 +1,13 @@
+id: 0a509dfb-68eb-517e-8e09-dc8e4a246904
+code: platform
+name: Tenable Platform
+status: verified
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.tenable.com/products/tenable-one
+description: Tenable Platform.
+logo: https://cdn.auditmation.io/logos/tenable-platform.svg
+vendorId: b318236c-f517-50cc-befd-2f2811a5f715
+vendorCode: tenable
+vendorName: Tenable
+deprecate: true

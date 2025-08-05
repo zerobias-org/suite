@@ -1,0 +1,15 @@
+vendorCode: cn
+code: dsl
+name: China Data Security Law of the People's Republic of China
+url: >-
+  https://digichina.stanford.edu/news/translation-data-security-law-peoples-republic-china
+description: China Data Security Law of the People's Republic of China
+id: b3a98e33-2b53-4233-a9ac-a44c34524d88
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e25c1b12-ac9c-45bd-b037-65ff75009a17
+vendorName: China
+logo: https://cdn.auditmation.io/logos/cn.svg

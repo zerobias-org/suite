@@ -1,0 +1,14 @@
+vendorCode: au
+code: ism
+name: Australian Government Information Security Manual (ISM)
+url: https://www.cyber.gov.au/acsc/view-all-content/ism
+description: Australian Government Information Security Manual (ISM)
+id: acce62c2-bd83-425c-a137-d9ae1d583985
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 8a1d5dce-fed8-4512-8758-3169a6267db4
+vendorName: Australia
+logo: https://cdn.auditmation.io/logos/au.svg

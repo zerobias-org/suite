@@ -1,0 +1,14 @@
+vendorCode: gb
+code: dpa
+name: Data Protection Act
+url: http://www.legislation.gov.uk/ukpga/1998/29/contents
+description: Data Protection Act
+id: d7a27646-056b-47d4-81fd-add035a2f63d
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: e3a84bbe-3736-4f71-b2a4-27422dad17a3
+vendorName: United Kingdom
+logo: https://cdn.auditmation.io/logos/gb.svg

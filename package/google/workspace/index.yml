@@ -1,0 +1,12 @@
+vendorId: 6e0dcb34-f587-57ea-9940-ba654c962c56
+code: workspace
+status: active
+id: 56a2e8b0-3c0a-5483-a2b0-29340c2d8e9d
+name: Google Workspace
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: google
+vendorName: Google
+url: https://workspace.google.com/
+description: Google Workspace
+logo: https://cdn.auditmation.io/logos/google-workspace.svg

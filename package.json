@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/zerobias-org/suite#readme",
   "devDependencies": {
-    "@auditmation/devops-tools": "^0.17.3",
-    "@auditmation/module-auditmation-auditmation-portal": "^3.0.52",
+    "@auditmation/devops-tools": "^0.18.0",
+    "@auditmation/module-auditmation-auditmation-portal": "^3.0.62",
     "@auditmation/types-core-js": "^4.9.11",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",

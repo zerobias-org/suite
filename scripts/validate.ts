@@ -64,14 +64,14 @@ function processPackageJson(packageFile: Record<string, any>, code: string, vend
 
   if (packageFile.dependencies && typeof packageFile.dependencies === 'object') {
     if (Object.keys(packageFile.dependencies).length === 1) {
-      if (!packageFile[`@zerobias-org/vendor-${vendor}`]) {
-        throw new Error(`package.json dependencies missing dep for vendor ${vendor} artifact`);
+      if (!packageFile.dependencies[`@zerobias-org/vendor-${vendor}`]) {
+        throw new Error(`package.json dependencies missing dep for vendor @zerobias-org/vendor-${vendor} artifact`);
       }
     } else {
-      throw new Error(`package.json dependencies should only have 1 dep on the vendor ${vendor} artifact`);
+      throw new Error(`package.json dependencies should only have 1 dep on the vendor $@zerobias-org/vendor-${vendor} artifact`);
     }
   } else {
-    throw new Error(`package.json missing dependency section with vendor ${vendor} artifact`);
+    throw new Error(`package.json missing dependency section with vendor @zerobias-org/vendor-${vendor} artifact`);
   }
 
 }
@@ -115,8 +115,10 @@ async function processIndexYml(indexFile: Record<string, any>): Promise<{ code: 
     }
   }
 
-  const vendor = indexFile.vendor !== undefined && indexFile.vendor !== null ? indexFile.vendor
-    : new Error('vendor not found in index.yml');
+
+  check = indexFile.vendorId !== undefined && indexFile.vendorId !== null ? indexFile.vendorId : new Error('vendorId not found in index.yml');
+  const vendor = indexFile.vendorCode !== undefined && indexFile.vendorCode !== null ? indexFile.vendorCode
+    : new Error('vendorCode not found in index.yml');
  
   return { code, vendor };
 }

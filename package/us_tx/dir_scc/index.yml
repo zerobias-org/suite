@@ -1,0 +1,14 @@
+vendorCode: us_tx
+code: dir_scc
+name: DIR Security Control Standards Catalog
+url: http://dir.texas.gov/texas-risk-and-authorization-management-program-tx-ramp
+description: DIR Security Control Standards Catalog
+id: 53b01944-651c-4b3c-9b14-799343148fb6
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 9ebfa0e0-fa80-472d-a128-26909e20e9fb
+vendorName: Texas
+logo: https://cdn.auditmation.io/logos/us_tx.png

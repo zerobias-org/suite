@@ -1,0 +1,18 @@
+id: e0794a9c-833b-43dc-9f9a-ddb33508b5d6
+name: ISO-24759
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-08T16:17:17.300Z'
+updated: '2024-10-08T16:17:17.300Z'
+code: '24759'
+status: verified
+description: >-
+  ISO/IEC 24759:2017 specifies the methods to be used by testing laboratories to test whether the cryptographic module conforms to the requirements specified in ISO/IEC 19790:2012.
+aliases: []
+logo: https://cdn.auditmation.io/logos/iso-24759.png
+url: https://www.iso.org/standard/72515.html
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+vendorCode: iso
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

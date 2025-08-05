@@ -1,0 +1,15 @@
+vendorCode: aicpa
+code: gapp
+name: Generally Accepted Privacy Principles (GAPP)
+url: >-
+  https://www.kscpa.org/writable/files/AICPADocuments/10-229_aicpa_cica_privacy_maturity_model_finalebook.pdf
+description: Generally Accepted Privacy Principles (GAPP)
+id: 37f0ec32-92c4-44a3-9f8d-d9e9fa3ab81d
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: d3676c22-03b8-5e8b-bc04-44e14e4c0ecc
+vendorName: AICPA
+logo: https://cdn.auditmation.io/logos/aicpa.svg

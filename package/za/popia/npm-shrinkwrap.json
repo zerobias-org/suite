@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-za-popia",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-za-popia",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-za": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-za": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-za/-/vendor-za-1.0.2.tgz",
+      "integrity": "sha512-hsrrBPd6jxc+VCNRH/4yWFpK4Qsklc0o3Crhny7FAfwMoJvMR/RQaJQyhrPk1x0NjjAjdgQ463aYOh2Hv6u9Ww==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-za": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-za/-/vendor-za-1.0.2.tgz",
+      "integrity": "sha512-hsrrBPd6jxc+VCNRH/4yWFpK4Qsklc0o3Crhny7FAfwMoJvMR/RQaJQyhrPk1x0NjjAjdgQ463aYOh2Hv6u9Ww=="
+    }
+  }
+}

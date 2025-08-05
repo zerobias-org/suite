@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-ph-dpa",
+  "version": "1.0.2-rc.0",
+  "description": "suite package for ph-dpa",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/ph/dpa/"
+  },
+  "auditmation": {
+    "package": "ph.dpa",
+    "import-artifact": "suite",
+    "dataloader-version": "5.0.14"
+  },
+  "engines": {
+    "node": ">=16.11.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-ph": "latest"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  }
+}

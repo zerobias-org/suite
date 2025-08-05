@@ -1,0 +1,14 @@
+vendorCode: us_sc
+code: idsa
+name: South Carolina Insurance Data Security Act
+url: https://www.capitol.tn.gov/Bills/113/Amend/HA0348.pdf
+description: South Carolina Insurance Data Security Act
+id: 695fe755-22bf-40c7-a70b-eee1908a5ee1
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 9555cc76-58a0-45c7-9f9c-4951135a8f28
+vendorName: South Carolina
+logo: https://cdn.auditmation.io/logos/us_sc.png

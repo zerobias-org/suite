@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-uy-law",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-uy-law",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-uy": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-uy": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-uy/-/vendor-uy-1.0.2.tgz",
+      "integrity": "sha512-kngfJo3blTcGXlUzmUEhI0ej/ytaTQYfu4v8he9Wx8lAB6xtpxjDCEXamaiOO/RWQe0LzIf/em8hYN+9ZL0mUA==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-uy": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-uy/-/vendor-uy-1.0.2.tgz",
+      "integrity": "sha512-kngfJo3blTcGXlUzmUEhI0ej/ytaTQYfu4v8he9Wx8lAB6xtpxjDCEXamaiOO/RWQe0LzIf/em8hYN+9ZL0mUA=="
+    }
+  }
+}

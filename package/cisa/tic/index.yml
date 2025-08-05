@@ -1,0 +1,14 @@
+vendorCode: cisa
+code: tic
+name: Trusted Internet Connections (TIC) 3.1
+url: https://www.cisa.gov/trusted-internet-connections
+description: TIC 3.1
+id: a6608a45-81a5-4fe0-9094-e6e2fc6c0333
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-03-12T03:14:31.049Z
+updated: 2025-03-12T03:14:31.049Z
+status: active
+type: suite
+vendorId: 9908adfe-7b94-4673-93b5-4d7594b00da5
+vendorName: CISA
+logo: https://cdn.auditmation.io/logos/cisa.png

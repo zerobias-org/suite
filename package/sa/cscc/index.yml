@@ -1,0 +1,14 @@
+vendorCode: sa
+code: cscc
+name: 'Critical Systems Cybersecurity Controls (CSCC – 1: 2019)'
+url: https://www.nca.gov.sa/en/legislation?item=194&slug=controls-list
+description: 'Critical Systems Cybersecurity Controls (CSCC – 1: 2019)'
+id: 89cf3888-b409-49ef-acf2-ae08b53815dc
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 95f50e38-08de-44b9-891b-6187c181e21b
+vendorName: Saudi Arabia
+logo: https://cdn.auditmation.io/logos/sa.svg

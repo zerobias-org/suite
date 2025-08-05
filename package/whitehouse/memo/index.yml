@@ -1,0 +1,17 @@
+id: 61019bee-1211-4895-bbbc-0ee72e6118f1
+name: Memoranda
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-09T15:23:44.431Z'
+updated: '2024-10-09T15:23:44.431Z'
+code: memo
+status: verified
+description: Presidential Memoranda
+aliases: []
+logo: https://cdn.auditmation.io/logos/whitehouse-memo.png
+url: https://www.whitehouse.gov/omb/information-for-agencies/memoranda/
+vendorId: 4281348c-d376-4fc0-8c1d-bfe6809d1d51
+vendorCode: whitehouse
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

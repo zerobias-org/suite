@@ -1,0 +1,11 @@
+code: windows
+status: verified
+name: Windows
+type: suite
+vendorCode: microsoft
+vendorName: Microsoft
+url: https://www.microsoft.com/en-us/windows
+description: Microsoft Windows
+id: 6bef8389-9aa5-556e-9298-b76d83276eb8
+vendorId: f6b6f862-3012-5f64-a523-4b1f28296829
+logo: https://cdn.auditmation.io/logos/microsoft-windows.svg

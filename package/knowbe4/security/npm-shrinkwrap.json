@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-knowbe4-security",
+  "version": "1.1.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-knowbe4-security",
+      "version": "1.1.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-knowbe4": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-knowbe4": {
+      "version": "1.0.8",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-knowbe4/-/vendor-knowbe4-1.0.8.tgz",
+      "integrity": "sha512-ZQGheqXPXQNNm2WVmkNLh2sb7yDqwShqjQvfx6g0omQ46Hs2E6QwMXrZWqY9jJs3fGyHoIJEew0YNfQEwwknaA==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-knowbe4": {
+      "version": "1.0.8",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-knowbe4/-/vendor-knowbe4-1.0.8.tgz",
+      "integrity": "sha512-ZQGheqXPXQNNm2WVmkNLh2sb7yDqwShqjQvfx6g0omQ46Hs2E6QwMXrZWqY9jJs3fGyHoIJEew0YNfQEwwknaA=="
+    }
+  }
+}

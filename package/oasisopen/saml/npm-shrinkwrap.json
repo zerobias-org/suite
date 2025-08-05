@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-oasisopen-saml",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-oasisopen-saml",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-oasisopen": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-oasisopen": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-oasisopen/-/vendor-oasisopen-1.0.2.tgz",
+      "integrity": "sha512-h9PwVo/cZGVLVMxZGQmzY3zUHUfc20vl4Mjyr9e+oMzqaqc4DG1Hqh9iaHSYZ4M/UIHGIGLK9sI+QV7EI+IBbw==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-oasisopen": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-oasisopen/-/vendor-oasisopen-1.0.2.tgz",
+      "integrity": "sha512-h9PwVo/cZGVLVMxZGQmzY3zUHUfc20vl4Mjyr9e+oMzqaqc4DG1Hqh9iaHSYZ4M/UIHGIGLK9sI+QV7EI+IBbw=="
+    }
+  }
+}

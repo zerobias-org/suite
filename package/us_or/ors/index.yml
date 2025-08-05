@@ -1,0 +1,14 @@
+vendorCode: us_or
+code: ors
+name: ORS 646A
+url: https://www.scstatehouse.gov/sess122_2017-2018/bills/4655.htm
+description: ORS 646A
+id: 0c89ff1d-7d2d-4a26-aab2-c8c22233a915
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: a9422157-d793-4334-b59b-af1693867fe7
+vendorName: Oregon
+logo: https://cdn.auditmation.io/logos/us_or.jpeg

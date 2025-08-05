@@ -1,0 +1,18 @@
+vendorCode: iso
+code: '27701'
+name: >-
+  27701 - Security techniques - Extension to ISO/IEC 27001 and ISO/IEC 27002 for
+  privacy information management ‚Äî Requirements and guidelines
+url: https://www.iso.org/standard/71670.html
+description: >-
+  27701 - Security techniques - Extension to ISO/IEC 27001 and ISO/IEC 27002 for
+  privacy information management ‚Äî Requirements and guidelines
+id: 5aa361ab-6dbe-4b63-b8dd-3876ecc52c55
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+vendorName: ISO
+logo: https://cdn.auditmation.io/logos/iso.svg

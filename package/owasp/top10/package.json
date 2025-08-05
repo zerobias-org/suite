@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-owasp-top10",
+  "version": "1.0.2-rc.0",
+  "description": "The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/owasp/top10/"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-owasp": "latest"
+  },
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "suite",
+    "package": "owasp.top10"
+  }
+}

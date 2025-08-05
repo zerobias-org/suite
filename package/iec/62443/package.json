@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-iec-62443",
+  "version": "1.0.2-rc.0",
+  "description": "suite package for iec-62443",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/iec/62443/"
+  },
+  "auditmation": {
+    "package": "iec.62443",
+    "import-artifact": "suite",
+    "dataloader-version": "5.0.14"
+  },
+  "engines": {
+    "node": ">=16.11.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-iec": "latest"
+  },
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  }
+}

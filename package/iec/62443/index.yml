@@ -1,0 +1,18 @@
+vendorCode: iec
+code: '62443'
+name: >-
+  IEC 62443-4-2:2019 - Security for industrial automation and control systems
+  Part 4-2: Technical security requirements for IACS components
+url: https://webstore.iec.ch/publication/34421
+description: >-
+  IEC 62443-4-2:2019 - Security for industrial automation and control systems
+  Part 4-2: Technical security requirements for IACS components
+id: a2d99717-dd0f-4a46-a499-d2a8058cf20a
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 26e923e1-c3bd-4141-95bb-69f45b883da9
+vendorName: IEC
+logo: https://cdn.auditmation.io/logos/iec.png

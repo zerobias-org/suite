@@ -1,0 +1,15 @@
+vendorCode: dod
+code: ztra
+name: Zero Trust Reference Architecture (ZTRA) v2
+url: >-
+  https://dodcio.defense.gov/Portals/0/Documents/Library/(U)ZT_RA_v2.0(U)_Sep22.pdf
+description: Zero Trust Reference Architecture (ZTRA) v2
+id: 5b27f1a8-661f-481a-938e-f9076c59fa2e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-03-12T03:14:31.049Z
+updated: 2025-03-12T03:14:31.049Z
+status: active
+type: suite
+vendorId: 0231f94f-a672-5208-ac09-ead46da82147
+vendorName: Department of Defense
+logo: https://cdn.auditmation.io/logos/dod.svg

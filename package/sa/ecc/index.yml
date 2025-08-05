@@ -1,0 +1,14 @@
+vendorCode: sa
+code: ecc
+name: 'Essential Cybersecurity Controls (ECC – 1 : 2018)'
+url: https://nca.gov.sa/files/ecc-en.pdf
+description: 'Essential Cybersecurity Controls (ECC – 1 : 2018)'
+id: 8f2e973b-6c8c-465d-8772-58f070b96067
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 95f50e38-08de-44b9-891b-6187c181e21b
+vendorName: Saudi Arabia
+logo: https://cdn.auditmation.io/logos/sa.svg

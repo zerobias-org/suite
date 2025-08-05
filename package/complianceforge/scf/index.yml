@@ -1,0 +1,14 @@
+vendorId: c41489cf-dfb9-5a83-9f64-9a9a057cef95
+code: scf
+status: active
+id: cf1c544e-5050-5731-bd8c-425104996faa
+name: SCF
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-07T22:29:00.418Z
+updated: 2022-11-07T22:29:00.418Z
+vendorCode: complianceforge
+vendorName: Compliance Forge
+url: https://www.securecontrolsframework.com/about
+description: Secure Controls Framework
+logo: https://cdn.auditmation.io/logos/complianceforge-scf.png

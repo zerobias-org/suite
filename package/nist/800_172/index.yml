@@ -1,0 +1,20 @@
+vendorCode: nist
+code: '800_172'
+name: >-
+  SP 800-172 - Protecting Controlled Unclassified Information in Nonfederal
+  Systems and Organizations: Enhanced Security Requirements for Critical
+  Programs and High Value Assets
+url: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172.pdf
+description: >-
+  SP 800-172 - Protecting Controlled Unclassified Information in Nonfederal
+  Systems and Organizations: Enhanced Security Requirements for Critical
+  Programs and High Value Assets
+id: c4d1340d-1d7e-4948-8256-4d8a2774a3e2
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+logo: https://cdn.auditmation.io/logos/nist.svg
