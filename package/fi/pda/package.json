@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-fi-pda",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "suite package for fi-pda",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-crg",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "OWASP Code Review Guide is a technical book written for those responsible for code reviews (management, developers, security professionals)",
   "author": "team@zerobias.com",
   "license": "ISC",

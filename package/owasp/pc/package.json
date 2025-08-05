@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-pc",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "Provides a solid foundation of topics to help drive introductory software security developer training",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-fidoalliance-fido",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "The FIDO Alliance developed FIDO Authentication standards based on public key cryptography for authentication that is more secure than passwords and SMS OTPs, simpler for consumers to use, and easier for service providers to deploy and manage. FIDO Authentication enables password-only logins to be replaced with secure and fast login experiences across websites and apps.",
   "author": "team@zerobias.com",
   "license": "ISC",

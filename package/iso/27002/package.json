@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-iso-27002",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "suite package for iso-27002",
   "author": "team@zerobias.com",
   "license": "ISC",

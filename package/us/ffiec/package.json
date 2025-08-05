@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-us-ffiec",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "suite package for us-ffiec",
   "author": "team@zerobias.com",
   "license": "ISC",

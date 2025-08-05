@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-gr-pi_rppd_2472",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "suite package for gr-pi_rppd_2472",
   "author": "team@zerobias.com",
   "license": "ISC",

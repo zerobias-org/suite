@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-iso-27001",
-  "version": "1.0.7",
+  "version": "1.0.8-rc.0",
   "description": "Suite package 27001 for vendor iso.",
   "author": "team@zerobias.com",
   "license": "ISC",
