@@ -1,0 +1,17 @@
+id: 6ffd8c01-9a2b-426f-b097-c17d0cfe7002
+name: SBD
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-03T14:08:02.825Z'
+updated: '2024-10-03T14:08:02.825Z'
+code: sbd
+status: verified
+description: Secure By Design
+aliases: []
+logo: https://cdn.auditmation.io/logos/cisa-sbd.png
+url: https://www.cisa.gov/resources-tools/resources/secure-by-design
+vendorId: 9908adfe-7b94-4673-93b5-4d7594b00da5
+vendorCode: cisa
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

@@ -1,0 +1,19 @@
+id: 2a835419-bd8c-450c-9fdb-02cc99b56cc7
+name: Recommended Criteria for Cybersecurity Labeling of Consumer Software
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-06-02T00:12:03.440Z'
+updated: '2025-06-02T00:12:03.440Z'
+code: label
+status: verified
+description: >-
+  This document provides recommended criteria for a cybersecurity labeling effort for consumer software practices.
+aliases: []
+logo: https://cdn.auditmation.io/logos/nist-label.png
+url: >-
+  https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.02042022-1.pdf#:~:text=Description%20Practice%20PS,validity%20of%20signatures%20before%20use
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

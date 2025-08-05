@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-cis-benchmarks",
   "version": "0.2.3",
   "description": "Suite package benchmarks for vendor CIS.",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -17,14 +17,17 @@
     "logo.png"
   ],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "cis.benchmarks",
     "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
+    "dataloader-version": "5.0.14"
   },
   "dependencies": {
-    "@zerobias-org/vendor-cis": "^0.1.2"
+    "@zerobias-org/vendor-cis": "latest"
   }
 }

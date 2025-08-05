@@ -1,0 +1,14 @@
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+code: '80053'
+status: active
+id: c07f50a5-5351-5e7b-8336-b10ffbde2e35
+name: NIST 800-53
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+vendorCode: nist
+vendorName: NIST
+url: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+description: Security and Privacy Controls for Information Systems and Organizations
+logo: https://cdn.auditmation.io/logos/nist-800-53.svg

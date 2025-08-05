@@ -1,0 +1,15 @@
+vendorId: ce86f643-68f6-5536-bfc7-7f056ee0285b
+code: security
+status: draft
+id: c17573bd-03a5-56b0-91ab-843cf020614e
+name: Enterprise Security Awareness
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-06-09T14:36:28.746Z
+updated: 2021-11-24T20:05:17.258Z
+vendorCode: knowbe4
+vendorName: KnowBe4
+url: https://www.knowbe4.com/
+description: Enterprise Security Awareness
+logo: https://cdn.auditmation.io/logos/knowbe4-security.svg
+deprecate: true

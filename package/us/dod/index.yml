@@ -1,0 +1,15 @@
+vendorCode: us
+code: dod
+name: DoD Zero Trust Reference Architecture v2
+url: >-
+  https://dodcio.defense.gov/Portals/0/Documents/Library/(U)ZT_RA_v2.0(U)_Sep22.pdf
+description: DoD Zero Trust Reference Architecture v2
+id: 8d661d0a-5a46-4081-b849-039007910e66
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

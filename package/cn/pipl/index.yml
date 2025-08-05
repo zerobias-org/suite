@@ -1,0 +1,14 @@
+vendorCode: cn
+code: pipl
+name: Personal Information Protection Law of the People's Republic of China
+url: http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml
+description: Personal Information Protection Law of the People's Republic of China
+id: 86c8465a-827b-471a-a6bc-67dd7bdfe12a
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e25c1b12-ac9c-45bd-b037-65ff75009a17
+vendorName: China
+logo: https://cdn.auditmation.io/logos/cn.svg

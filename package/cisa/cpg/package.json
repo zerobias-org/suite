@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-cisa-cpg",
   "version": "1.0.1",
   "description": "suite package for cisa-cpg",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "auditmation": {
     "package": "cisa.cpg",
     "import-artifact": "suite",
-    "dataloader-version": "3.6.6"
+    "dataloader-version": "5.0.14"
   },
   "engines": {
     "node": ">=16.11.0",
@@ -26,9 +26,12 @@
     "logo.*"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-cisa": "^1.0.1"
+    "@zerobias-org/vendor-cisa": "latest"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   }
 }

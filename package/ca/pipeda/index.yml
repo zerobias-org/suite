@@ -1,0 +1,14 @@
+vendorCode: ca
+code: pipeda
+name: Personal Information Protection and Electronic Documents Act (PIPEDA)
+url: http://laws-lois.justice.gc.ca/eng/acts/p-8.6/FullText.html
+description: Personal Information Protection and Electronic Documents Act (PIPEDA)
+id: c1311324-0ac1-467d-80c2-ddc395c48b27
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 715a0b01-baf6-48fd-b827-a763d06339ab
+vendorName: Canada
+logo: https://cdn.auditmation.io/logos/ca.svg

@@ -1,0 +1,14 @@
+vendorCode: us_ak
+code: pipa
+name: Alaska Personal Information Protection Act (PIPA)
+url: http://law.alaska.gov/department/civil/consumer/4548.html
+description: Alaska Personal Information Protection Act (PIPA)
+id: 2574d84c-e619-4fdc-a7ae-eef9638efd02
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 2f61f081-0f5a-4a6c-a9ed-9f71ee0a87a3
+vendorName: Alaska
+logo: https://cdn.auditmation.io/logos/us_ak.png

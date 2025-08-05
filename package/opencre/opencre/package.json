@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-opencre-opencre",
   "version": "1.0.1",
   "description": "Open Common Requirement Enumeration",
-  "author": "team@auditmation.io",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -10,7 +10,10 @@
     "directory": "package/opencre/opencre/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -20,10 +23,10 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-opencre": "^1.0.0"
+    "@zerobias-org/vendor-opencre": "latest"
   },
   "auditmation": {
-    "dataloader-version": "3.4.5",
+    "dataloader-version": "5.0.14",
     "import-artifact": "suite",
     "package": "opencre.opencre"
   }

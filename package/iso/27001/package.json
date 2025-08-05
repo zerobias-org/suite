@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-iso-27001",
   "version": "1.0.7",
   "description": "Suite package 27001 for vendor iso.",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -17,14 +17,17 @@
     "logo.svg"
   ],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "iso.27001",
     "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
+    "dataloader-version": "5.0.14"
   },
   "dependencies": {
-    "@zerobias-org/vendor-iso": "^1.0.3"
+    "@zerobias-org/vendor-iso": "latest"
   }
 }

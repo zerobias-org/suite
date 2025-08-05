@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-openid-connect",
   "version": "1.1.3",
   "description": "Suite package for vendor openid.",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -18,14 +18,16 @@
   ],
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh",
-    "test:integration": "dataloader"
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "openid.connect",
     "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
+    "dataloader-version": "5.0.14"
   },
   "dependencies": {
-    "@zerobias-org/vendor-openid": "^1.0.1"
+    "@zerobias-org/vendor-openid": "latest"
   }
 }

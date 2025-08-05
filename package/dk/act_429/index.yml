@@ -1,0 +1,15 @@
+vendorCode: dk
+code: act_429
+name: Act on Processing of Personal Data (Act No. 429 of May 31 2000)
+url: >-
+  http://www.datatilsynet.dk/english/the-act-on-processing-of-personal-data/read-the-act-on-processing-of-personal-data/compiled-version-of-the-act-on-processing-of-personal-data/
+description: Act on Processing of Personal Data (Act No. 429 of May 31 2000)
+id: db9efcb9-6d1b-4330-bbbf-7d2fe61e4ddc
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 4b977f8c-e25b-4123-9d7c-ab1852958897
+vendorName: Denmark
+logo: https://cdn.auditmation.io/logos/dk.svg

@@ -1,0 +1,18 @@
+vendorCode: us
+code: cybersecurity_rule
+name: >-
+  Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy, Governance,
+  and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and 249
+url: https://www.sec.gov/files/rules/final/2023/33-11216.pdf
+description: >-
+  Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy, Governance,
+  and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and 249
+id: 7e4232da-bc66-4f53-b5a6-2040bc8d5fc5
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

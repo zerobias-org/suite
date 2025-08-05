@@ -1,0 +1,14 @@
+vendorCode: nist
+code: '800_82'
+name: NIST SP 800-82 - Guide to Industrial Control Systems (ICS) Security
+url: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf
+description: NIST SP 800-82 - Guide to Industrial Control Systems (ICS) Security
+id: c02bccfd-f3aa-474d-a7ff-c41d17ef26c8
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+logo: https://cdn.auditmation.io/logos/nist.svg

@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-ietf-oauth",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-ietf-oauth",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ietf": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ietf": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ietf/-/vendor-ietf-1.0.2.tgz",
+      "integrity": "sha512-MhXp+AJFx+pzX61mksRYLXON7ARP3sSNWf5BfDmO2++Hn+y8cCvqf4ff/hudt70dcnWVU4WMupP7rz8QNE57Pg==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-ietf": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ietf/-/vendor-ietf-1.0.2.tgz",
+      "integrity": "sha512-MhXp+AJFx+pzX61mksRYLXON7ARP3sSNWf5BfDmO2++Hn+y8cCvqf4ff/hudt70dcnWVU4WMupP7rz8QNE57Pg=="
+    }
+  }
+}

@@ -1,0 +1,14 @@
+vendorCode: tisax
+code: isa
+name: TISAX ISA
+url: https://portal.enx.com/en-us/TISAX/downloads/
+description: TISAX ISA
+id: 92a2f4b1-7e88-48b3-a7d5-3b17b59c6314
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 13100c53-5d1b-4e7b-bab4-18166828e8be
+vendorName: TISAX
+logo: https://cdn.auditmation.io/logos/tisax.png

@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-ru-federallaw",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-ru-federallaw",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ru": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ru": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ru/-/vendor-ru-1.0.2.tgz",
+      "integrity": "sha512-jb6MGz4G6cZIYI4ogqM1AVUEdHOal5W1C4tXIKUGJE51D4ZD0mhAkqJNcYAvPjAOrdVD6RKLlj5KSCXy0unorQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-ru": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ru/-/vendor-ru-1.0.2.tgz",
+      "integrity": "sha512-jb6MGz4G6cZIYI4ogqM1AVUEdHOal5W1C4tXIKUGJE51D4ZD0mhAkqJNcYAvPjAOrdVD6RKLlj5KSCXy0unorQ=="
+    }
+  }
+}

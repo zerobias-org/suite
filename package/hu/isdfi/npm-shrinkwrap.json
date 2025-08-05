@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-hu-isdfi",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-hu-isdfi",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-hu": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-hu": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-hu/-/vendor-hu-1.0.2.tgz",
+      "integrity": "sha512-Rgsloh5rGG7CiQG1IBXJ+RHTSA3hdGG2ciQBrXn9BXrk5bfxu3mpEwNSsMrxZcDCVlzjzWnpl9mWoI4AmcfNLQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-hu": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-hu/-/vendor-hu-1.0.2.tgz",
+      "integrity": "sha512-Rgsloh5rGG7CiQG1IBXJ+RHTSA3hdGG2ciQBrXn9BXrk5bfxu3mpEwNSsMrxZcDCVlzjzWnpl9mWoI4AmcfNLQ=="
+    }
+  }
+}

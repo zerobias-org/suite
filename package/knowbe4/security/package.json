@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-knowbe4-security",
   "version": "1.1.1",
   "description": "Suite package security for vendor knowbe4",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -17,14 +17,17 @@
     "logo.svg"
   ],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "knowbe4.security",
     "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
+    "dataloader-version": "5.0.14"
   },
   "dependencies": {
-    "@zerobias-org/vendor-knowbe4": "^1.0.6"
+    "@zerobias-org/vendor-knowbe4": "latest"
   }
 }

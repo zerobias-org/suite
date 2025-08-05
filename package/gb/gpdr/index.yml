@@ -1,0 +1,14 @@
+vendorCode: gb
+code: gpdr
+name: UK General Data Protection Regulation
+url: https://www.legislation.gov.uk/eur/2016/679/data.pdf
+description: UK General Data Protection Regulation
+id: 3b8938d2-611a-4c78-9c25-970801e447f1
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e3a84bbe-3736-4f71-b2a4-27422dad17a3
+vendorName: United Kingdom
+logo: https://cdn.auditmation.io/logos/gb.svg

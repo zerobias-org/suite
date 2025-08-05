@@ -1,0 +1,15 @@
+vendorCode: ar
+code: men_2018_147_apn_pte
+name: Protection of Personal Data - MEN-2018-147-APN-PTE
+url: >-
+  https://www.argentina.gob.ar/sites/default/files/mensaje_ndeg_147-2018_datos_personales.pdf
+description: Protection of Personal Data - MEN-2018-147-APN-PTE
+id: 1c150e87-6162-4886-9f52-48692a743594
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e2ced0df-a234-4dc7-8e91-3512f49fff20
+vendorName: Argentina
+logo: https://cdn.auditmation.io/logos/ar.svg

@@ -1,0 +1,14 @@
+id: 052c5a5a-47c1-53b9-9105-a4b18e3bd2a5
+code: stig
+name: STIG
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+description: Security Technical Implementation Guides (STIGs)
+logo: https://cdn.auditmation.io/logos/disa-stig.png
+url: https://public.cyber.mil/stigs/
+vendorId: 5f635ed2-656f-53b7-b38d-33a1347f1ba4
+vendorCode: disa
+vendorName: Defense Information Systems Agency
+aliases:
+  - stig

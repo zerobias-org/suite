@@ -1,0 +1,18 @@
+id: 1c0e79e9-57d0-414c-aef9-264d440a2f28
+name: Common Controls Framework
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-02-05T18:12:37.510Z'
+updated: '2025-02-05T18:12:37.510Z'
+code: ccf
+status: verified
+description: >-
+  Adobe demonstrates our commitment to security by implementing a range of important industry standards and complying with government regulations concerning the security and privacy of data
+aliases: []
+logo: https://cdn.auditmation.io/logos/adobe-ccf.svg
+url: https://www.adobe.com/trust/compliance/adobe-ccf.html
+vendorId: 930d6d1a-d4fd-4bf4-b46e-d833ca3c7116
+vendorCode: adobe
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

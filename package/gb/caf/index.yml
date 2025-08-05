@@ -1,0 +1,14 @@
+vendorCode: gb
+code: caf
+name: Cyber Assessment Framework
+url: https://www.ncsc.gov.uk/files/Cyber-Assessment-Framework-v3-1.pdf
+description: Cyber Assessment Framework
+id: b9fb2d55-93a4-4428-9c4f-06c95bf053e6
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: e3a84bbe-3736-4f71-b2a4-27422dad17a3
+vendorName: United Kingdom
+logo: https://cdn.auditmation.io/logos/gb.svg

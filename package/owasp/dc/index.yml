@@ -1,0 +1,19 @@
+id: 8cf4c8c1-6686-46f0-8fd3-b108d1a816ac
+name: Dependency Check
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-13T15:21:43.930Z'
+updated: '2024-11-13T15:21:43.930Z'
+code: dc
+status: verified
+description: >-
+  Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project’s dependencies.
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-dc.png
+url: >-
+  https://owasp.org/www-project-dependency-check/https://owasp.org/assets/images/logo.png
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

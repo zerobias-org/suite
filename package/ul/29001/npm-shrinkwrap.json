@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/suite-ul-29001",
+  "version": "1.0.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-ul-29001",
+      "version": "1.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ul": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ul": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ul/-/vendor-ul-1.0.2.tgz",
+      "integrity": "sha512-ibeHn8v0S06u+1XJ9I+PUnRh29hmTl3oyGiquTD9NPAf270EIeIQftwuBMZy3EX4yUzj+7eRdQ1etF3cXwuOKg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-ul": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ul/-/vendor-ul-1.0.2.tgz",
+      "integrity": "sha512-ibeHn8v0S06u+1XJ9I+PUnRh29hmTl3oyGiquTD9NPAf270EIeIQftwuBMZy3EX4yUzj+7eRdQ1etF3cXwuOKg=="
+    }
+  }
+}

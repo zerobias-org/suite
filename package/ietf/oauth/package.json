@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-ietf-oauth",
   "version": "1.0.1",
   "description": "The OAuth authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf.",
-  "author": "team@auditmation.io",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -10,7 +10,10 @@
     "directory": "package/ietf/oauth/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -20,10 +23,10 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-ietf": "^1.0.0"
+    "@zerobias-org/vendor-ietf": "latest"
   },
   "auditmation": {
-    "dataloader-version": "3.4.5",
+    "dataloader-version": "5.0.14",
     "import-artifact": "suite",
     "package": "ietf.oauth"
   }

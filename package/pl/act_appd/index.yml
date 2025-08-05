@@ -1,0 +1,14 @@
+vendorCode: pl
+code: act_appd
+name: Act of 29 August 1997 on the Protection of Personal Data
+url: http://www.giodo.gov.pl/144/id_art/171/j/en/
+description: Act of 29 August 1997 on the Protection of Personal Data
+id: ee9ef1c7-0574-40bf-8518-8c839e309163
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0afc276d-e44a-4f7e-b646-6f653c90a8b2
+vendorName: Poland
+logo: https://cdn.auditmation.io/logos/pl.svg

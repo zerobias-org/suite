@@ -1,0 +1,13 @@
+
+id: e38e5733-2c6f-5f28-9e97-3002f3d4e0de
+code: disa
+name: DISA
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: hhttps://www.disa.mil/
+description: Defense Information Systems Agency
+logo: https://cdn.auditmation.io/logos/dod-disa.svg
+vendorId: 0231f94f-a672-5208-ac09-ead46da82147
+vendorCode: dod
+vendorName: Department of Defense

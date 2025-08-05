@@ -1,0 +1,14 @@
+vendorId: 0fdbe79a-a734-5d0e-9e72-6952376ec65e
+code: controls
+status: active
+id: 589e14bb-43be-51b9-8c9a-d134535626f9
+name: CIS Controls
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2023-25-10T14:48:35.455Z
+updated: 2023-25-10T14:48:35.455Z
+vendorCode: cis
+vendorName: Center for Internet Security
+url: https://www.cisecurity.org/controls
+description: CIS Critical Security Controls
+logo: https://cdn.auditmation.io/logos/cis-controls.png

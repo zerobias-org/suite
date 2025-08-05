@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-nist-800_218",
   "version": "1.0.1",
   "description": "suite package for nist-800_218",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "auditmation": {
     "package": "nist.800_218",
     "import-artifact": "suite",
-    "dataloader-version": "3.6.6"
+    "dataloader-version": "5.0.14"
   },
   "engines": {
     "node": ">=16.11.0",
@@ -26,9 +26,12 @@
     "logo.*"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-nist": "^1.0.7"
+    "@zerobias-org/vendor-nist": "latest"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   }
 }

@@ -1,0 +1,14 @@
+vendorCode: au
+code: cp_sitc
+name: Australia - Code of Practice - Securing the Internet of Things for Consumers
+url: https://www.homeaffairs.gov.au/reports-and-pubs/files/code-of-practice.pdf
+description: Australia - Code of Practice - Securing the Internet of Things for Consumers
+id: 853d28dd-12a4-4b4a-8045-92fb16601984
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 8a1d5dce-fed8-4512-8758-3169a6267db4
+vendorName: Australia
+logo: https://cdn.auditmation.io/logos/au.svg

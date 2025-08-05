@@ -1,0 +1,14 @@
+vendorCode: us_ny
+code: shield_act
+name: SHIELD Act (SB S5575B)
+url: https://www.oregonlegislature.gov/bills_laws/ors/ors646a.html
+description: SHIELD Act (SB S5575B)
+id: af7234c8-73bc-42e0-99de-e087ed0f3df7
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 38b25706-6477-4df0-8408-ac535a7ec57c
+vendorName: New York
+logo: https://cdn.auditmation.io/logos/us_ny.jpeg

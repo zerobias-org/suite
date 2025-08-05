@@ -1,0 +1,15 @@
+vendorCode: 'no'
+code: pda
+name: Personal Data Act
+url: >-
+  https://www.datatilsynet.no/en/regulations-and-tools/regulations-and-decisions/norwegian-privacy-law/personal-data-regulations2/
+description: Personal Data Act
+id: cc6348c2-7b2f-41b9-b40e-fee16a5e646e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.131Z
+updated: 2025-01-15T05:01:39.131Z
+status: active
+type: suite
+vendorId: 7717d795-999a-4fa5-b4a6-e1b2e59aa041
+vendorName: Norway
+logo: https://cdn.auditmation.io/logos/no.svg

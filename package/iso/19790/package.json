@@ -2,7 +2,7 @@
   "name": "@zerobias-org/suite-iso-19790",
   "version": "1.0.1",
   "description": "This International Standard defines four security levels for cryptographic modules to provide for a wide spectrum of data sensitivity.",
-  "author": "team@auditmation.io",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -10,7 +10,10 @@
     "directory": "package/iso/19790/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -20,10 +23,10 @@
     "logo.svg"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-iso": "^1.0.3"
+    "@zerobias-org/vendor-iso": "latest"
   },
   "auditmation": {
-    "dataloader-version": "3.4.5",
+    "dataloader-version": "5.0.14",
     "import-artifact": "suite",
     "package": "iso.19790"
   }

@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-aicpa-soc2",
+  "version": "1.0.6",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-aicpa-soc2",
+      "version": "1.0.6",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-aicpa": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-aicpa": {
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-aicpa/-/vendor-aicpa-1.0.6.tgz",
+      "integrity": "sha512-GylRmPjx6cCgzBaxhW7AHvoD/LBv2IbCTbdI3PaA1eF4dIRq4b8BrkdJ6PyVZMXDCq+Z9kbLtntTGggDgL5mvQ==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-aicpa": {
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-aicpa/-/vendor-aicpa-1.0.6.tgz",
+      "integrity": "sha512-GylRmPjx6cCgzBaxhW7AHvoD/LBv2IbCTbdI3PaA1eF4dIRq4b8BrkdJ6PyVZMXDCq+Z9kbLtntTGggDgL5mvQ=="
+    }
+  }
+}

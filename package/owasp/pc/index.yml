@@ -1,0 +1,18 @@
+id: a28bbfec-97d5-4d27-a810-3a805bd9b710
+name: Proactive Controls
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-23T17:25:17.233Z'
+updated: '2024-10-23T17:25:17.233Z'
+code: pc
+status: verified
+description: >-
+  Provides a solid foundation of topics to help drive introductory software security developer training
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-pc.png
+url: https://top10proactive.owasp.org/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

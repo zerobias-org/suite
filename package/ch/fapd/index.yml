@@ -1,0 +1,14 @@
+vendorCode: ch
+code: fapd
+name: Federal Act on Data Protection (FADP)
+url: https://www.admin.ch/opc/en/classified-compilation/19920153/index.html
+description: Federal Act on Data Protection (FADP)
+id: e6453e4d-d7fc-42ad-886a-583293ea297a
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: f7564af8-6281-4d8d-b5f5-2a056dd8bf47
+vendorName: Switzerland
+logo: https://cdn.auditmation.io/logos/ch.svg

@@ -1,0 +1,14 @@
+vendorCode: us
+code: irs
+name: Internal Revenue Service (IRS) 1075
+url: https://www.irs.gov/pub/irs-pdf/p1075.pdf
+description: Internal Revenue Service (IRS) 1075
+id: bdeb425f-5363-44a3-bf03-528dfeefd838
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+vendorName: United states
+logo: https://cdn.auditmation.io/logos/us.png

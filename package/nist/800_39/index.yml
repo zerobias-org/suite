@@ -1,0 +1,14 @@
+vendorCode: nist
+code: '800_39'
+name: SP 800-39 - Managing Information Security Risk
+url: https://csrc.nist.gov/publications/detail/sp/800-39/final
+description: SP 800-39 - Managing Information Security Risk
+id: 304d3b86-ccdf-4e5d-8a88-cb58c18c55aa
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+logo: https://cdn.auditmation.io/logos/nist.svg

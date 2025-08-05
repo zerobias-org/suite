@@ -1,0 +1,16 @@
+id: 626a3696-af2c-47b0-ba02-1553241d2e5e
+name: MASVS
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-20T20:08:47.254Z'
+updated: '2024-05-20T20:08:47.254Z'
+code: masvs
+status: verified
+description: Mobile Application Security Verification Standard
+logo: https://cdn.auditmation.io/logos/owasp-masvs.png
+url: https://mas.owasp.org/MASVS/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

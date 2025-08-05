@@ -1,0 +1,12 @@
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+code: '800171'
+status: active
+id: e9b17ebd-beb0-59ff-9cc2-fcf1f6ffc864
+name: NIST 800-171
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: nist
+vendorName: NIST
+url: https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final
+description: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations
+logo: https://cdn.auditmation.io/logos/nist-800-171.svg

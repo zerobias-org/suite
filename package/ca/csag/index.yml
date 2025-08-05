@@ -1,0 +1,18 @@
+vendorCode: ca
+code: csag
+name: >-
+  Office of the Superintendent of Financial Institutions (OSFI) Cyber Security
+  Self-Assessment Guidance
+url: https://www.osfi-bsif.gc.ca/Eng/Docs/cbrsk.pdf
+description: >-
+  Office of the Superintendent of Financial Institutions (OSFI) Cyber Security
+  Self-Assessment Guidance
+id: f1f24669-c27f-44f4-8fad-f6a8d171d352
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-14T20:22:25.083Z
+updated: 2025-01-14T20:22:25.083Z
+status: active
+type: suite
+vendorId: 715a0b01-baf6-48fd-b827-a763d06339ab
+vendorName: Canada
+logo: https://cdn.auditmation.io/logos/ca.svg

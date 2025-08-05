@@ -1,0 +1,15 @@
+vendorCode: eu
+code: ps2d2
+name: Second Payment Services Directive (PSD2)
+url: >-
+  https://www.eba.europa.eu/documents/10180/1761863/Final+draft+RTS+on+SCA+and+CSC+under+PSD2+%28EBA-RTS-2017-02%29.pdf
+description: Second Payment Services Directive (PSD2)
+id: fdbec0a9-3b45-4f03-aad7-eef9d081f975
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.021Z
+updated: 2025-01-09T17:22:27.366Z
+status: active
+type: suite
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+vendorName: EU
+logo: https://cdn.auditmation.io/logos/eu.png

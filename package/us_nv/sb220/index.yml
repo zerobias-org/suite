@@ -1,0 +1,15 @@
+vendorCode: us_nv
+code: sb220
+name: SB220
+url: >-
+  https://www.dfs.ny.gov/system/files/documents/2023/12/rf23_nycrr_part_500_amend02_20231101.pdf
+description: SB220
+id: 470abdc8-150c-4d78-8aca-8da0e3d1abd4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-19T17:18:03.022Z
+updated: 2025-01-09T17:22:27.367Z
+status: active
+type: suite
+vendorId: bd344d1f-c8c8-4935-93f8-e7b0ce43a624
+vendorName: Nevada
+logo: https://cdn.auditmation.io/logos/us_nv.jpg
