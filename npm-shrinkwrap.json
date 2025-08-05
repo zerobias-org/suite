@@ -10,8 +10,8 @@
       "hasInstallScript": true,
       "license": "ISC",
       "devDependencies": {
-        "@auditmation/devops-tools": "^0.17.3",
-        "@auditmation/module-auditmation-auditmation-portal": "^3.0.52",
+        "@auditmation/devops-tools": "^0.18.0",
+        "@auditmation/module-auditmation-auditmation-portal": "^3.0.62",
         "@auditmation/types-core-js": "^4.9.11",
         "@commitlint/cli": "^12.0.1",
         "@commitlint/config-conventional": "^12.0.1",
@@ -45,10 +45,11 @@
       "dev": true
     },
     "node_modules/@auditmation/devops-tools": {
-      "version": "0.17.7",
-      "resolved": "https://pkg.zerobias.org/@auditmation/devops-tools/-/d329c68526e933528cf5620a154b7e51c6cfa9ce",
-      "integrity": "sha512-Ri+NAQ1lHlCmwD+ATwsHDM8NRcOLdfLlKFrr59P7hN0TdvwtF/TpFGg5zMEgsMA8Ts57B/o5yAk5f2qriT8BkQ==",
+      "version": "0.18.0",
+      "resolved": "https://pkg.zerobias.org/@auditmation/devops-tools/-/da26c2615b0533c890dc3155d268782c918aa62b",
+      "integrity": "sha512-ji5sBsZESUvPDA1P5VF54e23xs4DiwQ7tLsRphJneS61TfKlB4+w2eze0ILiAd/v4aWqIizmQSTFBgq6FSKltA==",
       "dev": true,
+      "license": "UNLICENSED",
       "dependencies": {
         "@octokit/rest": "^18.5.6",
         "yargs": "^17.1.1"
@@ -73,10 +74,11 @@
       }
     },
     "node_modules/@auditmation/module-auditmation-auditmation-portal": {
-      "version": "3.0.53",
-      "resolved": "https://pkg.zerobias.org/@auditmation/module-auditmation-auditmation-portal/-/ccf8c583cfca6c7231ee2ca59d3af75d826e29ca",
-      "integrity": "sha512-yGCKYU4zS1fVp+Mi6mbhkjIb0dwqhukDqKni2sJAyAM7jG+59+Bn65rKg6swPJo/IHnpCGKDNMHDYSN0OFNlug==",
+      "version": "3.0.62",
+      "resolved": "https://pkg.zerobias.org/@auditmation/module-auditmation-auditmation-portal/-/8fd4464db7849ae30c58a5f10795e0d5420a50ac",
+      "integrity": "sha512-DvNv8s0v2GUJaITWOnZVZVKGBqHclVSo57g5mmb9339IvasdGymm3GEEClcinuRDY8bPUgfYV0A/mUE+c6hU1g==",
       "dev": true,
+      "license": "UNLICENSED",
       "dependencies": {
         "@auditlogic/product-auditmation-auditmation": "^1.5.1",
         "@auditmation/hub-core": "4.4.49",
@@ -9983,9 +9985,9 @@
       "dev": true
     },
     "@auditmation/devops-tools": {
-      "version": "0.17.7",
-      "resolved": "https://pkg.zerobias.org/@auditmation/devops-tools/-/d329c68526e933528cf5620a154b7e51c6cfa9ce",
-      "integrity": "sha512-Ri+NAQ1lHlCmwD+ATwsHDM8NRcOLdfLlKFrr59P7hN0TdvwtF/TpFGg5zMEgsMA8Ts57B/o5yAk5f2qriT8BkQ==",
+      "version": "0.18.0",
+      "resolved": "https://pkg.zerobias.org/@auditmation/devops-tools/-/da26c2615b0533c890dc3155d268782c918aa62b",
+      "integrity": "sha512-ji5sBsZESUvPDA1P5VF54e23xs4DiwQ7tLsRphJneS61TfKlB4+w2eze0ILiAd/v4aWqIizmQSTFBgq6FSKltA==",
       "dev": true,
       "requires": {
         "@octokit/rest": "^18.5.6",
@@ -10002,9 +10004,9 @@
       }
     },
     "@auditmation/module-auditmation-auditmation-portal": {
-      "version": "3.0.53",
-      "resolved": "https://pkg.zerobias.org/@auditmation/module-auditmation-auditmation-portal/-/ccf8c583cfca6c7231ee2ca59d3af75d826e29ca",
-      "integrity": "sha512-yGCKYU4zS1fVp+Mi6mbhkjIb0dwqhukDqKni2sJAyAM7jG+59+Bn65rKg6swPJo/IHnpCGKDNMHDYSN0OFNlug==",
+      "version": "3.0.62",
+      "resolved": "https://pkg.zerobias.org/@auditmation/module-auditmation-auditmation-portal/-/8fd4464db7849ae30c58a5f10795e0d5420a50ac",
+      "integrity": "sha512-DvNv8s0v2GUJaITWOnZVZVKGBqHclVSo57g5mmb9339IvasdGymm3GEEClcinuRDY8bPUgfYV0A/mUE+c6hU1g==",
       "dev": true,
       "requires": {
         "@auditlogic/product-auditmation-auditmation": "^1.5.1",
