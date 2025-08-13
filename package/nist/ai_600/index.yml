@@ -1,0 +1,14 @@
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+code: ai_600
+status: active
+id: 05f6621c-01a3-4e08-a630-57a93c084b02
+name: NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: nist
+vendorName: NIST
+url: https://doi.org/10.6028/NIST.AI.600-1
+description: NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile)
+logo: https://cdn.auditmation.io/logos/nist-ai_600.svg
