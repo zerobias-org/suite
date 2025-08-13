@@ -1,0 +1,16 @@
+vendorId: 715a0b01-baf6-48fd-b827-a763d06339ab
+code: pci
+status: active
+id: 3a1ca0b4-09fc-42e7-8c3f-8e940c693784
+name: Protecting controlled information in non-Government of Canada systems and
+  organizations (ITSP.10.171)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: ca
+vendorName: Canada
+url: https://www.cyber.gc.ca/en/guidance/protecting-controlled-information-non-government-canada-systems-and-organizations-itsp10171
+description: Protecting controlled information in non-Government of Canada
+  systems and organizations (ITSP.10.171)
+logo: https://flagcdn.com/ca.svg
