@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-bm-bmaccc",
+  "version": "1.0.0",
+  "description": "Suite package  Bermuda Monetary Authority Cybersecurity Code of Conduct for vendor Bermuda.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/bm/bmaccc/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "bm.bmaccc",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-bm": "^1.0.0"
+  }
+}
