@@ -1,0 +1,14 @@
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+code: cra
+status: active
+id: 580f7e2e-4535-4189-97fe-4983947ea8a1
+name: EU Cyber Resilience Act
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: eu
+vendorName: EU
+url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52022PC0454
+description: EU Cyber Resilience Act
+logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png
