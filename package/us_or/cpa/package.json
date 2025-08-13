@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-us_or-cpa",
+  "version": "1.0.0",
+  "description": "Suite package OR - Consumer Privacy Act (SB 619) for vendor Oregon.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/us_or/cpa/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "us_or.cpa",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-us_or": "^1.0.0"
+  }
+}
