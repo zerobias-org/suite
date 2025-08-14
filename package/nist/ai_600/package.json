@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-ai_600",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "description": "Suite package NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile) for vendor NIST.",
   "author": "team@neverfail.com",
   "license": "ISC",
