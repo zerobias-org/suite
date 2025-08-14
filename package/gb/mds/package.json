@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-gb-mds",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "description": "Suite package Ministry of Defence Standard 05-138 (14 May 2024) for vendor United Kingdom.",
   "author": "team@neverfail.com",
   "license": "ISC",
