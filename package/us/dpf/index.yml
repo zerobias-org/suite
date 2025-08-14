@@ -1,0 +1,14 @@
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+code: dpf
+status: active
+id: 3d26ce6f-1e54-4f23-9f04-b53a51308c9b
+name: Data Privacy Framework (DPF)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: us
+vendorName: United States
+url: https://www.dataprivacyframework.gov/Program-Overview
+description: Data Privacy Framework (DPF)
+logo: https://cdn.auditmation.io/logos/us.png
