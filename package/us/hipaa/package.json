@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-us-hipaa",
+  "version": "1.0.0",
+  "description": "Suite package Health Insurance Portability and Accountability Act (HIPAA) for vendor United States.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/us/hipaa/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "us.hipaa",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-us": "^1.0.0"
+  }
+}
