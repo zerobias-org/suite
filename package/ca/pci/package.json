@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-ca-pci",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "description": "Suite package Protecting controlled information in non-Government of Canada systems and organizations (ITSP.10.171) for vendor Canada.",
   "author": "team@neverfail.com",
   "license": "ISC",
