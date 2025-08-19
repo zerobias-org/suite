@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-avigilon-alta",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "description": "Suite package alta for vendor avigilon",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -28,6 +28,6 @@
     "package": "avigilon.alta"
   },
   "dependencies": {
-    "@zerobias-org/vendor-avigilon": "^1.1.1"
+    "@zerobias-org/vendor-avigilon": "latest"
   }
 }
