@@ -1,0 +1,16 @@
+vendorId: 09d0d60f-5d1c-4f54-9b1a-5b001ce840fe
+code: alta
+status: active
+id: 00904920-8f10-4cac-8f31-44b22ba2d103
+name: Avigilon Alta
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-19T08:56:57.000Z
+updated: 2025-08-19T08:56:57.000Z
+vendorCode: avigilon
+vendorName: Avigilon
+url: https://www.avigilon.com/products/access-control-systems/avigilon-alta
+description: Avigilon Alta cloud-based access control and video management system
+logo: https://cdn.auditmation.io/logos/avigilon-alta.svg
+tags: []
+aliases: []
