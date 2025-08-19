@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -36,6 +36,7 @@
     "@zerobias-org/suite-au-privacy_principles": "1.0.2",
     "@zerobias-org/suite-auditmation-generic": "0.2.3",
     "@zerobias-org/suite-auditmation-interface": "0.2.3",
+    "@zerobias-org/suite-avigilon-alta": "1.0.0",
     "@zerobias-org/suite-be-be_act8": "1.0.2",
     "@zerobias-org/suite-bm-dpa": "1.0.2",
     "@zerobias-org/suite-br-bmaccc": "1.0.2",

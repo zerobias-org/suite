@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.2",
@@ -27,6 +27,7 @@
         "@zerobias-org/suite-au-privacy_principles": "1.0.2",
         "@zerobias-org/suite-auditmation-generic": "0.2.3",
         "@zerobias-org/suite-auditmation-interface": "0.2.3",
+        "@zerobias-org/suite-avigilon-alta": "1.0.0",
         "@zerobias-org/suite-be-be_act8": "1.0.2",
         "@zerobias-org/suite-bm-dpa": "1.0.2",
         "@zerobias-org/suite-br-bmaccc": "1.0.2",
@@ -457,6 +458,14 @@
       "integrity": "sha512-gqf13eokWDuStdhnLugyW6GGtr+8YnZS7xLSEy9hVpC+RW2Wyia7OaSmDr08RT40yqfpPcQLMmRD2jeQZ8OeMg==",
       "dependencies": {
         "@zerobias-org/vendor-auditmation": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-avigilon-alta": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-avigilon-alta/-/suite-avigilon-alta-1.0.0.tgz",
+      "integrity": "sha512-6OOgOsGSccWzLK4NZfhlW87q8Ex+aNIHup47bjIIm7O/iKS5jQz9eYEbLpLVOTlwJqsF6uDtM5qJR8FHQGpT+Q==",
+      "dependencies": {
+        "@zerobias-org/vendor-avigilon": "latest"
       }
     },
     "node_modules/@zerobias-org/suite-be-be_act8": {
@@ -3140,6 +3149,11 @@
       "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-auditmation/-/vendor-auditmation-1.0.8.tgz",
       "integrity": "sha512-k4D+dAIc0t26tac/foAT96Ga3Mjox00xCypQJ9g9FVZftw+Y3CdXRl4o+xpp5vW3sREuICIYenymef+v9JTZ9w=="
     },
+    "node_modules/@zerobias-org/vendor-avigilon": {
+      "version": "1.1.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-avigilon/-/vendor-avigilon-1.1.1.tgz",
+      "integrity": "sha512-bmmeFgUQ/kMmdS+A5VyVG4P5Fy85Aw6WqBWuMHcQzAdSVJ3aPQHPulzXILY5XROJyZlFTD1GUe+OpzXlL3tieA=="
+    },
     "node_modules/@zerobias-org/vendor-be": {
       "version": "1.0.2",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-be/-/vendor-be-1.0.2.tgz",
@@ -4126,6 +4140,14 @@
       "integrity": "sha512-gqf13eokWDuStdhnLugyW6GGtr+8YnZS7xLSEy9hVpC+RW2Wyia7OaSmDr08RT40yqfpPcQLMmRD2jeQZ8OeMg==",
       "requires": {
         "@zerobias-org/vendor-auditmation": "latest"
+      }
+    },
+    "@zerobias-org/suite-avigilon-alta": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-avigilon-alta/-/suite-avigilon-alta-1.0.0.tgz",
+      "integrity": "sha512-6OOgOsGSccWzLK4NZfhlW87q8Ex+aNIHup47bjIIm7O/iKS5jQz9eYEbLpLVOTlwJqsF6uDtM5qJR8FHQGpT+Q==",
+      "requires": {
+        "@zerobias-org/vendor-avigilon": "latest"
       }
     },
     "@zerobias-org/suite-be-be_act8": {
@@ -6076,6 +6098,11 @@
       "version": "1.0.8",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-auditmation/-/vendor-auditmation-1.0.8.tgz",
       "integrity": "sha512-k4D+dAIc0t26tac/foAT96Ga3Mjox00xCypQJ9g9FVZftw+Y3CdXRl4o+xpp5vW3sREuICIYenymef+v9JTZ9w=="
+    },
+    "@zerobias-org/vendor-avigilon": {
+      "version": "1.1.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-avigilon/-/vendor-avigilon-1.1.1.tgz",
+      "integrity": "sha512-bmmeFgUQ/kMmdS+A5VyVG4P5Fy85Aw6WqBWuMHcQzAdSVJ3aPQHPulzXILY5XROJyZlFTD1GUe+OpzXlL3tieA=="
     },
     "@zerobias-org/vendor-be": {
       "version": "1.0.2",
