@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-eu-gpdr",
-  "version": "1.0.3",
+  "version": "1.0.3-rc.0",
   "description": "suite package for eu-gpdr",
   "author": "team@zerobias.com",
   "license": "ISC",
