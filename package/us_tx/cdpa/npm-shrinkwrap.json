@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-us_tx-cdpa",
-  "version": "1.0.0",
-  "lockfileVersion": 3,
+  "version": "1.1.0",
+  "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-us_tx-cdpa",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-us_tx": "^1.0.0"
@@ -21,6 +21,13 @@
         "node": ">=16.11.0",
         "npm": ">=8.0.0"
       }
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-us_tx": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tx/-/vendor-us_tx-1.0.2.tgz",
+      "integrity": "sha512-fLRp7weG0jviaBIR6U0XFBJrDVIvYxlswMEd2ZLGVCzxbH8cgO4r1ixsWIj0M2utFvsvuqNziuXLPu4QsXqF6w=="
     }
   }
 }
