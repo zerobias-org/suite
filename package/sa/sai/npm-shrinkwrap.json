@@ -1,0 +1,26 @@
+{
+  "name": "@zerobias-org/suite-sa-sai",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-sa-sai",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-sa": "^1.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-sa": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-sa/-/vendor-sa-1.0.2.tgz",
+      "integrity": "sha512-8n9BaTYxOJv+ojCp8NxhE/CH59gJxOBI3Z0ddwnier0Vaq5fjTZU4Z6djMMrWilGIOz+6zbCsPwb3jWQ7Cuhow==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  }
+}

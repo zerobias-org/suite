@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-bs-dpa",
+  "version": "1.1.0-rc.0",
+  "description": "Suite package Data Protection Act for vendor Bahamas.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/bs/dpa/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "bs.dpa",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-bs": "^1.0.0"
+  }
+}

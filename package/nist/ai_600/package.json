@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-nist-ai_600",
+  "version": "1.1.0-rc.0",
+  "description": "Suite package NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile) for vendor NIST.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/nist/ai_600/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "nist.ai_600",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-nist": "^1.0.0"
+  }
+}
