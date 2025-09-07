@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3-rc.2](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-us_ca-sb328@1.0.2...@zerobias-org/suite-us_ca-sb328@1.0.3-rc.2) (2025-09-07)
+
+**Note:** Version bump only for package @zerobias-org/suite-us_ca-sb328
+
+
+
+
+
+## [1.0.3-rc.1](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-us_ca-sb328@1.0.2...@zerobias-org/suite-us_ca-sb328@1.0.3-rc.1) (2025-09-07)
+
+**Note:** Version bump only for package @zerobias-org/suite-us_ca-sb328
+
+
+
+
+
+## [1.0.3-rc.0](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-us_ca-sb328@1.0.2...@zerobias-org/suite-us_ca-sb328@1.0.3-rc.0) (2025-08-14)
+
+
+### Bug Fixes
+
+* logo and deprecate bad one ([83cd859](https://github.com/zerobias-org/suite/commit/83cd859ebb8dc5d2c2afce4c6f0e8aeaee998092))
+
+
+
+
+
 ## [1.0.2](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-us_ca-sb328@1.0.2-rc.1...@zerobias-org/suite-us_ca-sb328@1.0.2) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/suite-us_ca-sb328

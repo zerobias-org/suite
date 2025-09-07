@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-us-hippa",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.2",
   "description": "suite package for us-hippa",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -12,7 +12,8 @@
   "auditmation": {
     "package": "us.hippa",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "5.0.14",
+    "deprecated": true
   },
   "engines": {
     "node": ">=16.11.0",

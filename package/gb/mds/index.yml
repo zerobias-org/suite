@@ -1,0 +1,14 @@
+vendorId: e3a84bbe-3736-4f71-b2a4-27422dad17a3
+code: mds
+status: active
+id: 6047e3fe-3b06-4c33-99e9-9ff5a155d123
+name: Ministry of Defence Standard 05-138 (14 May 2024)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: gb
+vendorName: United Kingdom
+url: https://www.gov.uk/government/publications/cyber-security-for-defence-suppliers-def-stan-05-138-issue-4
+description: Ministry of Defence Standard 05-138 (14 May 2024)
+logo: https://cdn.auditmation.io/logos/gb.svg
