@@ -1,19 +1,18 @@
 {
-  "name": "@zerobias-org/suite-eu-gpdr",
-  "version": "1.0.2",
-  "description": "suite package for eu-gpdr",
+  "name": "@zerobias-org/suite-eu-gdpr",
+  "version": "1.0.0",
+  "description": "suite package for eu-gdpr",
   "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
-    "directory": "package/eu/gpdr/"
+    "directory": "package/eu/gdpr/"
   },
   "auditmation": {
-    "package": "eu.gpdr",
+    "package": "eu.gdpr",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14",
-    "deprecated": true
+    "dataloader-version": "5.0.14"
   },
   "engines": {
     "node": ">=16.11.0",

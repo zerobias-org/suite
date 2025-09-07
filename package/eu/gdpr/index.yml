@@ -1,0 +1,14 @@
+vendorCode: eu
+code: gdpr
+name: General Data Protection Regulation (GDPR)
+url: http://ec.europa.eu/justice/data-protection/reform/index_en.htm
+description: General Data Protection Regulation (GDPR)
+id: 99dd79c2-6f91-4e57-af9c-d067afc482fd
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-01-15T05:01:39.130Z
+updated: 2025-01-15T05:01:39.130Z
+status: active
+type: suite
+vendorId: 36463921-eb03-4daf-a0c5-9411116e64f0
+vendorName: EU
+logo: https://cdn.auditmation.io/logos/eu.png
