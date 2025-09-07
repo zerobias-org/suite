@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.2",
@@ -72,7 +72,8 @@
         "@zerobias-org/suite-eu-eba": "1.0.2",
         "@zerobias-org/suite-eu-enisa": "1.0.2",
         "@zerobias-org/suite-eu-eprivacy": "1.0.2",
-        "@zerobias-org/suite-eu-gpdr": "1.0.2",
+        "@zerobias-org/suite-eu-gdpr": "1.0.1",
+        "@zerobias-org/suite-eu-gpdr": "1.0.3",
         "@zerobias-org/suite-eu-ps2d2": "1.0.2",
         "@zerobias-org/suite-fi-pda": "1.0.2",
         "@zerobias-org/suite-fidoalliance-fido": "1.0.2",
@@ -968,10 +969,22 @@
         "npm": ">=8.0.0"
       }
     },
+    "node_modules/@zerobias-org/suite-eu-gdpr": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gdpr/-/suite-eu-gdpr-1.0.1.tgz",
+      "integrity": "sha512-oYShcZNZ51dDmLvxaF1016ZVNDeg6JM8tFtrbHSIvIF18UHxwK6rcE7LGYnLCsi9jtxkPQcgEY53o5eZN8lgTQ==",
+      "dependencies": {
+        "@zerobias-org/vendor-eu": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
     "node_modules/@zerobias-org/suite-eu-gpdr": {
-      "version": "1.0.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gpdr/-/suite-eu-gpdr-1.0.2.tgz",
-      "integrity": "sha512-I+xaB5ezHUxHrq25XMaoMdSK90YSRyJDGide+DxBESyOcjEd33uS6BJm6nngMQ3lLPbaZzou4/5RKduRGgyGKA==",
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gpdr/-/suite-eu-gpdr-1.0.3.tgz",
+      "integrity": "sha512-ACGPwws3m6CClP0QpS8nuJciH+9WcmPb99TE4rFd4XpfyD8f8ov4yuKam9YdwzwKM7lI1tfbo+GTPSgi05UXDg==",
       "dependencies": {
         "@zerobias-org/vendor-eu": "latest"
       },
@@ -4502,10 +4515,18 @@
         "@zerobias-org/vendor-eu": "latest"
       }
     },
+    "@zerobias-org/suite-eu-gdpr": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gdpr/-/suite-eu-gdpr-1.0.1.tgz",
+      "integrity": "sha512-oYShcZNZ51dDmLvxaF1016ZVNDeg6JM8tFtrbHSIvIF18UHxwK6rcE7LGYnLCsi9jtxkPQcgEY53o5eZN8lgTQ==",
+      "requires": {
+        "@zerobias-org/vendor-eu": "latest"
+      }
+    },
     "@zerobias-org/suite-eu-gpdr": {
-      "version": "1.0.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gpdr/-/suite-eu-gpdr-1.0.2.tgz",
-      "integrity": "sha512-I+xaB5ezHUxHrq25XMaoMdSK90YSRyJDGide+DxBESyOcjEd33uS6BJm6nngMQ3lLPbaZzou4/5RKduRGgyGKA==",
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gpdr/-/suite-eu-gpdr-1.0.3.tgz",
+      "integrity": "sha512-ACGPwws3m6CClP0QpS8nuJciH+9WcmPb99TE4rFd4XpfyD8f8ov4yuKam9YdwzwKM7lI1tfbo+GTPSgi05UXDg==",
       "requires": {
         "@zerobias-org/vendor-eu": "latest"
       }

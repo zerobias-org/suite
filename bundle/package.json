@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -81,7 +81,8 @@
     "@zerobias-org/suite-eu-eba": "1.0.2",
     "@zerobias-org/suite-eu-enisa": "1.0.2",
     "@zerobias-org/suite-eu-eprivacy": "1.0.2",
-    "@zerobias-org/suite-eu-gpdr": "1.0.2",
+    "@zerobias-org/suite-eu-gdpr": "1.0.1",
+    "@zerobias-org/suite-eu-gpdr": "1.0.3",
     "@zerobias-org/suite-eu-ps2d2": "1.0.2",
     "@zerobias-org/suite-fi-pda": "1.0.2",
     "@zerobias-org/suite-fidoalliance-fido": "1.0.2",
