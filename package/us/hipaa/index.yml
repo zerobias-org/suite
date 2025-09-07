@@ -1,0 +1,14 @@
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+code: hipaa
+status: active
+id: c542160c-3b5d-4d8a-afa2-2db5bc53d4c5
+name: Health Insurance Portability and Accountability Act (HIPAA)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: us
+vendorName: United States
+url: "https://www.hhs.gov/hipaa/for-professionals/security/index.html "
+description: Health Insurance Portability and Accountability Act (HIPAA)
+logo: https://cdn.auditmation.io/logos/us.png

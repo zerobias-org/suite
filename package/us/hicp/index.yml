@@ -1,0 +1,14 @@
+vendorId: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+code: hicp
+status: active
+id: 04f96886-d3c0-45b4-8632-a0e0b1c9cf2f
+name: Health Industry Cybersecurity Practices (HICP)
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-13T23:39:43.235Z
+updated: 2025-08-13T23:39:43.235Z
+vendorCode: us
+vendorName: United States
+url: https://www.phe.gov/Preparedness/planning/405d/Pages/hic-practices.aspx
+description: Health Industry Cybersecurity Practices (HICP)
+logo: https://cdn.auditmation.io/logos/us.png

@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/suite-uae-dpl",
+  "version": "1.1.0-rc.1",
+  "description": "Suite package Data Protection Law No. 1 of 2007 for vendor UAE.",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/uae/dpl/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh"
+  },
+  "auditmation": {
+    "package": "uae.dpl",
+    "import-artifact": "suite",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-uae": "^1.0.0"
+  }
+}
