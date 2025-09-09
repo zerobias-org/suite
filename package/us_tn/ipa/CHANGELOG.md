@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-us_tn-ipa@1.1.0...@zerobias-org/suite-us_tn-ipa@1.1.1) (2025-09-09)
+
+
+### Bug Fixes
+
+* us_tn ipa ([a3a9d5c](https://github.com/zerobias-org/suite/commit/a3a9d5c885b0326e8b1ff59c73903cd3aa60a36f))
+
+
+
+
+
 # 1.1.0 (2025-09-07)
 
 **Note:** Version bump only for package @zerobias-org/suite-us_tn-ipa
