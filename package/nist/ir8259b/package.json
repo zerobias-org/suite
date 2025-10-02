@@ -1,16 +1,16 @@
 {
-  "name": "@zerobias-org/suite-nist-ir8259a",
+  "name": "@zerobias-org/suite-nist-ir8259b",
   "version": "1.1.0-rc.0",
-  "description": "NIST IR 8259A compliance framework suite",
+  "description": "NIST IR 8259B compliance framework suite",
   "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
-    "directory": "package/nist/ir8259a"
+    "directory": "package/nist/ir8259b"
   },
   "auditmation": {
-    "package": "nist.ir8259a",
+    "package": "nist.ir8259b",
     "import-artifact": "suite",
     "dataloader-version": "5.0.14"
   },
