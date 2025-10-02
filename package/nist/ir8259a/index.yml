@@ -1,0 +1,14 @@
+id: b203e62c-ca97-4d67-a2e6-bfea92b38d35
+vendorCode: nist
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+code: ir8259a
+name: NIST IR 8259A
+description: IoT Device Cybersecurity Capability Core Baseline
+url: https://csrc.nist.gov/pubs/ir/8259/a/final
+type: suite
+status: active
+created: 2025-09-23T18:31:03.819Z
+updated: 2025-09-23T18:31:03.820Z
+logo: https://cdn.auditmation.io/logos/nist.svg
+ownerId: 00000000-0000-0000-0000-000000000000
