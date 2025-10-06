@@ -173,3 +173,60 @@ Every suite must include:
 ## Authentication
 
 Set `ZB_TOKEN` environment variable with API key from ZeroBias for npm registry authentication.
+
+---
+
+## ZeroBias Task Integration
+
+For creating suites from ZeroBias tasks, use the skill:
+
+```
+/create-suite [task-id]
+```
+
+See **[.claude/skills/create-suite.md](.claude/skills/create-suite.md)** for the complete workflow.
+
+### Quick Reference
+
+**Orchestration Documentation:**
+- [Meta-repo: DEPENDENCY_CHAIN.md](../../docs/orchestration/DEPENDENCY_CHAIN.md) - Suites depend on vendors
+- [Meta-repo: TASK_MANAGEMENT.md](../../docs/orchestration/TASK_MANAGEMENT.md) - Task API patterns
+- [Meta-repo: API_REFERENCE.md](../../docs/orchestration/API_REFERENCE.md) - Quick API reference
+
+**Dependency Chain:**
+```
+vendor → suite → framework/standard/benchmark → crosswalk
+```
+
+**CRITICAL:** Suites REQUIRE vendors. Always check/create vendor first.
+
+### Key APIs
+
+```javascript
+// Check if vendor exists (REQUIRED before suite)
+zerobias_execute("portal.Vendor.search", { searchVendorBody: { search: "vendor" }})
+
+// Check if suite exists
+zerobias_execute("portal.Suite.search", { searchSuiteBody: { search: "vendor suite" }})
+
+// Get your party ID for assignment
+zerobias_execute("platform.Party.getMyParty", {})
+
+// Transition task to in_progress (use transitionId, NOT status)
+zerobias_execute("platform.Task.update", {
+  id: taskId,
+  updateTask: {
+    assigned: partyId,
+    transitionId: "7f140bbe-4c10-54ac-922c-460c66392fad"
+  }
+})
+```
+
+### Critical: vendorId
+
+After `npm install`, get the correct vendorId from the vendor package:
+```bash
+cat node_modules/@zerobias-org/vendor-{vendor}/index.yml | grep "^id:"
+```
+
+The `vendorId` in suite's `index.yml` MUST match this value.
