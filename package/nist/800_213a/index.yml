@@ -1,0 +1,14 @@
+id: c777508c-8ee9-472c-8a9d-e5a724be0864
+vendorCode: nist
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorName: NIST
+code: '800_213a'
+name: NIST SP 800-213A
+description: IoT Device Cybersecurity Guidance for the Federal Government
+url: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf
+type: suite
+status: active
+created: 2025-09-23T18:31:04.609Z
+updated: 2025-09-23T18:31:04.609Z
+ownerId: 00000000-0000-0000-0000-000000000000
+logo: https://cdn.auditmation.io/logos/nist.svg
