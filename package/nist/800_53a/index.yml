@@ -1,0 +1,14 @@
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+code: '80053a'
+status: active
+id: 3b486bac-5c6a-47a7-b849-5f6e096eef7b
+name: NIST 800-53A
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-10-06T16:50:04.000Z
+updated: 2025-10-06T16:50:04.000Z
+vendorCode: nist
+vendorName: NIST
+url: https://csrc.nist.gov/publications/detail/sp/800-53a/rev-5/final
+description: Assessing Security and Privacy Controls in Information Systems and Organizations
+logo: https://cdn.auditmation.io/logos/nist-800_53a.svg
