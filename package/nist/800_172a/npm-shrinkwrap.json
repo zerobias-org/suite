@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-nist-800_172a",
+  "version": "1.0.2",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-nist-800_172a",
+      "version": "1.0.2",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-nist": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-nist": {
+      "version": "1.0.8",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-nist/-/vendor-nist-1.0.8.tgz",
+      "integrity": "sha512-UYh8DYVojJ1G4fMLT7vNht9tjrFNmypKeN8cYhQZ367DexhxoUVKbR1yhI7hAJEut5GuMeHjNNEaxVKOBkAQhA==",
+      "license": "ISC"
+    }
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-nist": {
+      "version": "1.0.8",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-nist/-/vendor-nist-1.0.8.tgz",
+      "integrity": "sha512-UYh8DYVojJ1G4fMLT7vNht9tjrFNmypKeN8cYhQZ367DexhxoUVKbR1yhI7hAJEut5GuMeHjNNEaxVKOBkAQhA=="
+    }
+  }
+}
