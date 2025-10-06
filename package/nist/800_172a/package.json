@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-800_172a",
-  "version": "1.0.2",
+  "version": "1.1.0-rc.0",
   "description": "suite package for nist-800_172a",
   "author": "team@zerobias.com",
   "license": "ISC",
