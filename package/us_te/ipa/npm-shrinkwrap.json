@@ -8,30 +8,10 @@
       "name": "@zerobias-org/suite-us_te-ipa",
       "version": "1.0.2",
       "license": "ISC",
-      "dependencies": {
-        "@zerobias-org/vendor-us_te": "latest"
-      },
       "engines": {
         "node": ">=16.11.0",
         "npm": ">=8.0.0"
       }
-    },
-    "node_modules/@zerobias-org/vendor-us_te": {
-      "version": "1.0.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_te/-/vendor-us_te-1.0.2.tgz",
-      "integrity": "sha512-XAxWkT8BhWTlMPXVrzQSCev5SbVxBFzOtVum9LUmyffSZrgdFTmqYM56dR2KB9Qo27dVnKYqu9rDU4ED6sIRbQ==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
-    }
-  },
-  "dependencies": {
-    "@zerobias-org/vendor-us_te": {
-      "version": "1.0.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_te/-/vendor-us_te-1.0.2.tgz",
-      "integrity": "sha512-XAxWkT8BhWTlMPXVrzQSCev5SbVxBFzOtVum9LUmyffSZrgdFTmqYM56dR2KB9Qo27dVnKYqu9rDU4ED6sIRbQ=="
     }
   }
 }

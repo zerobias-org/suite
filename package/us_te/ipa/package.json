@@ -12,7 +12,8 @@
   "auditmation": {
     "package": "us_te.ipa",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "5.0.14",
+    "deprecated": true
   },
   "engines": {
     "node": ">=16.11.0",
@@ -26,7 +27,6 @@
     "logo.*"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us_te": "latest"
   },
   "scripts": {
     "nx:publish": "../../../scripts/publish.sh",
