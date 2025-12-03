@@ -1,0 +1,14 @@
+id: ae6a1345-442b-482c-aa59-b9d2e98c7f47
+code: cloudsecurity
+name: Cloud Security
+status: verified
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.crowdstrike.com/en-us/platform/cloud-security/
+description: Unified security management solution that provides comprehensive protection
+  for cloud-native applications across multi-cloud deployments. Includes advanced
+  security and real-time threat detection.
+logo: https://cdn.auditmation.io/logos/crowdstrike-cloudsecurity.svg
+vendorId: 26630017-0b8e-5144-9d89-68bc7dd4d3df
+vendorCode: crowdstrike
+vendorName: CrowdStrike

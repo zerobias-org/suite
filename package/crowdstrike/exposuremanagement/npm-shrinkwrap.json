@@ -1,0 +1,22 @@
+{
+    "name": "@zerobias-org/suite-crowdstrike-exposuremanagement",
+    "version": "0.0.0",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {
+        "": {
+            "name": "@zerobias-org/suite-crowdstrike-exposuremanagement",
+            "version": "0.0.0",
+            "license": "ISC",
+            "dependencies": {
+                "@zerobias-org/vendor-crowdstrike": "latest"
+            }
+        },
+        "node_modules/@zerobias-org/vendor-crowdstrike": {
+            "version": "1.1.5",
+            "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-crowdstrike/-/vendor-crowdstrike-1.1.5.tgz",
+            "integrity": "sha512-cvlWgYGcVsHSvJk3zpZyN6iQrbT0JTX67IGCk0PSMr5p7+or1p3qJvfdBA3lSTGyun4Zgu6OLESfQhcmQG4hPA==",
+            "license": "ISC"
+        }
+    }
+}
