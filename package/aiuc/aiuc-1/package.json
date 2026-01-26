@@ -1,0 +1,33 @@
+{
+  "name": "@zerobias-org/suite-aiuc-aiuc-1",
+  "version": "1.0.0",
+  "description": "Suite package aiuc-1 for vendor aiuc.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../../scripts/publish.sh",
+    "prepublishtest": "../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  },
+  "auditmation": {
+    "package": "aiuc.aiuc-1",
+    "import-artifact": "suite",
+    "dataloader-version": "5.0.14"
+  },
+  "dependencies": {
+    "@zerobias-org/vendor-aiuc": "latest"
+  }
+}
