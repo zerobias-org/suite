@@ -4,6 +4,7 @@
   "description": "Suite package 27001 for vendor iso.",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
