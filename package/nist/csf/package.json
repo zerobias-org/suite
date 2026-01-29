@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-csf",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Suite package Cloud Security Framework for vendor nist.",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-fips",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Federal information processing standards (FIPS)",
   "author": "team@zerobias.com",
   "license": "ISC",

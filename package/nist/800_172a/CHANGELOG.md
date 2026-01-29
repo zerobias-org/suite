@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.0 (2026-01-29)
+
+* chore(nist): migrate ts-node to tsx in scripts ([49fe189](https://github.com/zerobias-org/suite/commit/49fe189))
+* chore(release): bump version ([0830f27](https://github.com/zerobias-org/suite/commit/0830f27))
+* chore(release): bump version ([0350898](https://github.com/zerobias-org/suite/commit/0350898))
+* fix: id ([3c24247](https://github.com/zerobias-org/suite/commit/3c24247))
+* feat: add nist 800-172A ([9c3e8dc](https://github.com/zerobias-org/suite/commit/9c3e8dc))
+
+
+
+
+
 # [1.1.0-rc.1](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-nist-800_172a@1.1.0-rc.0...@zerobias-org/suite-nist-800_172a@1.1.0-rc.1) (2025-10-06)
 
 
