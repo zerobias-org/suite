@@ -17,13 +17,11 @@
     "logo.svg"
   ],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "tsx ../../../scripts/correctDeps.ts",
     "validate": "tsx ../../../scripts/validate.ts"
   },
   "auditmation": {
-    "dataloader-version": "5.0.14",
+    "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "{vendor}.{code}"
   },

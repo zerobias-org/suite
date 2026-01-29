@@ -13,11 +13,11 @@
   "auditmation": {
     "package": "iso.22301",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "1.0.0"
   },
   "engines": {
-    "node": ">=16.11.0",
-    "npm": ">=8.0.0"
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -30,8 +30,6 @@
     "@zerobias-org/vendor-iso": "latest"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "tsx ../../../scripts/correctDeps.ts",
     "validate": "tsx ../../../scripts/validate.ts"
   }

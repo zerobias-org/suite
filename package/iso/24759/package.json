@@ -11,13 +11,15 @@
     "directory": "package/iso/24759/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "tsx ../../../scripts/correctDeps.ts",
     "validate": "tsx ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
   },
   "files": [
     "index.yml",
@@ -27,7 +29,7 @@
     "@zerobias-org/vendor-iso": "latest"
   },
   "auditmation": {
-    "dataloader-version": "5.0.14",
+    "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "iso.24759"
   }

@@ -17,16 +17,18 @@
     "index.yml",
     "logo.svg"
   ],
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "tsx ../../../scripts/correctDeps.ts",
     "validate": "tsx ../../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "iso.27001",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "1.0.0"
   },
   "dependencies": {
     "@zerobias-org/vendor-iso": "latest"
