@@ -1,0 +1,13 @@
+id: 2e0e4700-1d4f-4be8-8e07-a36d5065d02f
+code: exposuremanagement
+name: Exposure Management
+status: verified
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.crowdstrike.com/en-us/platform/exposure-management/
+description: Continuous exposure management solution that helps organisations identify,
+  prioritise, and remediate security vulnerabilities across their IT environment.
+logo: https://cdn.auditmation.io/logos/crowdstrike-exposuremanagement.svg
+vendorId: 26630017-0b8e-5144-9d89-68bc7dd4d3df
+vendorCode: crowdstrike
+vendorName: CrowdStrike
