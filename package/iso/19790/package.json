@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-iso-19790",
-  "version": "1.0.3-rc.0",
+  "version": "1.0.3-rc.1",
   "description": "This International Standard defines four security levels for cryptographic modules to provide for a wide spectrum of data sensitivity.",
   "author": "team@zerobias.com",
   "license": "ISC",
