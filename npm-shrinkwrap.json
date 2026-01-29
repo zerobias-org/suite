@@ -14,7 +14,7 @@
       "devDependencies": {
         "@commitlint/cli": "^20.3.1",
         "@commitlint/config-conventional": "^20.3.1",
-        "@zerobias-org/devops-tools": "^1.0.42",
+        "@zerobias-org/devops-tools": "^1.0.43",
         "@zerobias-org/types-core-js": "^1.2.12",
         "conventional-changelog-conventionalcommits": "^9.1.0",
         "lerna": "^9.0.3",
@@ -4757,14 +4757,14 @@
       }
     },
     "node_modules/@zerobias-org/devops-tools": {
-      "version": "1.0.42",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/devops-tools/-/devops-tools-1.0.42.tgz",
-      "integrity": "sha512-iMoBIU9eZDT/VouLFSKUK3LdtlB709dZA9E5j+SoZK87sEcUizxsTGfFjjZmJCeGpTCXTwK+iTB7ohF+BF12SA==",
+      "version": "1.0.43",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/devops-tools/-/devops-tools-1.0.43.tgz",
+      "integrity": "sha512-D/eaI4RR5jsvAo6pUnxb5k5KLVYN5BxbfCKJNfCuUNKpGCfyEuj/2p5OQlHgZqUrekFGviqYG2bzCP7qTyaVyw==",
       "dev": true,
       "license": "UNLICENSED",
       "dependencies": {
         "@octokit/rest": "^22.0.1",
-        "@zerobias-org/devops-tools": "1.0.42",
+        "@zerobias-org/devops-tools": "1.0.43",
         "yargs": "^18.0.0"
       },
       "bin": {

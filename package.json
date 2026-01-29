@@ -33,7 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^20.3.1",
     "@commitlint/config-conventional": "^20.3.1",
-    "@zerobias-org/devops-tools": "^1.0.42",
+    "@zerobias-org/devops-tools": "^1.0.43",
     "@zerobias-org/types-core-js": "^1.2.12",
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "lerna": "^9.0.3",
