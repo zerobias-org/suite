@@ -30,6 +30,9 @@
     "url": "https://github.com/zerobias-org/suite/issues"
   },
   "homepage": "https://github.com/zerobias-org/suite#readme",
+  "overrides": {
+    "tar": "^7.5.7"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20.3.1",
     "@commitlint/config-conventional": "^20.3.1",
