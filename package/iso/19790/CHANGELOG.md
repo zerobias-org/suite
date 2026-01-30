@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.3 (2026-01-30)</small>
+
+* chore(iso): add type module to package.json ([a0c8040](https://github.com/zerobias-org/suite/commit/a0c8040))
+* chore(iso): migrate ts-node to tsx in scripts ([fa1cbb0](https://github.com/zerobias-org/suite/commit/fa1cbb0))
+* chore(release): bump version ([2acb836](https://github.com/zerobias-org/suite/commit/2acb836))
+* chore(release): bump version ([251894e](https://github.com/zerobias-org/suite/commit/251894e))
+* fix: remove unneeded and try again ([e4cbc68](https://github.com/zerobias-org/suite/commit/e4cbc68))
+
+
+
+
+
 ## <small>1.0.3-rc.1 (2026-01-29)</small>
 
 * chore(iso): add type module to package.json ([a0c8040](https://github.com/zerobias-org/suite/commit/a0c8040))
