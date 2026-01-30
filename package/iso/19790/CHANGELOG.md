@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.4 (2026-01-30)</small>
+
+* chore(suite): migrate packages iso-sg to zerobias config ([34faca7](https://github.com/zerobias-org/suite/commit/34faca7))
+
+
+
+
+
 ## <small>1.0.3 (2026-01-30)</small>
 
 * chore(iso): add type module to package.json ([a0c8040](https://github.com/zerobias-org/suite/commit/a0c8040))

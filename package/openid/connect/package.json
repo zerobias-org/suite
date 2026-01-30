@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-openid-connect",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Suite package for vendor openid.",
   "author": "team@zerobias.com",
   "license": "ISC",

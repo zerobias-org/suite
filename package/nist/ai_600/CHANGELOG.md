@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.1 (2026-01-30)</small>
+
+* chore(suite): migrate packages iso-sg to zerobias config ([34faca7](https://github.com/zerobias-org/suite/commit/34faca7))
+
+
+
+
+
 # 1.1.0 (2025-09-07)
 
 **Note:** Version bump only for package @zerobias-org/suite-nist-ai_600

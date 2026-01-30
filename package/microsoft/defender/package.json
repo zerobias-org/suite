@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-microsoft-defender",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Suite package defender for vendor microsoft",
   "author": "team@zerobias.com",
   "license": "ISC",

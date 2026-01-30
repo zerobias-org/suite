@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-800-53",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Suite package 800-53 for vendor nist.",
   "author": "team@zerobias.com",
   "license": "ISC",

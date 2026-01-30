@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-oat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The OWASP Automated Threats to Web Applications Project has completed a review of reports, academic and other papers, news stories and vulnerability taxonomies/listings to identify, name and classify these scenarios – automated by software causing a divergence from accepted behavior producing one or more undesirable effects on a web application, but excluding tool-based exploitation of single-issue vulnerabilities.",
   "author": "team@zerobias.com",
   "license": "ISC",

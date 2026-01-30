@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-scvs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Software Component Verification Standard",
   "author": "team@zerobias.com",
   "license": "ISC",
