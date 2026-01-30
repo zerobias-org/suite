@@ -4,19 +4,15 @@
   "description": "suite package for nist-800_82",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/nist/800_82/"
   },
-  "auditmation": {
-    "package": "nist.800_82",
-    "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
-  },
-  "engines": {
-    "node": ">=16.11.0",
-    "npm": ">=8.0.0"
+  "scripts": {
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -28,10 +24,9 @@
   "dependencies": {
     "@zerobias-org/vendor-nist": "latest"
   },
-  "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
-    "correct:deps": "tsx ../../../scripts/correctDeps.ts",
-    "validate": "tsx ../../../scripts/validate.ts"
+  "zerobias": {
+    "package": "nist.800_82",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }

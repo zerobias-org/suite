@@ -4,14 +4,13 @@
   "description": "The OWASP Automated Threats to Web Applications Project has completed a review of reports, academic and other papers, news stories and vulnerability taxonomies/listings to identify, name and classify these scenarios – automated by software causing a divergence from accepted behavior producing one or more undesirable effects on a web application, but excluding tool-based exploitation of single-issue vulnerabilities.",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/owasp/oat/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
     "validate": "ts-node ../../../scripts/validate.ts"
   },
@@ -20,13 +19,13 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "dependencies": {
     "@zerobias-org/vendor-owasp": "latest"
   },
-  "auditmation": {
-    "dataloader-version": "5.0.14",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "owasp.oat"
   }

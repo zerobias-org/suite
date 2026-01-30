@@ -4,27 +4,26 @@
   "description": "Suite package Personal Data Protection Law (PDPL) for vendor Saudi Arabia.",
   "author": "team@neverfail.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/sa/pdpl/"
   },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
-  },
-  "auditmation": {
-    "package": "sa.pdpl",
-    "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
-  },
   "dependencies": {
     "@zerobias-org/vendor-sa": "^1.0.0"
+  },
+  "zerobias": {
+    "package": "sa.pdpl",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }

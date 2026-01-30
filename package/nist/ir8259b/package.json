@@ -4,23 +4,13 @@
   "description": "NIST IR 8259B compliance framework suite",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/nist/ir8259b"
   },
-  "auditmation": {
-    "package": "nist.ir8259b",
-    "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
-  },
-  "engines": {
-    "node": ">=16.11.0",
-    "npm": ">=8.0.0"
-  },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "tsx ../../../scripts/correctDeps.ts",
     "validate": "tsx ../../../scripts/validate.ts"
   },
@@ -33,5 +23,10 @@
   ],
   "dependencies": {
     "@zerobias-org/vendor-nist": "latest"
+  },
+  "zerobias": {
+    "package": "nist.ir8259b",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }

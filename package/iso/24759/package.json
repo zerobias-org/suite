@@ -17,18 +17,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "engines": {
-    "node": ">=22.0.0",
-    "npm": ">=10.0.0"
-  },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "dependencies": {
     "@zerobias-org/vendor-iso": "latest"
   },
-  "auditmation": {
+  "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "iso.24759"

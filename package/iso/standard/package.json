@@ -10,10 +10,6 @@
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/iso/standard/"
   },
-  "engines": {
-    "node": ">=22.0.0",
-    "npm": ">=10.0.0"
-  },
   "scripts": {
     "correct:deps": "tsx ../../../scripts/correctDeps.ts",
     "validate": "tsx ../../../scripts/validate.ts"
@@ -23,12 +19,12 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "dependencies": {
     "@zerobias-org/vendor-iso": "latest"
   },
-  "auditmation": {
+  "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "iso.standard"

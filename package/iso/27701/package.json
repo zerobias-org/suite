@@ -10,14 +10,9 @@
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/iso/27701/"
   },
-  "auditmation": {
-    "package": "iso.27701",
-    "import-artifact": "suite",
-    "dataloader-version": "1.0.0"
-  },
-  "engines": {
-    "node": ">=22.0.0",
-    "npm": ">=10.0.0"
+  "scripts": {
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -29,8 +24,9 @@
   "dependencies": {
     "@zerobias-org/vendor-iso": "latest"
   },
-  "scripts": {
-    "correct:deps": "tsx ../../../scripts/correctDeps.ts",
-    "validate": "tsx ../../../scripts/validate.ts"
+  "zerobias": {
+    "package": "iso.27701",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }
