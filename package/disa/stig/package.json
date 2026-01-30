@@ -4,28 +4,29 @@
   "description": "Suite package for vendor DISA",
   "author": "team@zerobias.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "suite/"
   },
-  "dependencies": {
-    "@zerobias-org/vendor-disa": "^1.1.1"
+  "scripts": {
+    "nx:prepublish": "../../../scripts/prepublish.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "index.yml",
-    "catalog.yml"
+    "catalog.yml",
+    "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "nx:prepublish": "../../../scripts/prepublish.sh"
+  "dependencies": {
+    "@zerobias-org/vendor-disa": "^1.1.1"
   },
-  "auditmation": {
+  "zerobias": {
     "package": "disa.stig",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "1.0.0"
   }
 }

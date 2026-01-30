@@ -4,27 +4,26 @@
   "description": "Suite package EU Artificial Intelligence (AI)I Act (Regulation (EU) 2024/1689) for vendor EU.",
   "author": "team@neverfail.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/eu/ai/"
   },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
-  },
-  "auditmation": {
-    "package": "eu.ai",
-    "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
-  },
   "dependencies": {
     "@zerobias-org/vendor-eu": "^1.0.0"
+  },
+  "zerobias": {
+    "package": "eu.ai",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }

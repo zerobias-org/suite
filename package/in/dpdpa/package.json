@@ -4,27 +4,26 @@
   "description": "Suite package Digital Personal Data Protection Act, 2023 for vendor India.",
   "author": "team@neverfail.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/in/dpdpa/"
   },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../../scripts/publish.sh"
-  },
-  "auditmation": {
-    "package": "in.dpdpa",
-    "import-artifact": "suite",
-    "dataloader-version": "0.5.4"
-  },
   "dependencies": {
     "@zerobias-org/vendor-in": "^1.0.0"
+  },
+  "zerobias": {
+    "package": "in.dpdpa",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }

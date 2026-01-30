@@ -4,30 +4,29 @@
   "description": "Suite package fedramp for vendor gsa.",
   "author": "team@zerobias.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "suite/"
   },
-  "files": [
-    "index.yml",
-    "logo.svg"
-  ],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
     "validate": "ts-node ../../../scripts/validate.ts"
   },
-  "auditmation": {
-    "package": "gsa.fedramp",
-    "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
   "dependencies": {
     "@zerobias-org/vendor-gsa": "latest"
+  },
+  "zerobias": {
+    "package": "gsa.fedramp",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }

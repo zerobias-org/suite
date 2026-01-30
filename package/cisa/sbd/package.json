@@ -4,14 +4,13 @@
   "description": "Secure By Design",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/cisa/sbd/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
     "validate": "ts-node ../../../scripts/validate.ts"
   },
@@ -20,13 +19,13 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "dependencies": {
     "@zerobias-org/vendor-cisa": "latest"
   },
-  "auditmation": {
-    "dataloader-version": "5.0.14",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "cisa.sbd"
   }

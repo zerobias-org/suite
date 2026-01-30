@@ -4,30 +4,29 @@
   "description": "Suite package interface for vendor auditmation.",
   "author": "team@zerobias.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "suite/"
   },
-  "files": [
-    "index.yml",
-    "logo.svg"
-  ],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
     "validate": "ts-node ../../../scripts/validate.ts"
   },
-  "auditmation": {
-    "package": "auditmation.interface",
-    "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
   "dependencies": {
     "@zerobias-org/vendor-auditmation": "latest"
+  },
+  "zerobias": {
+    "package": "auditmation.interface",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
   }
 }
