@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.4 (2026-01-30)</small>
+
+* chore(suite): migrate remaining packages and templates to zerobias config ([1d6bd7f](https://github.com/zerobias-org/suite/commit/1d6bd7f))
+
+
+
+
+
 ## [1.0.3](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-us_ca-sb328@1.0.2...@zerobias-org/suite-us_ca-sb328@1.0.3) (2025-09-07)
 
 **Note:** Version bump only for package @zerobias-org/suite-us_ca-sb328

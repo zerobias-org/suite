@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.4.4 (2026-01-30)</small>
+
+* chore(suite): migrate remaining packages and templates to zerobias config ([1d6bd7f](https://github.com/zerobias-org/suite/commit/1d6bd7f))
+
+
+
+
+
 ## [0.4.3](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-tenable-platform@0.4.3-rc.1...@zerobias-org/suite-tenable-platform@0.4.3) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/suite-tenable-platform

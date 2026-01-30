@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.12 (2026-01-30)</small>
+
+* chore(suite): migrate remaining packages and templates to zerobias config ([1d6bd7f](https://github.com/zerobias-org/suite/commit/1d6bd7f))
+
+
+
+
+
 ## [1.0.11](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-vmware-cloud@1.0.11-rc.1...@zerobias-org/suite-vmware-cloud@1.0.11) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/suite-vmware-cloud
