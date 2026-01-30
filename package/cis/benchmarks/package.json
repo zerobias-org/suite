@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-cis-benchmarks",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Suite package benchmarks for vendor CIS.",
   "author": "team@zerobias.com",
   "license": "ISC",

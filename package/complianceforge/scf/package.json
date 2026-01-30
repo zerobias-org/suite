@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-complianceforge-scf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Suite package Secure Controls Framework for vendor complianceforge.",
   "author": "team@zerobias.com",
   "license": "ISC",

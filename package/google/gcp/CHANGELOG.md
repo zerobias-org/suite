@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.12 (2026-01-30)</small>
+
+* chore(suite): migrate packages adobe-isaca to zerobias config ([2a10488](https://github.com/zerobias-org/suite/commit/2a10488))
+
+
+
+
+
 ## [1.0.11](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-google-gcp@1.0.11-rc.1...@zerobias-org/suite-google-gcp@1.0.11) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/suite-google-gcp

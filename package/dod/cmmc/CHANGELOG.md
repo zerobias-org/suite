@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.5 (2026-01-30)</small>
+
+* chore(suite): migrate packages adobe-isaca to zerobias config ([2a10488](https://github.com/zerobias-org/suite/commit/2a10488))
+
+
+
+
+
 ## [0.1.4](https://github.com/zerobias-org/suite/compare/@zerobias-org/suite-dod-cmmc@0.1.4-rc.1...@zerobias-org/suite-dod-cmmc@0.1.4) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/suite-dod-cmmc

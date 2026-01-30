@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.4 (2026-01-30)</small>
+
+* chore(suite): migrate packages adobe-isaca to zerobias config ([2a10488](https://github.com/zerobias-org/suite/commit/2a10488))
+
+
+
+
+
 ## <small>1.0.3 (2026-01-29)</small>
 
 * chore(adobe): trigger ([630a2cb](https://github.com/zerobias-org/suite/commit/630a2cb))
