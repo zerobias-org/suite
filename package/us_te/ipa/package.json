@@ -4,20 +4,15 @@
   "description": "suite package for us_te-ipa",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/us_te/ipa/"
   },
-  "auditmation": {
-    "package": "us_te.ipa",
-    "import-artifact": "suite",
-    "dataloader-version": "5.0.14",
-    "deprecated": true
-  },
-  "engines": {
-    "node": ">=16.11.0",
-    "npm": ">=8.0.0"
+  "scripts": {
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -26,10 +21,10 @@
     "index.yml",
     "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../scripts/validate.ts"
+  "zerobias": {
+    "package": "us_te.ipa",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0",
+    "deprecated": true
   }
 }

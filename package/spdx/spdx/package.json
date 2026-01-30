@@ -4,14 +4,13 @@
   "description": "System Package Data Exchange ",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/spdx/spdx/"
   },
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
     "validate": "ts-node ../../../scripts/validate.ts"
   },
@@ -20,13 +19,13 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "dependencies": {
     "@zerobias-org/vendor-spdx": "latest"
   },
-  "auditmation": {
-    "dataloader-version": "5.0.14",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "spdx.spdx"
   }
