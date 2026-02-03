@@ -11,5 +11,5 @@ vendorCode: aiuc
 vendorName: AI Use Case Consortium (AIUC)
 url: https://www.aiuc-1.com
 description: >-
-  AIUC-1 is the world's first AI agent standard, designed to unlock enterprise adoption by addressing all enterprise concerns related to AI agents. The standard covers six core domains: Data & Privacy, Security, Safety, Reliability, Accountability, and Society. Comparable to SOC 2 for SaaS but tailored to AI-specific risks and requirements.
+  AIUC-1 is the world's first AI agent standard, designed to unlock enterprise adoption by addressing all enterprise concerns related to AI agents. The standard covers six core domains: Data & Privacy, Security, Safety, Reliability, Accountability, and Society. Comparable to SOC 2 for SaaS but tailored to AI-specific risks and requirements
 logo: https://cdn.auditmation.io/logos/aiuc-aiuc-1.svg
