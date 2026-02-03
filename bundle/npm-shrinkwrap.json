@@ -1,19 +1,19 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.11",
+      "version": "0.0.12",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.4",
         "@zerobias-org/suite-ae-dpl": "1.0.3",
         "@zerobias-org/suite-aicpa-gapp": "1.0.3",
         "@zerobias-org/suite-aicpa-soc2": "1.0.8",
-        "@zerobias-org/suite-aiuc-aiuc-1": "1.0.2",
+        "@zerobias-org/suite-aiuc-aiuc_1": "1.0.3",
         "@zerobias-org/suite-amazon-aws": "1.0.13",
         "@zerobias-org/suite-ar-men_2018_147_apn_pte": "1.0.3",
         "@zerobias-org/suite-ar-ppl": "1.0.3",
@@ -335,10 +335,10 @@
         "@zerobias-org/vendor-aicpa": "latest"
       }
     },
-    "node_modules/@zerobias-org/suite-aiuc-aiuc-1": {
-      "version": "1.0.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-aiuc-aiuc-1/-/suite-aiuc-aiuc-1-1.0.2.tgz",
-      "integrity": "sha512-DmFSvDYfmQEddH3wa+VQl1DQ1BTGU5DeaJ0D5NHOIbPw8g991o59G4wEcucYGPDvTHDLZA8CB7A6udPqKL1b3A==",
+    "node_modules/@zerobias-org/suite-aiuc-aiuc_1": {
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-aiuc-aiuc_1/-/suite-aiuc-aiuc_1-1.0.3.tgz",
+      "integrity": "sha512-hW/lQrdftkyF2WvlXDKtbRlZp9Fp3b6MBWCnJxMrnKt7IGFj5Rn4GGR4RxgJ4SlinalixqrK4vuttkRbZkc+ZA==",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-aiuc": "latest"
@@ -3846,10 +3846,10 @@
         "@zerobias-org/vendor-aicpa": "latest"
       }
     },
-    "@zerobias-org/suite-aiuc-aiuc-1": {
-      "version": "1.0.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-aiuc-aiuc-1/-/suite-aiuc-aiuc-1-1.0.2.tgz",
-      "integrity": "sha512-DmFSvDYfmQEddH3wa+VQl1DQ1BTGU5DeaJ0D5NHOIbPw8g991o59G4wEcucYGPDvTHDLZA8CB7A6udPqKL1b3A==",
+    "@zerobias-org/suite-aiuc-aiuc_1": {
+      "version": "1.0.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-aiuc-aiuc_1/-/suite-aiuc-aiuc_1-1.0.3.tgz",
+      "integrity": "sha512-hW/lQrdftkyF2WvlXDKtbRlZp9Fp3b6MBWCnJxMrnKt7IGFj5Rn4GGR4RxgJ4SlinalixqrK4vuttkRbZkc+ZA==",
       "requires": {
         "@zerobias-org/vendor-aiuc": "latest"
       }

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "@zerobias-org/suite-ae-dpl": "1.0.3",
     "@zerobias-org/suite-aicpa-gapp": "1.0.3",
     "@zerobias-org/suite-aicpa-soc2": "1.0.8",
-    "@zerobias-org/suite-aiuc-aiuc-1": "1.0.2",
+    "@zerobias-org/suite-aiuc-aiuc_1": "1.0.3",
     "@zerobias-org/suite-amazon-aws": "1.0.13",
     "@zerobias-org/suite-ar-men_2018_147_apn_pte": "1.0.3",
     "@zerobias-org/suite-ar-ppl": "1.0.3",
