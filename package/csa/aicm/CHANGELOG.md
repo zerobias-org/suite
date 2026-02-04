@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## <small>0.0.2 (2026-02-04)</small>
+
+* feat(aicm): add CSA AI Controls Matrix suite ([84272c8](https://github.com/zerobias-org/suite/commit/84272c8))
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
