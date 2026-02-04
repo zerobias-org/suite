@@ -11,7 +11,7 @@ This is a Lerna monorepo containing compliance and security framework suites. Ea
 ### Setup and Installation
 - `npm install` - Setup husky hooks and install root dependencies
 - `npm run bootstrap` - Bootstrap all packages using Lerna
-- `npm run build` - Generate npm-shrinkwrap.json for all packages
+- `npm run build` - Build all packages
 - `npm run reset` - Full clean and rebuild (clean + correct deps + bootstrap + build)
 
 ### Development Workflow
@@ -34,15 +34,14 @@ Suites are organized as: `package/{vendor}/{code}/`
 2. Run: `sh scripts/createNewSuite.sh package/{vendor}/{code}`
 3. Navigate to directory: `cd package/{vendor}/{code}`
 4. Install dependencies: `npm install`
-5. Generate shrinkwrap: `npm shrinkwrap`
-6. Validate: `npm run validate` from repository root
+5. Validate: `npm run validate` from repository root
 
 ### Required Files for Each Suite
 - `package.json` - NPM package configuration
 - `index.yml` - Suite metadata and configuration
-- `logo.svg` or logo file - Visual identifier
-- `npm-shrinkwrap.json` - Dependency lock file
+- `logo.png` or `logo.svg` - Visual identifier
 - `.npmrc` - NPM registry configuration
+- `CHANGELOG.md` - Version history (auto-generated)
 
 ## Suite Structure and Requirements
 
@@ -51,9 +50,9 @@ Suites are organized as: `package/{vendor}/{code}/`
 - Must include `auditmation` section with:
   - `package: "{vendor}.{code}"`
   - `import-artifact: "suite"`
-  - `dataloader-version` field
+  - `dataloader-version: "1.0.0"`
 - Dependencies must include exactly one vendor package: `@zerobias-org/vendor-{vendor}`
-- Standard scripts: `nx:publish`, `prepublishtest`, `correct:deps`, `validate`
+- Standard scripts: `correct:deps`, `validate`
 
 ### index.yml Requirements
 - Must contain: `id`, `name`, `description`, `url`, `vendorCode`, `vendorId`, `status`
@@ -87,7 +86,7 @@ Suites are organized as: `package/{vendor}/{code}/`
 - SVG files should remain unchanged during any operations
 
 ### Required Post-Installation Steps
-- Always run `npm install && npm shrinkwrap` after creating or modifying a suite
+- Always run `npm install` after creating or modifying a suite
 - The vendor dependency will force installation of the vendor package together with the suite package
 - **After installing vendor dependency**: Always check `node_modules/@zerobias-org/vendor-{vendor}/index.yml#id` to get the correct `vendorId` for the suite's index.yml
 
@@ -96,7 +95,7 @@ Suites are organized as: `package/{vendor}/{code}/`
 ### Validation Script
 The `scripts/validate.ts` script checks:
 - Proper package.json structure and naming
-- Required auditmation configuration
+- Required auditmation configuration section
 - Vendor dependency configuration
 - index.yml structure and required fields
 - Presence of required files (.npmrc, package.json, index.yml)
@@ -135,34 +134,33 @@ The `scripts/validate.ts` script checks:
 
 ### Dependencies
 - Always use `"latest"` for vendor dependencies in package.json
-- npm-shrinkwrap.json will lock to specific versions automatically
 - Exactly one dependency: `@zerobias-org/vendor-{vendor}`
 - Dependencies resolve from custom registry: `https://pkg.zerobias.org/`
 
 ### Standard Configuration Values
-- `dataloader-version: "5.0.14"` (current standard across all suites)
-- Repository directory: `"suite/"` in package.json
+- `dataloader-version: "1.0.0"` (current standard across all suites)
+- Repository directory: `"package/{vendor}/{code}/"` in package.json
 - Scripts always reference: `../../../scripts/`
-- Logo URL pattern: `https://cdn.auditmation.io/logos/{vendor}-{code}.svg`
+- Logo URL pattern: `https://cdn.auditmation.io/logos/{vendor}-{code}.png` (or .svg)
 
 ### File Structure Requirements
 Every suite must include:
 - `package.json` - NPM configuration
 - `index.yml` - Suite metadata
-- `logo.svg` - Logo file (never modify SVG content)
-- `npm-shrinkwrap.json` - Generated dependency lock
+- `logo.png` or `logo.svg` - Logo file (never modify content)
 - `CHANGELOG.md` - Auto-generated version history
 - `.npmrc` - Registry configuration
 
 ### Logo Best Practices
-- **Use official logos**: Always try to find and use official vendor SVG logos
+- **Use official logos**: Always try to find and use official vendor logos (PNG or SVG)
+- **Reuse existing logos**: For frameworks from the same vendor (e.g., CSA), copy the logo from another suite of the same vendor
 - **Download approach**: Use curl to download official logos directly:
   ```bash
-  curl -o /path/to/suite/logo.svg "https://official-logo-url.svg"
+  curl -o /path/to/suite/logo.png "https://official-logo-url.png"
   ```
 - **Verify download**: Check file size with `ls -lh` to ensure complete download
-- **Never modify**: Don't edit SVG content - preserve official branding exactly as provided
-- **Logo naming**: Follow pattern `https://cdn.auditmation.io/logos/{vendor}-{code}.svg` in index.yml
+- **Never modify**: Don't edit logo content - preserve official branding exactly as provided
+- **Logo naming**: Follow pattern `https://cdn.auditmation.io/logos/{vendor}-{code}.png` in index.yml (or .svg)
 
 ### Validation Notes
 - Templates contain placeholders like `{vendor}`, `{code}` - these must be replaced

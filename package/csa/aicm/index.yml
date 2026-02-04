@@ -1,0 +1,14 @@
+id: 66e286ed-3684-4934-97cc-65fe6eb713ed
+name: AICM
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2026-02-04T22:47:22.000Z'
+updated: '2026-02-04T22:47:22.000Z'
+code: aicm
+status: verified
+description: AI Controls Matrix - A vendor-neutral framework for cloud-based AI systems
+logo: https://cdn.auditmation.io/logos/csa-aicm.png
+url: https://cloudsecurityalliance.org/artifacts/ai-controls-matrix
+vendorId: fdf8ab2a-3f91-4175-9ebf-8b3adbe606ea
+vendorCode: csa
+tags: []
