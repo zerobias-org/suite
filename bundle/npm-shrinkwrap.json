@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.4",
@@ -57,6 +57,7 @@
         "@zerobias-org/suite-complianceforge-scf": "1.0.6",
         "@zerobias-org/suite-coso-coso": "1.0.3",
         "@zerobias-org/suite-cr-protection": "1.0.3",
+        "@zerobias-org/suite-csa-aicm": "0.0.2",
         "@zerobias-org/suite-csa-ccm": "1.0.3",
         "@zerobias-org/suite-csa-iot_scf": "1.0.3",
         "@zerobias-org/suite-cz-act_101": "1.0.3",
@@ -729,6 +730,15 @@
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-cr": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-csa-aicm": {
+      "version": "0.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-csa-aicm/-/suite-csa-aicm-0.0.2.tgz",
+      "integrity": "sha512-DtpVkc1TxHl9VJ1PF+zZgyOuJ+pP2pyBbPHA/ETypv2vo2V6lVa2MP+FTLX4vAj4dknVWWQKMaNEIoVCXSzXvA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-csa": "latest"
       }
     },
     "node_modules/@zerobias-org/suite-csa-ccm": {
@@ -4196,6 +4206,14 @@
       "integrity": "sha512-FOwGuqnyt2zgiDFS9iXWFQ6sjLxySlrbNazk5vbFQhpiBDXhbIQ52M3Phtm5eWeCbvheTy1kKUgh55IQk+4RDw==",
       "requires": {
         "@zerobias-org/vendor-cr": "latest"
+      }
+    },
+    "@zerobias-org/suite-csa-aicm": {
+      "version": "0.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-csa-aicm/-/suite-csa-aicm-0.0.2.tgz",
+      "integrity": "sha512-DtpVkc1TxHl9VJ1PF+zZgyOuJ+pP2pyBbPHA/ETypv2vo2V6lVa2MP+FTLX4vAj4dknVWWQKMaNEIoVCXSzXvA==",
+      "requires": {
+        "@zerobias-org/vendor-csa": "latest"
       }
     },
     "@zerobias-org/suite-csa-ccm": {

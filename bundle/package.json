@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -66,6 +66,7 @@
     "@zerobias-org/suite-complianceforge-scf": "1.0.6",
     "@zerobias-org/suite-coso-coso": "1.0.3",
     "@zerobias-org/suite-cr-protection": "1.0.3",
+    "@zerobias-org/suite-csa-aicm": "0.0.2",
     "@zerobias-org/suite-csa-ccm": "1.0.3",
     "@zerobias-org/suite-csa-iot_scf": "1.0.3",
     "@zerobias-org/suite-cz-act_101": "1.0.3",
