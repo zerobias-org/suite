@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.4",
@@ -185,6 +185,7 @@
         "@zerobias-org/suite-owasp-css": "1.0.3",
         "@zerobias-org/suite-owasp-cyclonedx": "1.0.3",
         "@zerobias-org/suite-owasp-dc": "1.0.3",
+        "@zerobias-org/suite-owasp-llmtop10": "1.0.0",
         "@zerobias-org/suite-owasp-masvs": "1.0.3",
         "@zerobias-org/suite-owasp-oat": "1.0.3",
         "@zerobias-org/suite-owasp-pc": "1.0.3",
@@ -1879,6 +1880,15 @@
       "version": "1.0.3",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-owasp-dc/-/suite-owasp-dc-1.0.3.tgz",
       "integrity": "sha512-TvEZmtCYIrFQ93wJUTeBSjzjHi+tTplVbZAjbPcAX/pa4PXziUgp+FhHWjPD3nFhvEPsV2zbJGGD1NVtOzvROw==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-owasp": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-owasp-llmtop10": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-owasp-llmtop10/-/suite-owasp-llmtop10-1.0.0.tgz",
+      "integrity": "sha512-l/jq3j+9o/f/FRFXTvQHYHKfV6sm+6OmxqSOgS7BPO25hepFHN9y6tG5MSCGgyTfBBK8lpBBoaFQAX2pg8ZL/g==",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-owasp": "latest"
@@ -5228,6 +5238,14 @@
       "version": "1.0.3",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-owasp-dc/-/suite-owasp-dc-1.0.3.tgz",
       "integrity": "sha512-TvEZmtCYIrFQ93wJUTeBSjzjHi+tTplVbZAjbPcAX/pa4PXziUgp+FhHWjPD3nFhvEPsV2zbJGGD1NVtOzvROw==",
+      "requires": {
+        "@zerobias-org/vendor-owasp": "latest"
+      }
+    },
+    "@zerobias-org/suite-owasp-llmtop10": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-owasp-llmtop10/-/suite-owasp-llmtop10-1.0.0.tgz",
+      "integrity": "sha512-l/jq3j+9o/f/FRFXTvQHYHKfV6sm+6OmxqSOgS7BPO25hepFHN9y6tG5MSCGgyTfBBK8lpBBoaFQAX2pg8ZL/g==",
       "requires": {
         "@zerobias-org/vendor-owasp": "latest"
       }

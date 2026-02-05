@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -194,6 +194,7 @@
     "@zerobias-org/suite-owasp-css": "1.0.3",
     "@zerobias-org/suite-owasp-cyclonedx": "1.0.3",
     "@zerobias-org/suite-owasp-dc": "1.0.3",
+    "@zerobias-org/suite-owasp-llmtop10": "1.0.0",
     "@zerobias-org/suite-owasp-masvs": "1.0.3",
     "@zerobias-org/suite-owasp-oat": "1.0.3",
     "@zerobias-org/suite-owasp-pc": "1.0.3",
