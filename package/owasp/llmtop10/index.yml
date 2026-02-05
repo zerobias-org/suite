@@ -1,0 +1,18 @@
+id: 8371f4c6-a166-45ab-a300-619512353ff6
+name: LLM Top 10
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2026-02-05T00:35:00.000Z'
+updated: '2026-02-05T00:35:00.000Z'
+code: llmtop10
+status: verified
+description: >-
+  The OWASP Top 10 for Large Language Model Applications identifies the most critical
+  security vulnerabilities in LLM-based systems, providing guidance for developers
+  and security professionals to build secure AI applications.
+aliases: []
+logo: https://cdn.auditmation.io/logos/owasp-llmtop10.png
+url: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+vendorCode: owasp
+tags: []
