@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-llmtop10",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "description": "Suite package llmtop10 for vendor owasp",
   "author": "team@zerobias.com",
   "license": "ISC",
