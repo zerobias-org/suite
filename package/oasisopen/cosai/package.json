@@ -1,0 +1,32 @@
+{
+  "name": "@zerobias-org/suite-oasisopen-cosai",
+  "version": "0.0.0",
+  "description": "Coalition for Secure AI (CoSAI) - An OASIS Open project focused on AI security guidance and standards",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/oasisopen/cosai/"
+  },
+  "scripts": {
+    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-oasisopen": "latest"
+  },
+  "auditmation": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "suite",
+    "package": "oasisopen.cosai"
+  }
+}
