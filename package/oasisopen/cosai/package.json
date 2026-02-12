@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-oasisopen-cosai",
-  "version": "0.0.0",
+  "version": "0.0.1-rc.0",
   "description": "Coalition for Secure AI (CoSAI) - An OASIS Open project focused on AI security guidance and standards",
   "author": "team@zerobias.com",
   "license": "ISC",
