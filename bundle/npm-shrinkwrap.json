@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.14",
+      "version": "0.0.15",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.4",
@@ -176,6 +176,7 @@
         "@zerobias-org/suite-nz-hisf": "1.0.3",
         "@zerobias-org/suite-nz-ism": "1.0.3",
         "@zerobias-org/suite-nz-pa": "1.0.3",
+        "@zerobias-org/suite-oasisopen-cosai": "0.0.1",
         "@zerobias-org/suite-oasisopen-saml": "1.0.3",
         "@zerobias-org/suite-opencre-opencre": "1.0.3",
         "@zerobias-org/suite-openid-connect": "1.1.5",
@@ -1802,6 +1803,15 @@
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-nz": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-oasisopen-cosai": {
+      "version": "0.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-oasisopen-cosai/-/suite-oasisopen-cosai-0.0.1.tgz",
+      "integrity": "sha512-qxuSqUsQRasFrO1zvlAXurAsl2YuQS9pL2oAVG7alcNh7T0MZ5nA0CnKamvWcc8dvwOiJfJ4QpuzWOHM2pwoYg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-oasisopen": "latest"
       }
     },
     "node_modules/@zerobias-org/suite-oasisopen-saml": {
@@ -5168,6 +5178,14 @@
       "integrity": "sha512-mgBx9WX3qVngG9JoNBChSMUsKa5gM8/dGtu2zTE3+IJKchziEV8C/nZXG74jevD/pUChdPT9s4OignCNLtkPSg==",
       "requires": {
         "@zerobias-org/vendor-nz": "latest"
+      }
+    },
+    "@zerobias-org/suite-oasisopen-cosai": {
+      "version": "0.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-oasisopen-cosai/-/suite-oasisopen-cosai-0.0.1.tgz",
+      "integrity": "sha512-qxuSqUsQRasFrO1zvlAXurAsl2YuQS9pL2oAVG7alcNh7T0MZ5nA0CnKamvWcc8dvwOiJfJ4QpuzWOHM2pwoYg==",
+      "requires": {
+        "@zerobias-org/vendor-oasisopen": "latest"
       }
     },
     "@zerobias-org/suite-oasisopen-saml": {

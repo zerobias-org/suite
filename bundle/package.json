@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -185,6 +185,7 @@
     "@zerobias-org/suite-nz-hisf": "1.0.3",
     "@zerobias-org/suite-nz-ism": "1.0.3",
     "@zerobias-org/suite-nz-pa": "1.0.3",
+    "@zerobias-org/suite-oasisopen-cosai": "0.0.1",
     "@zerobias-org/suite-oasisopen-saml": "1.0.3",
     "@zerobias-org/suite-opencre-opencre": "1.0.3",
     "@zerobias-org/suite-openid-connect": "1.1.5",
