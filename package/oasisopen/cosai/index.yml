@@ -1,0 +1,21 @@
+id: d0657e0d-171a-454e-8170-13dd1e74f23c
+name: CoSAI
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2026-02-11T00:00:00.000Z'
+updated: '2026-02-11T00:00:00.000Z'
+code: cosai
+status: active
+description: >-
+  Coalition for Secure AI (CoSAI) is an OASIS Open project dedicated to
+  sharing and advancing practical security measures for AI systems, including
+  threat analysis, security controls, and governance guidance for agentic
+  AI systems.
+aliases: []
+logo: https://cdn.auditmation.io/logos/oasisopen-cosai.png
+url: https://www.coalitionforsecureai.org/
+vendorId: 02e80f36-dfaf-4b67-9b49-b85545f1f4b9
+vendorCode: oasisopen
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443
