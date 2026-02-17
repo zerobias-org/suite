@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-zerobias-schemas",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Suite package schemas for vendor zerobias.",
   "author": "team@zerobias.com",
   "license": "ISC",
