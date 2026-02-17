@@ -1,0 +1,32 @@
+{
+  "name": "@zerobias-org/suite-zerobias-schemas",
+  "version": "1.0.0-rc.1",
+  "description": "Suite package schemas for vendor zerobias.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/zerobias/schemas/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-zerobias": "latest"
+  },
+  "auditmation": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "suite",
+    "package": "zerobias.schemas"
+  }
+}

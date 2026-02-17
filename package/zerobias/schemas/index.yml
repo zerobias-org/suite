@@ -1,0 +1,18 @@
+id: d7002909-6b23-4885-ac85-c161157b09f4
+name: Schemas
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2026-02-17T20:00:00.000Z'
+updated: '2026-02-17T20:00:00.000Z'
+code: schemas
+status: verified
+description: >-
+  Open-source AuditgraphDB schema definitions for ZeroBias datasets.
+  Schema packages define object types (classes, interfaces, fields)
+  that are loaded into AuditgraphDB by the dataloader.
+aliases: []
+logo: https://cdn.auditmation.io/logos/zerobias-schemas.svg
+url: https://zerobias.com/
+vendorId: 2d2ad6e2-7d68-4cde-ba51-4440e4d6a158
+vendorCode: zerobias
+tags: []
