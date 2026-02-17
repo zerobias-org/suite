@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-bundle",
-      "version": "0.0.15",
+      "version": "0.0.16",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/suite-adobe-ccf": "1.0.4",
@@ -299,6 +299,7 @@
         "@zerobias-org/suite-za-popia": "1.0.3",
         "@zerobias-org/suite-zerobias-generic": "1.0.4",
         "@zerobias-org/suite-zerobias-interface": "1.0.3",
+        "@zerobias-org/suite-zerobias-schemas": "1.0.0",
         "@zerobias-org/suite-zoho-one": "1.1.5"
       }
     },
@@ -2904,6 +2905,15 @@
       "version": "1.0.3",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-zerobias-interface/-/suite-zerobias-interface-1.0.3.tgz",
       "integrity": "sha512-/qNjgROtddq9lL7Az46Wp62vLl4zOmmwSP3mW1SGNKwXGTIAzPZoA+oUmZcYv0A9xMOOpN0tOtuER6xitf7wFA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-zerobias": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-zerobias-schemas": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-zerobias-schemas/-/suite-zerobias-schemas-1.0.0.tgz",
+      "integrity": "sha512-Ojdyq8aErLYMuJLONI79iTVUMN4Zcsxb0Zsl8k9Dl2oRLbhBe7xshu0dWrZNF5n2FRjS2wWnpumUHOjXUGw3Xg==",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-zerobias": "latest"
@@ -6157,6 +6167,14 @@
       "version": "1.0.3",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-zerobias-interface/-/suite-zerobias-interface-1.0.3.tgz",
       "integrity": "sha512-/qNjgROtddq9lL7Az46Wp62vLl4zOmmwSP3mW1SGNKwXGTIAzPZoA+oUmZcYv0A9xMOOpN0tOtuER6xitf7wFA==",
+      "requires": {
+        "@zerobias-org/vendor-zerobias": "latest"
+      }
+    },
+    "@zerobias-org/suite-zerobias-schemas": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-zerobias-schemas/-/suite-zerobias-schemas-1.0.0.tgz",
+      "integrity": "sha512-Ojdyq8aErLYMuJLONI79iTVUMN4Zcsxb0Zsl8k9Dl2oRLbhBe7xshu0dWrZNF5n2FRjS2wWnpumUHOjXUGw3Xg==",
       "requires": {
         "@zerobias-org/vendor-zerobias": "latest"
       }

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -308,6 +308,7 @@
     "@zerobias-org/suite-za-popia": "1.0.3",
     "@zerobias-org/suite-zerobias-generic": "1.0.4",
     "@zerobias-org/suite-zerobias-interface": "1.0.3",
+    "@zerobias-org/suite-zerobias-schemas": "1.0.0",
     "@zerobias-org/suite-zoho-one": "1.1.5"
   }
 }
