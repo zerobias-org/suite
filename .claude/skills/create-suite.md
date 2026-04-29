@@ -198,7 +198,8 @@ package/{vendorCode}/{suiteCode}/
 ├── package.json          # @zerobias-org/suite-{vendor}-{code}
 ├── index.yml             # Suite metadata
 ├── logo.svg              # Suite/standard logo
-├── npm-shrinkwrap.json   # Generated dependency lock
+├── build.gradle.kts      # one-line marker: plugins { id("zb.content") }
+├── gate-stamp.json       # written by ./gradlew :<vendor>:<suite>:gate
 └── .npmrc                # Registry configuration
 ```
 
@@ -219,17 +220,14 @@ package/{vendorCode}/{suiteCode}/
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "suite/"
   },
-  "files": ["index.yml", "logo.svg"],
+  "files": ["index.yml", "logo.*"],
   "scripts": {
-    "nx:publish": "../../../scripts/publish.sh",
-    "prepublishtest": "../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../scripts/correctDeps.ts"
   },
-  "auditmation": {
+  "zerobias": {
     "package": "{vendorCode}.{suiteCode}",
     "import-artifact": "suite",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "1.0.0"
   },
   "dependencies": {
     "@zerobias-org/vendor-{vendorCode}": "latest"
@@ -237,12 +235,22 @@ package/{vendorCode}/{suiteCode}/
 }
 ```
 
-**CRITICAL:** The dependency `@zerobias-org/vendor-{vendorCode}` is required.
+**CRITICAL:**
+- `zerobias.package` MUST equal `{vendorCode}.{suiteCode}` — the dataloader's `SuiteFileHandler` rejects mismatches.
+- The `dependencies` entry `@zerobias-org/vendor-{vendorCode}` is required so `npm install` resolves the vendor's `index.yml` (used to look up `vendorId` in Step 12). The dataloader itself queries the DB by `vendorId`, but the npm dep keeps the link traceable.
+
+### Step 9b: Create build.gradle.kts
+
+```bash
+echo 'plugins { id("zb.content") }' > build.gradle.kts
+```
+
+This one-line marker is what the publish workflow's `detect` job uses to find changed suites. Without it, the suite is invisible to CI and won't be picked up by the matrix publish step.
 
 ### Step 10: Create index.yml
 
 ```yaml
-vendorId: {vendor-uuid}           # Get from vendor's index.yml after npm install
+vendorId: {vendor-uuid}           # Get from vendor's index.yml after `npm install` (Step 12)
 code: {suiteCode}
 status: active
 id: {generate-uuid-v4}
@@ -285,7 +293,7 @@ cat node_modules/@zerobias-org/vendor-{vendorCode}/index.yml | grep "^id:"
 
 Update `index.yml` with the correct `vendorId`.
 
-### Step 13: Download Logo and Build
+### Step 13: Download Logo
 
 **Use logo URL extracted from task description (Step 2):**
 
@@ -308,43 +316,33 @@ ls -lh logo.svg
 - Verify file size after download
 - If no logo found, note in PR that logo needs to be added
 
-```bash
-# Generate shrinkwrap
-npm shrinkwrap
+### Step 14: Validate via gradle
 
-# Validate
-npm run validate
-```
-
-### Step 14: Handle Unpublished Vendor (npm link)
-
-If the vendor package is not yet published:
+Run the gate from the repo root — it composes schema validation
+(against the inline `contentValidator` in `build.gradle.kts`, which
+mirrors the dataloader's `SuiteFileHandler`) plus a real dataloader
+load against an ephemeral Neon Postgres branch. Writes
+`gate-stamp.json` on success.
 
 ```bash
-# In vendor repo
-cd /path/to/vendor/package/{vendorCode}
-npm link
-
-# In suite repo
-cd /path/to/suite/package/{vendorCode}/{suiteCode}
-npm link @zerobias-org/vendor-{vendorCode}
-npm install
-npm shrinkwrap
+# From repo root
+./gradlew :{vendorCode}:{suiteCode}:gate
 ```
 
-**IMPORTANT:** After using npm link, fix the shrinkwrap to remove local path reference:
+`gate-stamp.json` is committed alongside the suite YAML/package.json/
+build.gradle.kts and read by the publish workflow's preflight — never
+push without a fresh stamp (the matrix step will reject `Gate stamp
+invalid — stamp-missing`).
 
-```json
-{
-  "dependencies": {
-    "@zerobias-org/vendor-{vendorCode}": {
-      "version": "1.0.0"
-    }
-  }
-}
-```
+> **No NEON_API_KEY locally?** The dataloader step skips cleanly when
+> the slot has no Neon creds. CI always runs the full gate.
 
-The shrinkwrap should show version `"1.0.0"`, not a `file://` path.
+> **Vendor not yet published?** The `npm install` in Step 12 will
+> fail. Either get the vendor merged + published first, or fall back
+> to `npm link @zerobias-org/vendor-{vendorCode}` from a local
+> checkout — but make sure the `dependencies` entry in `package.json`
+> resolves to a real npm version before pushing (the publish workflow
+> will not accept `file://` paths).
 
 ### Step 15: Commit and Push
 
@@ -371,7 +369,8 @@ gh pr create --title "feat({vendorCode}-{suiteCode}): add {Suite Name}" --body "
 - Vendor: @zerobias-org/vendor-{vendorCode}
 
 ## Validation
-- [x] `npm run validate` passes
+- [x] `./gradlew :{vendorCode}:{suiteCode}:gate` passes (validate + dataloader)
+- [x] `package/{vendorCode}/{suiteCode}/gate-stamp.json` committed
 - [x] vendorId matches vendor package
 - [x] Logo file present
 
@@ -452,8 +451,18 @@ Always verify `vendorId` after `npm install`:
 grep "^id:" node_modules/@zerobias-org/vendor-{vendorCode}/index.yml
 ```
 
-### npm-shrinkwrap.json has file:// reference
-After using `npm link`, edit shrinkwrap to remove local path:
+### `Gate stamp invalid — stamp-missing` in CI
+You committed without re-running `./gradlew :<v>:<s>:gate` after a
+metadata change. Re-run gate locally, commit the regenerated
+`gate-stamp.json`, push.
+
+### Suite not detected by `Publish` workflow
+`detect` only matches files under `package/<vendor>/<suite>/` whose
+parent has `build.gradle.kts`. If you forgot Step 9b (the marker), the
+publish step will be skipped.
+
+### `dependencies` shows `file://` path (legacy npm link aftermath)
+Replace with a real version before pushing:
 ```json
 {
   "dependencies": {
