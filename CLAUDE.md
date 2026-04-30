@@ -94,24 +94,24 @@ The npm package name is `@zerobias-org/suite-{vendorCode}-{suiteCode}` and the `
 
 ### What the validator enforces
 
-The validator at `build.gradle.kts` (`extra["contentValidator"]`) mirrors `com/platform/dataloader/src/processors/suite/SuiteFileHandler.ts` so failures shift left from prod load to gate time:
+The dataloader is the source of truth for schema rules (UUID format, code regex, `VspStatusEnum`, URL parse, vendor lookup, tag UUIDs, etc.). Re-validating those at gate time would just create drift risk — when the dataloader tightens a rule, the gate gets stale. The full schema is exercised by `testIntegrationDataloader` against an ephemeral Neon Postgres branch as part of `gate`.
 
-- `index.yml` exists and parses as YAML
-  - `id` is a valid UUID
-  - `code` is a non-blank string, matches the leaf directory, and matches `^[\d_a-z]+$` (lowercase alphanumeric with underscores)
-  - `vendorCode` matches the parent directory and the same regex
-  - `vendorId` is a valid UUID
-  - `name` is a non-blank string
-  - `status` is one of `VspStatusEnum`: `draft`, `active`, `rejected`, `deleted`, `verified`
-  - `description`, if present, is non-blank
-  - `url` / `logo`, if present, are absolute URLs (scheme + host) — mirrors dataloader's `new URL(...)` parse
-  - `aliases`, if present, is a string list
-  - `tags` items must be UUIDs (dataloader maps each through `new UUID(tag)`)
-- `package.json` exists and parses as JSON
-  - `name` matches `@zerobias-org/suite-{vendorCode}-{suiteCode}`
-  - `zerobias.import-artifact` (or legacy `auditmation.import-artifact`) is `suite`
-  - `zerobias.package` (or legacy `auditmation.package`) equals `{vendorCode}.{suiteCode}`
-  - `zerobias.dataloader-version` (or legacy) is non-blank
+The inline validator at `build.gradle.kts` (`extra["contentValidator"]`) only enforces what the dataloader **cannot** or **does not** check:
+
+1. **Filesystem ↔ npm ↔ zerobias-block triangulation** — for a suite at `package/{vendor}/{suite}/`, both the npm `name` and the `zerobias.package` field are derived deterministically from the directory path:
+   - `package.json` `name` must equal `@zerobias-org/suite-{vendor}-{suite}`
+   - `zerobias.package` (or legacy `auditmation.package`) must equal `{vendor}.{suite}`
+   - The dataloader reads `zerobias.package` but never the npm `name` field — a wrong name would publish under the wrong package and only surface in production.
+
+2. **Logo file correctness** — the dataloader doesn't crack open the actual logo file:
+   - Exactly one `logo.{svg,png,jpg}` file must be present (never zero, never two)
+   - File magic bytes must match the extension (catches HTML error pages or S3 `AccessDenied` masquerading as `logo.svg`)
+   - File size in `[500B, 5MB]`
+   - `package.json` `files` array must include the logo
+
+3. **Repo-wide unique `id` UUIDs** — registered as `:validateUniqueIds` at the root, automatically a dependency of every per-suite `validateContent`. The dataloader processes one artifact at a time, so collisions only surface when the second one tries to load to the same DB row.
+
+Everything else (UUID parse, code regex, `VspStatusEnum`, URL parse, `vendorCode`/`vendorId` lookup, tag UUID list, `zerobias.dataloader-version` non-blank, etc.) is delegated to the dataloader running during `gate`.
 
 ### Vendor linkage
 
