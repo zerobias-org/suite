@@ -69,8 +69,9 @@ extra["contentValidator"] = { proj: org.gradle.api.Project ->
 }
 
 /**
- * Logo file checks the dataloader doesn't perform:
- *   - exactly one logo.{svg,png,jpg} file present (never zero, never two)
+ * Logo file checks the dataloader doesn't perform. Logos are optional —
+ * some suites ship without one — but when present they must be correct:
+ *   - never two logo files at the same time (must pick svg/png/jpg)
  *   - file magic bytes match the extension (catches HTML error pages
  *     masquerading as SVG, etc.)
  *   - reasonable size (>500B, <5MB)
@@ -81,7 +82,7 @@ fun validateLogo(projectDir: java.io.File, pkgDoc: Map<String, Any?>, tag: Strin
         .map { projectDir.resolve(it) }
         .filter { it.isFile }
 
-    require(candidates.isNotEmpty()) { "$tag no logo file found (expected one of logo.svg/logo.png/logo.jpg in ${projectDir.path})" }
+    if (candidates.isEmpty()) return  // logos are optional
     require(candidates.size == 1) { "$tag multiple logo files found: ${candidates.joinToString { it.name }}. Keep exactly one." }
 
     val logo = candidates.single()
