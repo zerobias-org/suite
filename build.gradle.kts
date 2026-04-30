@@ -6,30 +6,35 @@ plugins {
 
 group = "com.zerobias.content"
 
-/**
- * Mirrors the dataloader's URL validation: `new URL(value)` from
- * `@zerobias-org/types-core-js`. Strings must parse as absolute URLs
- * with a scheme + host.
- */
-fun requireUrlFormat(value: Any?, field: String, tag: String) {
-    require(value is String && value.isNotBlank()) { "$tag $field must be a non-blank string" }
-    try {
-        val uri = java.net.URI(value)
-        require(uri.scheme != null && uri.host != null) {
-            "$tag $field must be an absolute URL (scheme + host): got '$value'"
-        }
-    } catch (e: Exception) {
-        throw IllegalArgumentException("$tag $field is not a valid URL: $value (${e.message})")
-    }
-}
-
 // ════════════════════════════════════════════════════════════
-// Suite schema validator — owned by this repo.
+// Suite content validator — owned by this repo.
 //
-// Mirrors com/platform/dataloader/src/processors/suite/SuiteFileHandler.ts
-// so failures shift left from prod load to gate time. Suites live at
-// package/<vendorCode>/<suiteCode>/ and the dataloader links each one
-// to its parent vendor by id+code on load.
+// Philosophy (per Chris/Kevin): the dataloader is the source of truth
+// for schema rules (UUID format, code regex, VspStatusEnum, URL parse,
+// vendor lookup, etc.). Re-validating those here just creates drift
+// risk — when the dataloader tightens a rule, the gate gets stale.
+//
+// This validator only enforces things the dataloader CANNOT or DOES NOT
+// check:
+//
+//   1. Filesystem ↔ npm ↔ zerobias-block triangulation. Dataloader
+//      reads zerobias.package but not the npm `name` field, and has
+//      no view of the on-disk directory layout. A wrong npm name
+//      publishes under the wrong package and only surfaces in prod.
+//
+//   2. Logo file correctness. Dataloader doesn't crack open
+//      logo.{svg,png,jpg} — it just reads the URL. A logo file
+//      that's actually an HTML error page (S3 AccessDenied, etc.)
+//      ships happily until someone notices.
+//
+//   3. Repo-wide unique `id` UUIDs (separate :validateUniqueIds task
+//      registered below). Dataloader sees one artifact at a time;
+//      collisions only surface when the second one tries to load
+//      to the same DB row.
+//
+// Everything else (UUID validity, URL parse, status enum, vendorCode
+// regex, tag UUID list, etc.) is delegated to the dataloader running
+// in testIntegrationDataloader during gate.
 // ════════════════════════════════════════════════════════════
 extra["contentValidator"] = { proj: org.gradle.api.Project ->
     val projectDir = proj.projectDir
@@ -38,72 +43,142 @@ extra["contentValidator"] = { proj: org.gradle.api.Project ->
     require(projectDir.resolve("index.yml").isFile)    { "$tag index.yml missing in ${projectDir.path}" }
     require(projectDir.resolve("package.json").isFile) { "$tag package.json missing in ${projectDir.path}" }
 
-    // index.yml schema
-    val indexDoc = SchemaPrimitives.parseYaml(projectDir.resolve("index.yml"))
-    SchemaPrimitives.requireUuid(indexDoc["id"], "index.yml id")
-    SchemaPrimitives.requireNonBlankString(indexDoc["code"], "index.yml code")
-    SchemaPrimitives.requireNonBlankString(indexDoc["name"], "index.yml name")
-    // status: VspStatusEnum from @zerobias-com/platform-core core.yml
-    SchemaPrimitives.requireEnum(
-        indexDoc["status"], "index.yml status",
-        setOf("draft", "active", "rejected", "deleted", "verified"),
-    )
-    SchemaPrimitives.requireUuid(indexDoc["vendorId"], "index.yml vendorId")
-    SchemaPrimitives.requireNonBlankString(indexDoc["vendorCode"], "index.yml vendorCode")
+    // ── 1. Filesystem ↔ npm ↔ zerobias-block triangulation ──
+    // For suites, the directory layout is package/<vendor>/<suite>/.
+    // npm name and zerobias.package are derived deterministically from
+    // those two segments — and BOTH must agree.
+    val suiteCode = projectDir.name
+    val vendorCode = projectDir.parentFile.name
+    val expectedNpmName = "@zerobias-org/suite-$vendorCode-$suiteCode"
+    val expectedZerobiasPackage = "$vendorCode.$suiteCode"
 
-    // description / url / logo are optional in the dataloader; only validate
-    // format when present.
-    indexDoc["description"]?.let {
-        SchemaPrimitives.requireNonBlankString(it, "index.yml description")
+    val pkgDoc = SchemaPrimitives.parseJson(projectDir.resolve("package.json"))
+    require(pkgDoc["name"] == expectedNpmName) {
+        "$tag package.json name='${pkgDoc["name"]}' must equal '$expectedNpmName' (derived from path package/$vendorCode/$suiteCode)"
     }
-    indexDoc["url"]?.let { requireUrlFormat(it, "index.yml url", tag) }
-    indexDoc["logo"]?.let { requireUrlFormat(it, "index.yml logo", tag) }
-    indexDoc["aliases"]?.let { SchemaPrimitives.requireStringList(it, "index.yml aliases") }
-    // tags items must be UUIDs (dataloader maps each through new UUID(tag)).
-    indexDoc["tags"]?.let { tagsValue ->
-        require(tagsValue is List<*>) { "$tag index.yml tags must be a list" }
-        tagsValue.forEachIndexed { i, item ->
-            SchemaPrimitives.requireUuid(item, "index.yml tags[$i]")
+    val zbPackage = SchemaPrimitives.getPath(pkgDoc, "zerobias.package")
+        ?: SchemaPrimitives.getPath(pkgDoc, "auditmation.package")
+    require(zbPackage == expectedZerobiasPackage) {
+        "$tag zerobias.package='$zbPackage' must equal '$expectedZerobiasPackage' (derived from path package/$vendorCode/$suiteCode)"
+    }
+
+    // ── 2. Logo file correctness ──
+    validateLogo(projectDir, pkgDoc, tag)
+
+    proj.logger.lifecycle("$tag: vendorCode=$vendorCode code=$suiteCode")
+}
+
+/**
+ * Logo file checks the dataloader doesn't perform:
+ *   - exactly one logo.{svg,png,jpg} file present (never zero, never two)
+ *   - file magic bytes match the extension (catches HTML error pages
+ *     masquerading as SVG, etc.)
+ *   - reasonable size (>500B, <5MB)
+ *   - package.json `files` array references the logo glob
+ */
+fun validateLogo(projectDir: java.io.File, pkgDoc: Map<String, Any?>, tag: String) {
+    val candidates = listOf("logo.svg", "logo.png", "logo.jpg")
+        .map { projectDir.resolve(it) }
+        .filter { it.isFile }
+
+    require(candidates.isNotEmpty()) { "$tag no logo file found (expected one of logo.svg/logo.png/logo.jpg in ${projectDir.path})" }
+    require(candidates.size == 1) { "$tag multiple logo files found: ${candidates.joinToString { it.name }}. Keep exactly one." }
+
+    val logo = candidates.single()
+    val size = logo.length()
+    require(size in 500..(5L * 1024 * 1024)) {
+        "$tag ${logo.name} size $size bytes outside acceptable range (500B–5MB) — likely an error response or unscaled asset"
+    }
+
+    val head = logo.inputStream().use { stream -> ByteArray(8).also { stream.read(it) } }
+    when (logo.extension.lowercase()) {
+        "svg" -> {
+            val text = String(head).trimStart()
+            require(text.startsWith("<?xml") || text.startsWith("<svg") || text.startsWith("<!--")) {
+                "$tag ${logo.name} doesn't look like SVG (first bytes: ${head.joinToString(" ") { "%02x".format(it) }}). Possibly an HTML error page."
+            }
+        }
+        "png" -> {
+            val pngMagic = byteArrayOf(0x89.toByte(), 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A)
+            require(head.contentEquals(pngMagic)) {
+                "$tag ${logo.name} doesn't have the PNG magic bytes."
+            }
+        }
+        "jpg", "jpeg" -> {
+            require(head[0] == 0xFF.toByte() && head[1] == 0xD8.toByte() && head[2] == 0xFF.toByte()) {
+                "$tag ${logo.name} doesn't have the JPEG magic bytes."
+            }
         }
     }
 
-    val code = indexDoc["code"] as String
-    val vendorCode = indexDoc["vendorCode"] as String
-    SchemaPrimitives.requireCodeMatchesDir(code, projectDir.name, "index.yml code")
-    require(projectDir.parentFile.name == vendorCode) {
-        "$tag index.yml vendorCode='$vendorCode' must match parent directory '${projectDir.parentFile.name}'"
+    @Suppress("UNCHECKED_CAST")
+    val filesArray = pkgDoc["files"] as? List<String> ?: emptyList()
+    val matched = filesArray.any { entry ->
+        entry == logo.name || entry == "logo.*" || entry.startsWith("logo.")
     }
-    // Mirrors the dataloader's SuiteFileHandler code regex.
-    require(Regex("^[\\d_a-z]+\$").matches(code)) {
-        "$tag code='$code' must match ^[\\d_a-z]+\$ (lowercase alphanumeric with underscores) — see com/platform/dataloader SuiteFileHandler"
+    require(matched) {
+        "$tag package.json files=${filesArray} doesn't include the logo (${logo.name}). Add 'logo.*' (or the exact filename)."
     }
-    require(Regex("^[\\d_a-z]+\$").matches(vendorCode)) {
-        "$tag vendorCode='$vendorCode' must match ^[\\d_a-z]+\$ — see SuiteFileHandler"
-    }
+}
 
-    // package.json schema — npm name + zerobias block + parent linkage.
-    val pkgDoc = SchemaPrimitives.parseJson(projectDir.resolve("package.json"))
-    val expectedName = "@zerobias-org/suite-${vendorCode.replace('.', '-')}-${code.replace('.', '-')}"
-    require(pkgDoc["name"] == expectedName) {
-        "$tag package.json name is '${pkgDoc["name"]}' but expected '$expectedName' (derived from vendorCode=$vendorCode, code=$code)"
-    }
+// ════════════════════════════════════════════════════════════
+// :validateUniqueIds — repo-wide cross-cut.
+//
+// Walks every package/**/index.yml in the repo, extracts the `id`
+// field, and fails if two artifacts share the same UUID. Cannot be
+// done by the dataloader (it processes one artifact at a time); only
+// surfaces in prod when the second artifact tries to overwrite the
+// first. Wired as a dependency of every per-suite validateContent so
+// any gate run picks it up.
+// ════════════════════════════════════════════════════════════
+val validateUniqueIds by tasks.registering {
+    group = "verification"
+    description = "Fail if two suites share the same index.yml id UUID"
 
-    val artifact = SchemaPrimitives.getPath(pkgDoc, "zerobias.import-artifact")
-        ?: SchemaPrimitives.getPath(pkgDoc, "auditmation.import-artifact")
-    require(artifact == "suite") {
-        "$tag expected zerobias.import-artifact='suite', got '$artifact'"
-    }
-    val pkgField = SchemaPrimitives.getPath(pkgDoc, "zerobias.package")
-        ?: SchemaPrimitives.getPath(pkgDoc, "auditmation.package")
-    val expectedPackage = "$vendorCode.$code"
-    require(pkgField == expectedPackage) {
-        "$tag zerobias.package='$pkgField' must equal '$expectedPackage' (vendorCode.code) — SuiteFileHandler enforces this"
-    }
-    val dataloaderVersion = SchemaPrimitives.getPath(pkgDoc, "zerobias.dataloader-version")
-        ?: SchemaPrimitives.getPath(pkgDoc, "auditmation.dataloader-version")
-    SchemaPrimitives.requireNonBlankString(dataloaderVersion, "zerobias.dataloader-version")
+    val packageDir = layout.projectDirectory.dir("package").asFile
+    inputs.files(
+        fileTree(packageDir) {
+            include("**/index.yml")
+            exclude("**/node_modules/**")
+        }
+    )
 
-    proj.logger.lifecycle("$tag: vendorCode=$vendorCode code=$code")
+    doLast {
+        val byId = mutableMapOf<String, MutableList<String>>()
+        packageDir.walkTopDown()
+            .onEnter { it.name != "node_modules" }
+            .filter { it.isFile && it.name == "index.yml" }
+            .forEach { f ->
+                val doc = try {
+                    SchemaPrimitives.parseYaml(f)
+                } catch (e: Exception) {
+                    logger.warn("[validateUniqueIds] skipping unparseable ${f.relativeTo(rootDir)}: ${e.message}")
+                    return@forEach
+                }
+                val id = (doc["id"] as? String)?.lowercase() ?: return@forEach
+                byId.getOrPut(id) { mutableListOf() }.add(f.relativeTo(rootDir).path)
+            }
+
+        val collisions = byId.filterValues { it.size > 1 }
+        if (collisions.isNotEmpty()) {
+            val report = collisions.entries.joinToString("\n") { (id, paths) ->
+                "  $id\n    " + paths.joinToString("\n    ")
+            }
+            throw GradleException(
+                "[validateUniqueIds] duplicate index.yml ids across the repo:\n$report"
+            )
+        }
+        logger.lifecycle("[validateUniqueIds] ${byId.size} unique ids across ${byId.values.sumOf { it.size }} suites")
+    }
+}
+
+// Make every per-suite validateContent depend on the repo-wide unique-id
+// check. Gradle deduplicates, so running gate on N suites still fires
+// :validateUniqueIds exactly once.
+subprojects {
+    tasks.matching { it.name == "validateContent" }.configureEach {
+        dependsOn(rootProject.tasks.named("validateUniqueIds"))
+    }
 }
 
 val projectPaths by tasks.registering {
