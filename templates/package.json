@@ -1,5 +1,5 @@
 {
-  "name": "@zerobias-org/suite-${vendor}-{code}",
+  "name": "@zerobias-org/suite-{vendor}-{code}",
   "version": "1.0.0-rc.1",
   "description": "{name}",
   "author": "team@zerobias.com",

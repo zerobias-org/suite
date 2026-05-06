@@ -42,6 +42,7 @@ extra["contentValidator"] = { proj: org.gradle.api.Project ->
 
     require(projectDir.resolve("index.yml").isFile)    { "$tag index.yml missing in ${projectDir.path}" }
     require(projectDir.resolve("package.json").isFile) { "$tag package.json missing in ${projectDir.path}" }
+    require(projectDir.resolve(".npmrc").isFile)       { "$tag .npmrc missing in ${projectDir.path}" }
 
     // ── 1. Filesystem ↔ npm ↔ zerobias-block triangulation ──
     // For suites, the directory layout is package/<vendor>/<suite>/.
@@ -49,18 +50,13 @@ extra["contentValidator"] = { proj: org.gradle.api.Project ->
     // those two segments — and BOTH must agree.
     val suiteCode = projectDir.name
     val vendorCode = projectDir.parentFile.name
-    val expectedNpmName = "@zerobias-org/suite-$vendorCode-$suiteCode"
-    val expectedZerobiasPackage = "$vendorCode.$suiteCode"
-
     val pkgDoc = SchemaPrimitives.parseJson(projectDir.resolve("package.json"))
-    require(pkgDoc["name"] == expectedNpmName) {
-        "$tag package.json name='${pkgDoc["name"]}' must equal '$expectedNpmName' (derived from path package/$vendorCode/$suiteCode)"
-    }
-    val zbPackage = SchemaPrimitives.getPath(pkgDoc, "zerobias.package")
-        ?: SchemaPrimitives.getPath(pkgDoc, "auditmation.package")
-    require(zbPackage == expectedZerobiasPackage) {
-        "$tag zerobias.package='$zbPackage' must equal '$expectedZerobiasPackage' (derived from path package/$vendorCode/$suiteCode)"
-    }
+    SchemaPrimitives.requirePackageIdentity(
+        pkgDoc,
+        expectedNpmName = "@zerobias-org/suite-$vendorCode-$suiteCode",
+        expectedZerobiasPackage = "$vendorCode.$suiteCode",
+        field = "$tag package.json",
+    )
 
     // ── 2. Logo file correctness ──
     validateLogo(projectDir, pkgDoc, tag)
