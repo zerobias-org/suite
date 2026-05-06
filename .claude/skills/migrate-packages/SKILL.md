@@ -40,10 +40,14 @@ plugins { id("zb.content") }
 ### 2. Ensure `.npmrc`
 The validator requires `package/<vendor>/<suite>/.npmrc`. If absent, copy from a sibling already-migrated suite (e.g. `package/adobe/ccf/.npmrc`).
 
-### 3. Run gate first (no version bump yet)
+### 3. Run **full** `:gate` (NOT just `:validateContent`)
 ```bash
 ./gradlew :<vendor>:<suite>:gate
 ```
+**Why full `:gate` matters:** the publish workflow's preflight rejects any suite without a committed `gate-stamp.json` (`gate-stamp.json is missing or invalid — run zbb gate locally and commit the stamp before publishing`). The stamp is written by the `:writeGateStamp` task that runs at the end of `:gate`. Running only `:validateContent` does NOT produce a stamp — the suite will pass local file-checks but fail in CI.
+
+`:gate` chains: `validate` → `lint` → `compile` → `test*` → `buildArtifacts` → `testIntegrationDataloader` → `writeGateStamp`. Without `NEON_API_KEY` / `NEON_PROJECT_ID` in env, `testIntegrationDataloader` is **skipped** (not failed) — the stamp still gets written, and CI re-runs the dataloader test against an ephemeral Neon branch on push. Locally not having Neon creds is fine; just confirm the stamp file appears at `package/<vendor>/<suite>/gate-stamp.json` after the build.
+
 The validator surfaces drift one error at a time. Common fixes for suites:
 
 - **`package.json name`** must equal `@zerobias-org/suite-<vendor>-<suite>` (matching the path segments). Fix the `name` to match the directory; do NOT rename the directory.
@@ -78,7 +82,7 @@ One commit per suite. Conventional commit format:
 ```
 feat(suite-<vendor>-<suite>)!: migrate to gradle pipeline (<oldVer> → 2.0.0)
 ```
-The `!` marks the major bump as breaking. Stage exactly: `package/<vendor>/<suite>/build.gradle.kts`, `package/<vendor>/<suite>/.npmrc` (if you added it), `package/<vendor>/<suite>/package.json` (version bump), and any drift fixes (e.g. `index.yml`, `logo.svg`).
+The `!` marks the major bump as breaking. Stage exactly: `package/<vendor>/<suite>/build.gradle.kts`, `package/<vendor>/<suite>/.npmrc` (if you added it), `package/<vendor>/<suite>/package.json` (version bump), **`package/<vendor>/<suite>/gate-stamp.json`** (mandatory — the publish preflight rejects without it), and any drift fixes (e.g. `index.yml`, `logo.svg`).
 
 ### 7. (After the batch) Verify on a feature branch
 ```bash
