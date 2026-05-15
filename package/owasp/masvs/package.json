@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-masvs",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Mobile Application Security Verification Standard",
   "author": "team@zerobias.com",
   "license": "ISC",
