@@ -15,7 +15,7 @@ Per-repo companion to `/migrate-content-to-zbb` (which bootstrapped this repo on
 ```
 
 Examples:
-- `/migrate-packages` — pick the next N pending suites from `MIGRATION_STATUS.md` (or `find` if no tracker).
+- `/migrate-packages` — pick the next N pending suites (directories without a `build.gradle.kts` marker).
 - `/migrate-packages aicpa/soc2 atlassian/cloud iso/27001` — migrate exactly these.
 - `/migrate-packages --batch=5 --dry-run` — show the next 5 candidates without changing anything.
 
@@ -23,8 +23,8 @@ Examples:
 
 1. `git status` — must be on a feature branch, not `main`.
 2. Confirm gradle bootstrap is in place: root `build.gradle.kts`, `settings.gradle.kts`, `gradle.properties`, `gradle-ci.properties` exist; `.github/workflows/publish.yml` uses `zbb-publish-reusable.yml`. If anything is missing, abort and direct the user to `/migrate-content-to-zbb`.
-3. Identify candidates: directories matching `package/<vendor>/<suite>/` WITHOUT a `build.gradle.kts` marker. Check `MIGRATION_STATUS.md` for pending vs flagged.
-4. Order: simplest first (smallest `index.yml`, no logo edge cases). Skip anything in `MIGRATION_STATUS.md`'s `Flagged` section — fix that drift in a separate commit before migrating.
+3. Identify candidates: directories matching `package/<vendor>/<suite>/` WITHOUT a `build.gradle.kts` marker.
+4. Order: simplest first (smallest `index.yml`, no logo edge cases). If a suite's `index.yml` / `package.json` has known drift (bad URL, malformed code, etc.), fix it in a separate commit before adding the gradle marker.
 5. Confirm the **parent vendor exists** in `org/vendor` and is on the gradle line. Suites depend on a vendor row at load time; if the vendor isn't published, the dataloader gate will fail with a vendor-lookup error.
 
 ## Per-suite loop
@@ -93,11 +93,10 @@ On a feature branch, `version` (single-writer) is skipped and `publish` runs in 
 ## Picking the next batch
 
 Order rules of thumb:
-1. Skip the `MIGRATION_STATUS.md` `Flagged` section until its drift is fixed in a separate PR.
+1. Skip suites with known `index.yml` / `package.json` drift (bad URL, malformed code, etc.) — fix that in a separate PR first.
 2. Group suites by parent vendor when possible — failure modes (stale `vendorId`, drifted vendor reference) are shared.
 3. Start with simple, single-version frameworks (`adobe/ccf`, `aicpa/gapp`) before tackling multi-region offerings (`amazon/aws`, `microsoft/azure`).
 4. Cap each PR at ~10 suites. Easier to review, easier to bisect.
-5. Run `./scripts/migration-status.sh` after each batch to refresh the tracker.
 
 ## What NOT to do
 
@@ -112,7 +111,6 @@ Order rules of thumb:
 
 - `package/adobe/ccf/`, `package/amazon/aws/`, `package/avigilon/alta/`, `package/google/gcp/`, `package/google/workspace/` — already migrated; use as drop-in references.
 - `templates/index.yml`, `templates/package.json` — what a NEW suite looks like (single-curly placeholders: `{vendor}`, `{code}`, `{name}`).
-- `MIGRATION_STATUS.md` — pending / done / flagged tracker. Regenerate via `./scripts/migration-status.sh`.
 - Root `build.gradle.kts:9-37` — validator philosophy comment.
 - `org/vendor/` — parent dependency repo. Suites' `vendorId` must point to a vendor `id` from there.
 - `org/util/packages/build-tools/.../SchemaPrimitives.kt` — validator helpers and error message shapes.
