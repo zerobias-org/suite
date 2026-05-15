@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-auditmation-interface",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "description": "Suite package interface for vendor auditmation.",
   "author": "team@zerobias.com",
   "license": "ISC",
