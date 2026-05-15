@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-dc",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project’s dependencies.",
   "author": "team@zerobias.com",
   "license": "ISC",
