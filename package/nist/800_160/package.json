@@ -10,10 +10,6 @@
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/nist/800_160/"
   },
-  "scripts": {
-    "correct:deps": "tsx ../../../scripts/correctDeps.ts",
-    "validate": "tsx ../../../scripts/validate.ts"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
