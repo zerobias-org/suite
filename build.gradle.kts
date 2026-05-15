@@ -48,13 +48,25 @@ extra["contentValidator"] = { proj: org.gradle.api.Project ->
     // For suites, the directory layout is package/<vendor>/<suite>/.
     // npm name and zerobias.package are derived deterministically from
     // those two segments — and BOTH must agree.
+    //
+    // Hyphen carve-out: a handful of legacy NIST dirs (nist/800-53,
+    // nist/800-171, nist/800-218) have hyphenated names. npm allows
+    // hyphens, so the npm name mirrors the dir literally. But the
+    // dataloader builds packageCode as `vendorCode.code` where `code`
+    // matches `^[\d_a-z]+$` (no hyphens) — so zerobias.package for these
+    // suites is hyphen-stripped (e.g. nist.80053). We strip hyphens from
+    // the dir for the zerobias.package expectation to stay in sync with
+    // the dataloader without forcing a cross-repo rename — see
+    // SuiteFileHandler.ts:80,130 in com/platform/dataloader. No-op for
+    // the overwhelming majority of hyphen-less dirs.
     val suiteCode = projectDir.name
     val vendorCode = projectDir.parentFile.name
+    val packageSuiteCode = suiteCode.replace("-", "")
     val pkgDoc = SchemaPrimitives.parseJson(projectDir.resolve("package.json"))
     SchemaPrimitives.requirePackageIdentity(
         pkgDoc,
         expectedNpmName = "@zerobias-org/suite-$vendorCode-$suiteCode",
-        expectedZerobiasPackage = "$vendorCode.$suiteCode",
+        expectedZerobiasPackage = "$vendorCode.$packageSuiteCode",
         field = "$tag package.json",
     )
 
