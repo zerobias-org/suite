@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-800_53a",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Suite package 800_53a for vendor nist.",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -18,14 +18,13 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "index.yml",
-    "logo.*"
+    "index.yml"
   ],
   "dependencies": {
     "@zerobias-org/vendor-nist": "latest"
   },
   "zerobias": {
-    "package": "nist.80053a",
+    "package": "nist.800_53a",
     "import-artifact": "suite",
     "dataloader-version": "1.0.0"
   }
