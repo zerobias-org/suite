@@ -10,35 +10,39 @@ Open-source repository under `@zerobias-org` containing **suite** content artifa
 
 ### Development Setup
 ```bash
-# Root devDeps (commitlint, tsx for scripts/correctDeps.ts)
+# Root devDeps (commitlint hooks)
 npm install
-
-# Reset workspace
-npm run reset
 ```
+
+Most suites are on the gradle pipeline (284 / 287 as of May 2026). Remaining 3 (`nist/800-218`, `nist/800-171`, `nist/800-53`) are pending migration.
 
 ### Working with Suites
 
 ```bash
-# Create a new suite package: copy template + add gradle marker
-cp -r templates/ package/[vendor]/[suite]
+# Create a new suite package: scripts/createNewSuite.sh + gradle marker
+./scripts/createNewSuite.sh [vendor] [suite]
 echo 'plugins { id("zb.content") }' > package/[vendor]/[suite]/build.gradle.kts
-# Then update package.json, index.yml, .npmrc, add appropriate logo
+# Then fill in package.json, index.yml, .npmrc, add appropriate logo
 
-# Validate via gradle (validate + dataloader)
+# Validate via gradle (per-package validator + dataloader)
 ./gradlew :[vendor]:[suite]:gate
 
 # List all auto-discovered suite projects
 ./gradlew projectPaths
+
+# Cross-cut: ensure no two suites share an id UUID
+./gradlew validateUniqueIds
 ```
 
 ### Publishing and Version Management
 
-Publishing is driven by the gradle `Publish` GitHub Actions workflow, triggered on push to `main` / `qa` / `dev` / `uat`. It:
+Publishing is driven by `zbb-publish-reusable.yml` (in `zerobias-org/devops`), triggered on push to `main` / `qa` / `dev` / `uat`:
 
-1. `detect` — diffs `package/**/build.gradle.kts` against `origin/main` to find changed suites
-2. matrix `publish (<vendor>/<suite>)` — runs `zbb publish` per suite (gate preflight via committed `gate-stamp.json` → `npm publish --tag next` → cumulative `promoteAll` to dev/qa/uat/latest)
-3. `sync` — propagates main → uat → qa → dev after a successful main publish
+1. `detect` — diffs `event.before..HEAD -- package/**` to find changed suites.
+2. `version` (main only) — single-writer; `zbb version` patch-bumps changed suites in one commit before the matrix.
+3. matrix `publish (<vendor>/<suite>)` — per-suite gate preflight via committed `gate-stamp.json` → `npm publish --tag next` → cumulative `promoteAll` to dev/qa/uat/latest.
+4. `update-bundle` — refreshes `@zerobias-org/suite-bundle` deps from npm and patch-bumps + publishes.
+5. `sync` — propagates `main → uat → qa → dev` after success.
 
 ```bash
 # Manually trigger the workflow on a branch
