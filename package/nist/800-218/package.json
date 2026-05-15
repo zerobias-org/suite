@@ -14,7 +14,8 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "index.yml"
+    "index.yml",
+    "logo.*"
   ],
   "dependencies": {
     "@zerobias-org/vendor-nist": "latest"
