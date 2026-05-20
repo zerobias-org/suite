@@ -14,7 +14,7 @@ Open-source repository under `@zerobias-org` containing **suite** content artifa
 npm install
 ```
 
-Most suites are on the gradle pipeline (284 / 287 as of May 2026). Remaining 3 (`nist/800-218`, `nist/800-171`, `nist/800-53`) are pending migration.
+All suites are on the gradle pipeline as of May 2026 — every package carries a `build.gradle.kts` marker and committed `gate-stamp.json`. No lerna/nx infrastructure remains.
 
 ### Working with Suites
 
