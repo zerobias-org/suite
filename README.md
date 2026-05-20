@@ -20,107 +20,69 @@ Set `ZB_TOKEN` in your environment variables to authenticate with npm registry.
 
 ## Getting Started
 
-**Please run `npm install` in the root directory as soon as the repository is cloned, this will setup husky hooks**
+**Run `npm install` in the root directory after cloning** — this installs the
+commitlint hooks (conventional-commit enforcement) and `tsx` for the
+per-package `correct:deps` helper. The suite build/validate/publish lifecycle
+itself is owned by gradle (`zb.content` plugin), not by npm.
 
 ## Creating a new suite
 
-### Create new suite folder
+### Run the create-new-suite script
 
-### Run create new suite script
+Run `sh scripts/createNewSuite.sh <vendor> <suite>` to scaffold the package
+folder from `templates/`, then add the gradle marker so the publish workflow's
+`detect` job picks the suite up:
 
-Run the folowing script `sh scripts/createNewsuite.sh <folder_path>`
-
-### Install and Shrinkwrap
-
-Run the following commands to update npm for your new suite
-* `cd <folder_path>` cd into your new suite directory
-* `npm install` run npm install
-* `npm shrinkwrap` run npm shrinkwrap
+```bash
+echo 'plugins { id("zb.content") }' > package/<vendor>/<suite>/build.gradle.kts
+```
 
 ### Validate new suites
 
-In the root of the respository run the follow command to validate all edit or added suites
-* `npm run validate` If any errors, edit what is needed and rerun
+Validation runs through gradle (`zb.content` plugin); the schema rules live in
+the root `build.gradle.kts` (composed from `SchemaPrimitives` shipped by
+`zerobias-org/util`):
+
+```bash
+# Schema check only (fast)
+./gradlew :<vendor>:<suite>:validateContent
+
+# Full gate (validate + dataloader against an ephemeral Neon branch);
+# writes gate-stamp.json on success — commit that file with your changes
+./gradlew :<vendor>:<suite>:gate
+```
 
 **Now you can commit your changes following the instructions below, then open a PR against the main repository branch**
 
 ## Commit conventions and Version management
-### Versioning: [lerna](https://github.com/lerna/lerna)
 
-#### suite versioning
-suite versions are managed by `lerna`. 
-* Add it to [lerna.json](./lerna.json) to enable lerna for a suite.
-* The starting version of a suite should be `0.0.0`
-* There should be no version bumps inside of pull requests.
+### Versioning and publishing: gradle + `zbb`
 
-Lerna will automatically version, generate changelogs and publish suites in `lerna.json` via our github actions workflows.
+Suite versions and publishing are driven by the gradle pipeline (`zb.content`
+plugin) and the shared `Publish` GitHub Actions workflow
+(`zbb-publish-reusable.yml` in `zerobias-org/devops`) — **not** by lerna. There
+are no manual version bumps in pull requests; the workflow's single-writer
+`version` job aggregates per-package bumps into one `chore(release):` commit on
+`main`.
 
-This works well for any starting version higher or equals to `1.0.0`. For versions that haven't had a major bump yet an additional step is required.
+The `Publish` workflow triggers on push to `main` / `qa` / `dev` / `uat`:
 
-In order for a suite/package to bump to `1.0.0` it must be explicitely told to do so via `premajor` and `conventional graduation`.
-These are two lerna terms and re leveraged by our workflows described below.
+1. `detect` — diffs `package/**` to find changed suites.
+2. `version` (main only) — single-writer pre-matrix bump (`zbb version`).
+3. matrix `publish (<vendor>/<suite>)` — `zbb publish` per suite: `gate-stamp.json`
+   preflight → `npm publish --tag next` → cumulative promote to dev/qa/uat/latest.
+4. `update-bundle` — refreshes `@zerobias-org/suite-bundle` and publishes the next patch.
+5. `sync` — propagates `main → uat → qa → dev` after a successful main publish.
 
-The former will happen inside of a pull request and generate a release candidate.
-The latter will graduate and publish it.
+Validate locally before pushing with `./gradlew :<vendor>:<suite>:gate` (see
+[Validate new suites](#validate-new-suites) above).
 
-#### Lerna dry run
+### Git Hooks: commitlint
 
-What lerna does can be simulated using `dry-run`.
-* `npm run lerna:dry-run` will generate changelog as well as do local version bumps.
-* You may also run `dry-run` on pull requests, for piece of mind, by assigning the p.r. to `nfci`
-
-You may also run the following command to generate a local changelog without using `lerna version`:
-```
-npx lerna exec --concurrency 1 --no-sort --stream -- \
-  conventional-changelog \
-    --preset angular \
-    --infile CHANGELOG.md \
-    --same-file \
-    --release-count 0 \
-    --lerna-package \$LERNA_PACKAGE_NAME \
-    --commit-path \$PWD
-```
-
-### Github Actions workflows.
-
-Each suite should have one workflow that runs tests on Pull Request.
-There are 3 other workflows involved in the publishing process.
-* `pull_request.yml`
-* `lerna_publish.yml`
-* `lerna_post_publish.yml`
-
-#### Pull Request
-The `pull_request` workflow triggers when a pull request is `assigned` or `labeled` or `closed`.
-* assigned to nfci: runs `lerna dry run`
-* labeled as `premajor`: runs `lerna premajor`
-* closed by merging:  triggers the `lerna-publish` workflow
-
-#### Lerna Publish
-This workflow will run lerna publish against all registered suites.
-suites that have changed are first bootstraped then tagged and published.
-Implicitely this calls the following 2 package.json `scripts`
-* `version`: before lerna commits the version change. There, we make sure `api.yml` is also included in said commit.
-* `postpublish`: after lerna has published the npm. This triggers the final workflow. `post-publish`
-
-#### Lerna Post Publish
-This workflow is used to finalize suite publication. At the moment it:
-<!-- * Publishes docs to [docs_cms]( TODO add new docs location here ). -->
-* Sends a slack notification.
-
-### Git Hooks: [Husky](https://typicode.github.io/husky/#/)
-
-`Husky` has been configured on this repository to perform the following checks before a change is allowed to be commited.
-
-#### Check commit Message Format against conventional commits
-
-Any commit that does not comply with conventional commits will be rejected.
-
-#### Build suite affected by change
-
-The affected suite(s) will be built via `npm run build` and `unit` tested.
-Additionally, `eslint` will be executed to catch any linting errors before they make it to a pull request.
-
-The commit will be rejected if any of this fails.
+A `commit-msg` hook validates every commit message against
+[Conventional Commits](https://www.conventionalcommits.org/). Commits that
+don't comply are rejected. (Build/lint/test enforcement now lives in the gradle
+`:gate` task and CI, not in a pre-commit hook.)
 
 *Example: good commit*
 ```

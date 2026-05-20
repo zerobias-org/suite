@@ -115,7 +115,7 @@ Every suite carries `vendorId` + `vendorCode` and a `dependencies: { @zerobias-o
 - **Gradle (zb.content plugin)**: Drives validate / gate / publishNpm / promoteAll per suite. Plugin lives in `zerobias-org/util` and resolves via `settings.gradle.kts`.
 - **zbb**: Lifecycle CLI used by CI (`zbb publish`).
 - **TypeScript**: `scripts/correctDeps.ts` (executed via `tsx`). Validation rules live in the root `build.gradle.kts` (`extra["contentValidator"]`) composed from `SchemaPrimitives` shipped by `zerobias-org/util` build-tools.
-- **Lerna (legacy)**: Still referenced in root `package.json` scripts (`lerna:dry-run`, `lerna:version`) but unused — the gradle pipeline has superseded it. Don't add new lerna config. Nx has been removed entirely.
+- **Lerna/nx (removed)**: Fully removed in the post-migration cleanup — the gradle pipeline is the build/publish system. Root `package.json` no longer carries any `lerna:*` / `nx:*` scripts. Don't reintroduce lerna or nx config.
 - **Conventional Commits**: Enforced via commitlint.
 
 ### Settings auto-discovery
