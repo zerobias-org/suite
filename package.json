@@ -5,9 +5,6 @@
   "type": "module",
   "description": "Zerobias suite artifacts",
   "main": "main.js",
-  "workspaces": [
-    "package/**"
-  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
