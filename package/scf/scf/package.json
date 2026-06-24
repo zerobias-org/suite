@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/suite-scf-scf",
+  "version": "1.0.0",
+  "description": "Suite package Secure Controls Framework for vendor scf.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "suite/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-scf": "latest"
+  },
+  "zerobias": {
+    "package": "scf.scf",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
+  }
+}

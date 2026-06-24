@@ -1,0 +1,14 @@
+vendorId: 89c8ec36-2382-4e4a-9bd6-e3c815ad9160
+code: scf
+status: active
+id: 983c5dad-4263-5679-899c-a01cad3dbb85
+name: SCF
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+vendorCode: scf
+vendorName: SCF Council
+url: https://securecontrolsframework.com/
+description: Secure Controls Framework
+logo: https://cdn.auditmation.io/logos/scf.png
