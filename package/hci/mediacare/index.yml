@@ -1,0 +1,18 @@
+id: 2e4d8c6c-9cf1-4a57-b3ba-b7b47b901f70
+name: MediaCare
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+code: mediacare
+status: active
+description: >-
+  HCI MediaCare Healthcare Enterprise Platform — patient education, entertainment, and
+  content management with clinical engagement tools (interactive digital whiteboards,
+  patient TV launcher, virtual nursing), integrating with EHR, nurse call, RTLS, EVS, and PACS.
+aliases: []
+logo: https://cdn.auditmation.io/logos/hci-mediacare.png
+imageUrl: https://cdn.auditmation.io/logos/hci-mediacare.png
+url: https://www.hci-tv.com/
+vendorCode: hci
+vendorName: HCI
+vendorId: ca618d7a-c6ef-4ced-ace6-6c4ab62773cf
+tags: []
