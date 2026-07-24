@@ -5,9 +5,7 @@ ownerId: 00000000-0000-0000-0000-000000000000
 code: mediacare
 status: active
 description: >-
-  HCI MediaCare Healthcare Enterprise Platform — patient education, entertainment, and
-  content management with clinical engagement tools (interactive digital whiteboards,
-  patient TV launcher, virtual nursing), integrating with EHR, nurse call, RTLS, EVS, and PACS.
+  HCI MediaCare Healthcare Enterprise Platform — patient education, entertainment, and content management with clinical engagement tools (interactive digital whiteboards, patient TV launcher, virtual nursing), integrating with EHR, nurse call, RTLS, EVS, and PACS.
 aliases: []
 logo: https://cdn.auditmation.io/logos/hci-mediacare.png
 imageUrl: https://cdn.auditmation.io/logos/hci-mediacare.png
