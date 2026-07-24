@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-hci-mediacare",
-  "version": "1.0.0-rc.1",
+  "version": "2.0.0",
   "description": "MediaCare",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -23,6 +23,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "hci.mediacare"
+    "package": "hci.mediacare",
+    "deprecated": true
   }
 }
