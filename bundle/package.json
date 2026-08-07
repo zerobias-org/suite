@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -77,6 +77,7 @@
     "@zerobias-org/suite-disa-stig": "2.0.0",
     "@zerobias-org/suite-dk-act_429": "2.0.0",
     "@zerobias-org/suite-dod-cmmc": "1.0.0",
+    "@zerobias-org/suite-dod-dcwf": "1.0.0",
     "@zerobias-org/suite-dod-ztra": "2.0.0",
     "@zerobias-org/suite-es-boe": "2.0.0",
     "@zerobias-org/suite-es-ict_ccn_stic_825": "2.0.0",
