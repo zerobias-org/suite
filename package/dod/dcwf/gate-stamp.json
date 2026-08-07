@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "feat/suite-dod-dcwf",
-  "sourceHash": "a1d10b843f06f3d270574c2b41264ff786b1a9560881c26fca43854e63763701",
+  "branch": "fix/dcwf-gate-stamp",
+  "sourceHash": "798532763d608914b1a95d79c09ac95c0b10ce2fb7294bdb03b427f8bb54798d",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
