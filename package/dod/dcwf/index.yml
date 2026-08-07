@@ -1,0 +1,15 @@
+id: 3b87817c-df60-4d2b-a209-db35b3e86e87
+code: dcwf
+name: DoD Cyber Workforce Framework (DCWF)
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://dodcio.defense.gov/Cyber-Workforce/DCWF/
+description: >-
+  DoD Cyber Workforce Framework (DCWF) — the work-role framework underpinning
+  the DoD 8140 Cyberspace Workforce Qualification and Management Program
+  (DoDM 8140.03).
+logo: https://cdn.auditmation.io/logos/dod.svg
+vendorId: 0231f94f-a672-5208-ac09-ead46da82147
+vendorCode: dod
+vendorName: Department of Defense
