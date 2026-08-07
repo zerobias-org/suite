@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/suite-dod-dcwf",
+  "version": "1.0.0",
+  "description": "Suite package dcwf for vendor dod.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/dod/dcwf/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-dod": "latest"
+  },
+  "zerobias": {
+    "package": "dod.dcwf",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
+  }
+}
