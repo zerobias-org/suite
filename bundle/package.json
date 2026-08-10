@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -69,6 +69,7 @@
     "@zerobias-org/suite-csa-aicm": "1.0.0",
     "@zerobias-org/suite-csa-ccm": "2.0.0",
     "@zerobias-org/suite-csa-iot_scf": "2.0.0",
+    "@zerobias-org/suite-cyberab-sca": "1.0.0",
     "@zerobias-org/suite-cz-act_101": "2.0.0",
     "@zerobias-org/suite-de-bait": "2.0.0",
     "@zerobias-org/suite-de-c5": "2.0.0",
