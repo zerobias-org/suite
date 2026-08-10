@@ -1,0 +1,16 @@
+id: 3d4e09f0-e7ba-47fe-b5f1-23e28e2082c0
+code: sca
+name: Secure Code Alliance (SCA)
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://cyberab.org/SCA-Ecosystem/
+description: >-
+  Secure Code Alliance (SCA) — the Cyber AB ecosystem for secure software
+  development, home of the CODE (Certified Organization for Development
+  Excellence) organizational certification program and the SAICO-administered
+  individual credentials.
+logo: https://cdn.auditmation.io/logos/cyberab.jpg
+vendorId: a7e11051-958c-4804-a198-feec1446f975
+vendorCode: cyberab
+vendorName: Cyber AB
