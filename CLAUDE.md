@@ -24,8 +24,8 @@ All suites are on the gradle pipeline as of May 2026 — every package carries a
 echo 'plugins { id("zb.content") }' > package/[vendor]/[suite]/build.gradle.kts
 # Then fill in package.json, index.yml, .npmrc, add appropriate logo
 
-# Validate via gradle (per-package validator + dataloader)
-./gradlew :[vendor]:[suite]:gate
+# Validate (per-package validator + dataloader) — ALWAYS via zbb (injects slot env)
+zbb --slot <slot> gate            # run from package/[vendor]/[suite]; never bare ./gradlew
 
 # List all auto-discovered suite projects
 ./gradlew projectPaths
@@ -126,23 +126,39 @@ Every suite carries `vendorId` + `vendorCode` and a `dependencies: { @zerobias-o
 
 - **Authentication**: `ZB_TOKEN` (or `NPM_TOKEN` / `GITHUB_TOKEN`) for npm registry; `NEON_API_KEY` + `NEON_PROJECT_ID` for the dataloader integration step (sourced from vault via `zbb.yaml`).
 - **Commit Format**: All commits must follow Conventional Commits.
-- **Private Registry**: Packages publish to `npm.pkg.github.com/@zerobias-org`.
-- **No Direct npm publish**: Driven by the gradle `Publish` workflow. Locally use `./gradlew :<v>:<s>:gate` before push.
+- **Private Registry**: Packages publish to `pkg.zerobias.org` (`@zerobias-org` scope).
+- **No Direct npm publish**: Driven by the gradle `Publish` workflow. Locally use `zbb --slot <slot> gate` (from the package dir) before push.
 - **Naming**: `@zerobias-org/suite-{vendor}-{suite}` for npm; `{vendor}.{suite}` for `zerobias.package`.
 
 ## Migration major-bump rule
 
 Suites that existed pre-gradle (`1.x.x` lerna-managed) must bump to `2.0.0` when migrated to the gradle pipeline. Skip the bump for suites already on `2.x`. Same rule applied to `org/vendor` and `zerobias-com/tag`.
 
-## ZeroBias Task Integration
+## Content SDLC & skills
 
-For creating suites from ZeroBias tasks, use the skill:
+**Creating a suite?** Say "add suite X for vendor Y" / "make suite X" (or
+run `/create-suite`) — the
+[create-suite skill](.claude/skills/create-suite/SKILL.md) handles the
+whole flow; a ZeroBias task id is optional. Headless works too:
+`claude -p "make suite x for vendor y"` pre-flights credentials, runs to
+org load, and stops there (sign-off and PR stay human).
 
-```
-/create-suite [task-id]
-```
+Hard prerequisites live in the
+[`prerequisites` skill](.claude/skills/prerequisites/SKILL.md) — run
+`/prerequisites` to pre-flight the repo (tools, MCPs, credentials — the
+API key must be an **org owner** key; member keys can't load artifacts to
+the org). If one is missing: **install it or wait — never work around it**
+(no substitute tooling, no alternative paths).
 
-See **[.claude/skills/create-suite.md](.claude/skills/create-suite.md)** for the complete workflow.
+The content SDLC (the skill owns the details — don't restate them here):
+
+1. scaffold → `zbb --slot <slot> gate` (never bare `./gradlew`) → commit `gate-stamp.json`
+2. `publishOrg` → load into YOUR org → verify → 🙋 explicit user sign-off
+3. only then PR → base **`dev`**
+
+**No ZeroBias org?** (external contributors): stop after the gate and open
+the PR against `dev` — maintainers run the org verification on their side.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Dependency Chain
 
@@ -152,11 +168,16 @@ vendor → suite → framework/standard/benchmark → crosswalk
 
 Suites REQUIRE vendors. Always check/create vendor first.
 
-### Key APIs
+### Key APIs (zb MCP)
 
 ```javascript
-// Check if vendor exists (REQUIRED before suite)
+// Check if vendor exists (REQUIRED before suite) — the portal.*.search
+// ops found in older docs do NOT exist; vendorId for index.yml comes
+// from this result's `id`
 zerobias_execute("store.Vendor.get", { vendorCode: "vendor" })
+
+// Suite existence check
+zerobias_execute("store.Suite.get", { vendorCode: "vendor", suiteCode: "suite" })
 
 // Get your party ID for assignment
 zerobias_execute("platform.Party.getMyParty", {})
@@ -173,11 +194,11 @@ zerobias_execute("platform.Task.update", {
 
 ### vendorId lookup
 
-After `npm install` in a suite directory, the parent vendor's `index.yml` is materialized at `node_modules/@zerobias-org/vendor-{vendor}/index.yml`. Copy its `id` into your suite's `index.yml` `vendorId` field — the dataloader rejects mismatches.
+Preferred: take `vendorId` from the `store.Vendor.get` result (`id` field). Legacy fallback: after `npm install` in a suite directory, the parent vendor's `index.yml` is materialized at `node_modules/@zerobias-org/vendor-{vendor}/index.yml` — copy its `id`. The dataloader rejects mismatches.
 
 ## See Also
 
-- **[.claude/skills/create-suite.md](.claude/skills/create-suite.md)** — full new-suite walkthrough (task-driven)
+- **[.claude/skills/create-suite/SKILL.md](.claude/skills/create-suite/SKILL.md)** — full new-suite walkthrough (org-first SDLC)
 - **`build.gradle.kts`** — validator implementation
 - **`com/platform/dataloader/src/processors/suite/`** (in the meta-repo) — source of truth for what loads on prod
 - **`org/vendor/CLAUDE.md`** — sibling content repo on the same gradle pipeline; useful reference when patterns drift
