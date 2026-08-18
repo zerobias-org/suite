@@ -1,9 +1,13 @@
 id: {id}
 name: {name}
 description: {description}
-imageUrl: https://cdn.auditmation.io/logos/{code}.svg
-logo: https://cdn.auditmation.io/logos/{code}.svg
+imageUrl: https://cdn.auditmation.io/logos/{vendor}-{code}.svg
+logo: https://cdn.auditmation.io/logos/{vendor}-{code}.svg
+code: {code}
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
 vendorCode: {vendor}
+vendorId: {vendorId}
 status: active
 url: {url}
 tags: []
