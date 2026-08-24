@@ -1,0 +1,15 @@
+id: 7eb6c143-a248-40e3-bfc3-558a26200aab
+code: cop_hospital
+name: 'CMS Conditions of Participation: Hospitals'
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.cms.gov/medicare/health-safety-standards/conditions-coverage-participation
+description: >-
+  CMS Conditions of Participation for Hospitals — the 42 CFR Part 482 health
+  and safety requirements that hospitals must meet to participate in the
+  Medicare and Medicaid programs.
+logo: https://cdn.auditmation.io/logos/cms.svg
+vendorId: e6e1ed09-a831-491e-914a-3387bf3cc81a
+vendorCode: cms
+vendorName: CMS
