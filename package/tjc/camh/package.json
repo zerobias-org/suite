@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/suite-tjc-camh",
+  "version": "1.0.0",
+  "description": "suite package for tjc-camh",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/tjc/camh/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-tjc": "latest"
+  },
+  "zerobias": {
+    "package": "tjc.camh",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
+  }
+}
