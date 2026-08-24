@@ -1,0 +1,15 @@
+id: af20252f-b3ef-4097-9ef3-6ddef93cc459
+code: camh
+name: Comprehensive Accreditation Manual for Hospitals (CAMH)
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.jointcommission.org/what-we-offer/accreditation/health-care-settings/hospital/
+description: >-
+  The Joint Commission Comprehensive Accreditation Manual for Hospitals (CAMH)
+  — the accreditation standards program for hospitals, organized in chapters
+  (Environment of Care, Leadership, National Patient Safety Goals, etc.).
+logo: https://cdn.auditmation.io/logos/tjc.jpg
+vendorId: b261e1a5-3431-49d2-89a4-07dd54488af8
+vendorCode: tjc
+vendorName: The Joint Commission
