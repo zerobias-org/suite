@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -58,6 +58,7 @@
     "@zerobias-org/suite-cisa-ssdaf": "2.0.0",
     "@zerobias-org/suite-cisa-tic": "2.0.0",
     "@zerobias-org/suite-cl-act": "2.0.0",
+    "@zerobias-org/suite-cms-cop_hospital": "1.0.0",
     "@zerobias-org/suite-cn-csl": "2.0.0",
     "@zerobias-org/suite-cn-dsl": "2.0.0",
     "@zerobias-org/suite-cn-dsnip": "2.0.0",
