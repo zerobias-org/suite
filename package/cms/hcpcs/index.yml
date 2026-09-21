@@ -1,0 +1,17 @@
+id: b9938385-64d6-4a67-8d29-223d43b73a34
+name: HCPCS Level II
+description: CMS HCPCS Level II alpha-numeric code set; public-use file updated quarterly.
+imageUrl: https://cdn.auditmation.io/logos/cms-hcpcs.svg
+logo: https://cdn.auditmation.io/logos/cms-hcpcs.svg
+code: hcpcs
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: cms
+vendorId: e6e1ed09-a831-491e-914a-3387bf3cc81a
+status: active
+url: https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system
+tags: []
+aliases:
+  - HCPCS
+  - Healthcare Common Procedure Coding System
+  - HCPCS Level II Alpha-Numeric

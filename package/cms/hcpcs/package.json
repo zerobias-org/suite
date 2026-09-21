@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/suite-cms-hcpcs",
+  "version": "1.0.0",
+  "description": "Suite package for HCPCS Level II",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/cms/hcpcs/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-cms": "latest"
+  },
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "suite",
+    "package": "cms.hcpcs"
+  }
+}
