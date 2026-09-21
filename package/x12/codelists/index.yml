@@ -1,0 +1,18 @@
+id: ea7906fc-b7cc-4394-a937-6aec34513cba
+name: X12 External Code Lists
+description: X12-distributed HIPAA code lists (CARC, RARC, Claim Status, Provider Taxonomy), updated 3x a year.
+imageUrl: https://cdn.auditmation.io/logos/x12-codelists.svg
+logo: https://cdn.auditmation.io/logos/x12-codelists.svg
+code: codelists
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: x12
+vendorId: f7623d9c-a8fd-4823-88b5-ceb11cc8c7e8
+status: active
+url: https://x12.org/codes
+tags: []
+aliases:
+  - X12 Code Lists
+  - CARC/RARC
+  - Claim Adjustment Reason Codes
+  - Remittance Advice Remark Codes
