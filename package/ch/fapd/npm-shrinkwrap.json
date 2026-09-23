@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-ch-fapd",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-ch-fapd",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ch": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ch": {
+      "version": "2.0.1",
+      "integrity": "sha512-6a63BhbKAP5CfURQvw4sp1DHLm2cj66wkMGKEGgGu82kjTRwsJXsup8fbtwS5ZWjsVVL+hTikcUp17PMuqMgUw==",
+      "license": "ISC"
+    }
+  }
+}

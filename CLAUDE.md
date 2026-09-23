@@ -108,7 +108,7 @@ Everything else (UUID parse, code regex, `VspStatusEnum`, URL parse, `vendorCode
 
 ### Vendor linkage
 
-Every suite carries `vendorId` + `vendorCode` and a `dependencies: { @zerobias-org/vendor-{vendorCode}: latest }` entry. At load time the dataloader looks up the vendor by id and rejects if `vendor.code !== vendorCode`. Locally during development you `npm install` to pull the vendor's `index.yml` and copy its `id` into your suite's `vendorId`.
+Every suite carries `vendorId` + `vendorCode` and a `dependencies: { @zerobias-org/vendor-{vendorCode}: "*" }` entry (pinned by the shipped `npm-shrinkwrap.json`; `*` follows `NPM_CONFIG_TAG` / `latest` on a fresh resolve). At load time the dataloader looks up the vendor by id and rejects if `vendor.code !== vendorCode`. Locally during development you `npm install` to pull the vendor's `index.yml` and copy its `id` into your suite's `vendorId`.
 
 ### Key Technologies
 

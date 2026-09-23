@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-cisa-tic",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-cisa-tic",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-cisa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-cisa": {
+      "version": "2.0.1",
+      "integrity": "sha512-f24O17E5hQiudNtWhON5q+mA81a3PMSA5I6zU5FUBvbsfkW9HY3faitEMXKjl5ESFXBmeR7bQwyWecR3DlsUfw==",
+      "license": "ISC"
+    }
+  }
+}

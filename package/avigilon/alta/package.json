@@ -11,14 +11,15 @@
     "directory": "package/avigilon/alta/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-avigilon": "latest"
+    "@zerobias-org/vendor-avigilon": "*"
   },
   "zerobias": {
     "dataloader-version": "1.0.0",

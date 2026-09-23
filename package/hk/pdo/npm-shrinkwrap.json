@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-hk-pdo",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-hk-pdo",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-hk": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-hk": {
+      "version": "2.0.1",
+      "integrity": "sha512-GCyvBXY/hIB4H/vV08nECDMrgu1qBTpIY9lxSeOQ6BA3pPTIcEc9aDkIqmF8MbPIY/lEoj3dLyD0uldID8hZ+Q==",
+      "license": "ISC"
+    }
+  }
+}

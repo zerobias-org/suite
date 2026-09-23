@@ -11,14 +11,15 @@
     "directory": "package/cis/csc/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-cis": "latest"
+    "@zerobias-org/vendor-cis": "*"
   },
   "zerobias": {
     "package": "cis.csc",

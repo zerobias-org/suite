@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-csa-aicm",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-csa-aicm",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-csa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-csa": {
+      "version": "2.0.1",
+      "integrity": "sha512-oErxWkDMztSP40Wz4cNRJC8B+XYBffnXcgr2YuoVr7ZGX5OLA2por0shv+1Chi2Bq0F5KNZBoPv92a+FDptKoQ==",
+      "license": "ISC"
+    }
+  }
+}

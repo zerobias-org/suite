@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-atlassian-cloud",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-atlassian-cloud",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-atlassian": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-atlassian": {
+      "version": "2.0.2",
+      "integrity": "sha512-X6PQ4+2W3x9pZPKOfe8rpD9NoFxmNzpxJDxTeXeJloy/euSEcTLBAeGF5nfdCluNCzewMe4ymzLPeormB2A76Q==",
+      "license": "ISC"
+    }
+  }
+}

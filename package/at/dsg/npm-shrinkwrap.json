@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-at-dsg",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-at-dsg",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-at": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-at": {
+      "version": "2.0.1",
+      "integrity": "sha512-MTlxAlHfSScr+5rOyRs6xPrrGLO4F7cwWnbzHS1/Z/qUdKB2ABcdUWGRTtUcbH+5fUYm+HjBqAA3CsgG9JhwJg==",
+      "license": "ISC"
+    }
+  }
+}

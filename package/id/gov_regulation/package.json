@@ -11,14 +11,15 @@
     "directory": "package/id/gov_regulation/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-id": "latest"
+    "@zerobias-org/vendor-id": "*"
   },
   "zerobias": {
     "package": "id.gov_regulation",

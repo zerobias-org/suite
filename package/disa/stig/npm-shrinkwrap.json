@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-disa-stig",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-disa-stig",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-disa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-disa": {
+      "version": "2.0.1",
+      "integrity": "sha512-QyuXRFRZF4mWJ6Ub5wj1cNgxUvzdDdOuVZXBpYAB2jJQ514jU/vxXSrIyg00SGt3tRkhzYFXFQeWgDmrAKQI2g==",
+      "license": "ISC"
+    }
+  }
+}

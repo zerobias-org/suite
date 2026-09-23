@@ -11,14 +11,15 @@
     "directory": "package/cms/cop_hospital/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-cms": "latest"
+    "@zerobias-org/vendor-cms": "*"
   },
   "zerobias": {
     "package": "cms.cop_hospital",

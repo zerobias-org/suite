@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-fidoalliance-fido",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-fidoalliance-fido",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-fidoalliance": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-fidoalliance": {
+      "version": "2.0.1",
+      "integrity": "sha512-9Hbg1hv9BA0jJvoEMAgaBZ6cp54BzZm3nvmuLdzNDz+hyLSa44HAn2HQpzsGvUaWifcl+cSTUa69rxhQR3LCPQ==",
+      "license": "ISC"
+    }
+  }
+}

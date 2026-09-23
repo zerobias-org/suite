@@ -11,14 +11,15 @@
     "directory": "package/my/pdpa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-my": "latest"
+    "@zerobias-org/vendor-my": "*"
   },
   "zerobias": {
     "package": "my.pdpa",

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-gb-caf",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-gb-caf",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-gb": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-gb": {
+      "version": "2.0.1",
+      "integrity": "sha512-OyhSW62VBfq4T8O6tMnNfyIL/yIF1vmbMmDqp+FA0pxpp/dFzHAi5R1ApmFW/duUHmDdfem2AXASUtPwQFX0LA==",
+      "license": "ISC"
+    }
+  }
+}

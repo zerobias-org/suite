@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-hu-isdfi",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-hu-isdfi",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-hu": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-hu": {
+      "version": "2.0.1",
+      "integrity": "sha512-KRm/XsZZNQC1TWNzAB1HSrDpcNfmQXw04nACf5k2FO2WiCJPYDXUglXzeiP/w3yclkbQlb6rcD5SuHi/RTOsUw==",
+      "license": "ISC"
+    }
+  }
+}

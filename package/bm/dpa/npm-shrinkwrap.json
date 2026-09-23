@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-bm-dpa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-bm-dpa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-bm": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-bm": {
+      "version": "2.0.1",
+      "integrity": "sha512-BX8Qfm2ozGZfOTBYykDckFmAdxkAEl3+AhjWMvCeLXTFTBhRc0Tzjy4KE600QXQVjCVBqN6PI1NosoYByVVOIw==",
+      "license": "ISC"
+    }
+  }
+}

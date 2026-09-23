@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-mpa-csp",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-mpa-csp",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-mpa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-mpa": {
+      "version": "2.0.1",
+      "integrity": "sha512-Y/CghDxPCpEKFbltqkso9H9lBXMxmnn0bIqlqqo8vhUWC7b7g/9/PzUssMAbXR1rLw6X96I96X29afICRvQubA==",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-coso-coso",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-coso-coso",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-coso": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-coso": {
+      "version": "2.0.1",
+      "integrity": "sha512-Wpj8THP16PQFUl9KeW/A7Jqo1kAjtkL070NBSkw/lTZaEE1Ij9Aq6CRqTQpRHqvqIxXoW0mZbVTXbnylZCoZlg==",
+      "license": "ISC"
+    }
+  }
+}

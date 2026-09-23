@@ -11,15 +11,16 @@
     "directory": "suite/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
     "catalog.yml",
-    "logo.*"
+    "index.yml",
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-disa": "^1.1.1"
+    "@zerobias-org/vendor-disa": "*"
   },
   "zerobias": {
     "package": "disa.stig",

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-eu-ps2d2",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-eu-ps2d2",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-eu": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-eu": {
+      "version": "2.0.1",
+      "integrity": "sha512-rZCtExnsCGwOhOLWudlMa1DjdUcHbg84kfAa6eTA2fS6won359Fp9fCUOQhidp9uFZ5I3je5faQg8pE7WySBJg==",
+      "license": "ISC"
+    }
+  }
+}

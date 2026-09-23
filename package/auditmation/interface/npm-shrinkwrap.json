@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-auditmation-interface",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-auditmation-interface",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-auditmation": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-auditmation": {
+      "version": "2.0.1",
+      "integrity": "sha512-OTJkMywnTkekvlLOUXhTmVp9J771atMNuo2zBJ2W2Dl/8Sa+OtHF7/6TbaELAeU7iQIb9N3kE1Eruxc/V2kw5A==",
+      "license": "ISC"
+    }
+  }
+}

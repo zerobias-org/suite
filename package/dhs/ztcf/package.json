@@ -11,14 +11,15 @@
     "directory": "package/dhs/ztcf/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-dhs": "latest"
+    "@zerobias-org/vendor-dhs": "*"
   },
   "zerobias": {
     "package": "dhs.ztcf",

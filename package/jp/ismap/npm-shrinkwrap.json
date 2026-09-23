@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-jp-ismap",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-jp-ismap",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-jp": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-jp": {
+      "version": "2.0.1",
+      "integrity": "sha512-BuXDAhqYcQ7mBiIqC6iXbFzp+7Lz3XpCdo4NL9Ab6ruQQUvWyB+JkJcqjR2fEJNgwc8/6shXTbAGAC8JMYIakw==",
+      "license": "ISC"
+    }
+  }
+}

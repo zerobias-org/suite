@@ -11,14 +11,15 @@
     "directory": "package/dk/act_429/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-dk": "latest"
+    "@zerobias-org/vendor-dk": "*"
   },
   "zerobias": {
     "package": "dk.act_429",

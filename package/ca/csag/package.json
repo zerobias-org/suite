@@ -11,14 +11,15 @@
     "directory": "package/ca/csag/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-ca": "latest"
+    "@zerobias-org/vendor-ca": "*"
   },
   "zerobias": {
     "package": "ca.csag",

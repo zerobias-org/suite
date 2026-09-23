@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-id-gov_regulation",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-id-gov_regulation",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-id": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-id": {
+      "version": "2.0.1",
+      "integrity": "sha512-K2pgBqQq095KAZizbaVue7r2hJbNvwoeCjReObeo7GY9IBCSc2JzSDp2OzuttSlzcaYpy/SwNtdXL17tGTe9/A==",
+      "license": "ISC"
+    }
+  }
+}

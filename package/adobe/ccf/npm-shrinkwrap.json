@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-adobe-ccf",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-adobe-ccf",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-adobe": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-adobe": {
+      "version": "2.0.1",
+      "integrity": "sha512-qCjKQR38WZWLfHjrWCgpiqK1DAzhHu3TMOkbuksGP0ZLwnAaOVzpu8XjtnTIa/G6qzxlLq+kLM1I6mnjQoBsrA==",
+      "license": "ISC"
+    }
+  }
+}

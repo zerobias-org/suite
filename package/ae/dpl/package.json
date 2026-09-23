@@ -11,14 +11,15 @@
     "directory": "package/ae/dpl/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-ae": "latest"
+    "@zerobias-org/vendor-ae": "*"
   },
   "zerobias": {
     "package": "ae.dpl",

@@ -11,14 +11,15 @@
     "directory": "package/ng/dpr/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-ng": "latest"
+    "@zerobias-org/vendor-ng": "*"
   },
   "zerobias": {
     "package": "ng.dpr",

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-amazon-aws",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-amazon-aws",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-amazon": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-amazon": {
+      "version": "2.0.2",
+      "integrity": "sha512-3ZOydwCTZCupyZl6ZQv/Rycb/o9Ot+J/Yxor2G7A5GYvZiQuRB++orm/AhPs2jfp/5soIlCrr9wSQRxmwskOzg==",
+      "license": "ISC"
+    }
+  }
+}

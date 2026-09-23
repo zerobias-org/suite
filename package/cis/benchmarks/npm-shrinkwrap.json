@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-cis-benchmarks",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-cis-benchmarks",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-cis": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-cis": {
+      "version": "1.0.1",
+      "integrity": "sha512-Ko1vHPPP7wRisS3WAchEyimjm6wiCcrjt/9xexIx1CFex5PQicjRnJy1toFTKnHn5IT40npe/qog24WkF3Q9VQ==",
+      "license": "ISC"
+    }
+  }
+}

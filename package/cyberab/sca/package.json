@@ -11,14 +11,15 @@
     "directory": "package/cyberab/sca/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-cyberab": "latest"
+    "@zerobias-org/vendor-cyberab": "*"
   },
   "zerobias": {
     "package": "cyberab.sca",
