@@ -11,14 +11,15 @@
     "directory": "package/es/ict_ccn_stic_825/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-es": "latest"
+    "@zerobias-org/vendor-es": "*"
   },
   "zerobias": {
     "package": "es.ict_ccn_stic_825",

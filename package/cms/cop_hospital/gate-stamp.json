@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "task/suiteDev-1",
-  "sourceHash": "f3cb8141f9532f0b16c6afffd7db5757ffbe975d21777f4125704da641340e4b",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "6deb74123e14a7141b1a20b1afbafe194c9eadaab285a91737d597035bc43ff8",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

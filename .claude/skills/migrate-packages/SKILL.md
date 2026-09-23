@@ -38,7 +38,7 @@ plugins { id("zb.content") }
 ```
 
 ### 2. Ensure `.npmrc`
-The validator requires `package/<vendor>/<suite>/.npmrc`. If absent, copy from a sibling already-migrated suite (e.g. `package/adobe/ccf/.npmrc`).
+The validator requires `package/<vendor>/<suite>/.npmrc`, byte-identical to the repo-root `.npmrc`: `cp .npmrc package/<vendor>/<suite>/.npmrc` (never from a sibling — siblings may be stale). Set every `dependencies` spec to `"*"` (not `"latest"` / `^`), then ensure `package/<vendor>/<suite>/npm-shrinkwrap.json` exists, has zero `"resolved"` entries, and is listed in `package.json` `files[]`; generate it with `npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json` inside the package, and delete any stale `package-lock.json`. `git add` both before the gate — untracked files are invisible to the stamp's `sourceHash`.
 
 ### 3. Run **full** `:gate` (NOT just `:validateContent`)
 ```bash
@@ -82,7 +82,7 @@ One commit per suite. Conventional commit format:
 ```
 feat(suite-<vendor>-<suite>)!: migrate to gradle pipeline (<oldVer> → 2.0.0)
 ```
-The `!` marks the major bump as breaking. Stage exactly: `package/<vendor>/<suite>/build.gradle.kts`, `package/<vendor>/<suite>/.npmrc` (if you added it), `package/<vendor>/<suite>/package.json` (version bump), **`package/<vendor>/<suite>/gate-stamp.json`** (mandatory — the publish preflight rejects without it), and any drift fixes (e.g. `index.yml`, `logo.svg`).
+The `!` marks the major bump as breaking. Stage exactly: `package/<vendor>/<suite>/build.gradle.kts`, `package/<vendor>/<suite>/.npmrc` (if you added or refreshed it), `package/<vendor>/<suite>/npm-shrinkwrap.json`, `package/<vendor>/<suite>/package.json` (version bump + `files[]` + `"*"` deps), **`package/<vendor>/<suite>/gate-stamp.json`** (mandatory — the publish preflight rejects without it), and any drift fixes (e.g. `index.yml`, `logo.svg`).
 
 ### 7. (After the batch) Verify on a feature branch
 ```bash

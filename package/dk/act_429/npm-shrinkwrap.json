@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-dk-act_429",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-dk-act_429",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-dk": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-dk": {
+      "version": "2.0.1",
+      "integrity": "sha512-W7NQOnuy1hBiiLZ9tB9mkKFdmwyTOUzvzTkW8fgx3tmlAHBhhiR+4fjuyJ6NJaHifyFpoHDcefhkfwdFo6YU8A==",
+      "license": "ISC"
+    }
+  }
+}

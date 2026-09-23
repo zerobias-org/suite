@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-aicpa-soc2",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-aicpa-soc2",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-aicpa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-aicpa": {
+      "version": "2.0.1",
+      "integrity": "sha512-g0fUmHnSN1tCtOY2cmq/X/4EGLm0mOE0LBbeP2vJhnlw70ks9HwlVsb/1mnYHQDSjNtdoav0FsPgbQIX1Nv+Tw==",
+      "license": "ISC"
+    }
+  }
+}

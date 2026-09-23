@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-iec-62443",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-iec-62443",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-iec": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-iec": {
+      "version": "2.0.1",
+      "integrity": "sha512-R5Wz64+JZ22LJY7mhxCSzoUt326rAl9auoKSJLyCp55m6bJe7FWjGbYK2MgjzU28LI9Dta/23Wb2xykU4LpmcQ==",
+      "license": "ISC"
+    }
+  }
+}

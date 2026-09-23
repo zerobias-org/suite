@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-fr-act_78_17",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-fr-act_78_17",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-fr": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-fr": {
+      "version": "2.0.1",
+      "integrity": "sha512-1dijshIEuqW8oXVeIQIRZ7R9d9uuSF8xFzQ9v+NaVW2eHvPQW+X1mO9N4WxtgCInkHTn8ZvGxi8V/BhgLtZMZg==",
+      "license": "ISC"
+    }
+  }
+}

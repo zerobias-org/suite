@@ -11,14 +11,15 @@
     "directory": "package/iso/31000/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-iso": "latest"
+    "@zerobias-org/vendor-iso": "*"
   },
   "zerobias": {
     "package": "iso.31000",

@@ -11,14 +11,15 @@
     "directory": "package/gr/pi_rppd_2472/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-gr": "latest"
+    "@zerobias-org/vendor-gr": "*"
   },
   "zerobias": {
     "package": "gr.pi_rppd_2472",

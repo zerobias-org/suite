@@ -11,14 +11,15 @@
     "directory": "package/fr/act_78_17/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-fr": "latest"
+    "@zerobias-org/vendor-fr": "*"
   },
   "zerobias": {
     "package": "fr.act_78_17",

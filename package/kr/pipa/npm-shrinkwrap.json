@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-kr-pipa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-kr-pipa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-kr": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-kr": {
+      "version": "2.0.1",
+      "integrity": "sha512-YdmTi+7b6wgeB7ySJjOaYkeJHiaWoUYZwswPycPI40Jd8l52VlZct4xcbGuNIUVzsUnqzC6/17XLKUQ0qMMJEg==",
+      "license": "ISC"
+    }
+  }
+}

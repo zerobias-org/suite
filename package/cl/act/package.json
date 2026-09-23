@@ -11,14 +11,15 @@
     "directory": "package/cl/act/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-cl": "latest"
+    "@zerobias-org/vendor-cl": "*"
   },
   "zerobias": {
     "package": "cl.act",

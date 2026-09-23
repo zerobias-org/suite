@@ -95,7 +95,9 @@ zerobias_execute("store.Suite.get", { vendorCode: "<vendorCode>",
 An **org-only vendor is fine** as the dependency: the suite's
 `dependencies` entry resolves via the npm registry, and a first-ever
 `publishOrg` of a vendor force-assigns the `latest` dist-tag to its rc, so
-`"latest"` resolves to it. Verify the vendor is loaded in the TARGET org
+the `"*"` dependency spec resolves to it (npm resolves `*` through the
+default dist-tag, `NPM_CONFIG_TAG` when set, else `latest`). Verify the
+vendor is loaded in the TARGET org
 (the `store.Vendor.get` above runs against it).
 
 Also check locally: `ls package/<vendorCode>/ | grep <suiteCode>`. If the
@@ -140,13 +142,35 @@ build.gradle.kts      # one-line zb.content marker (REQUIRED for publish detect)
 .npmrc                # REQUIRED — validator hard-fails with ".npmrc missing"
 ```
 
-**`.npmrc`** is REQUIRED (`templates/.npmrc` has it, but verify the
-scaffold actually copied it — dotfiles are easy to miss):
+**`.npmrc`** is REQUIRED and must be byte-identical to the repo-root
+`.npmrc` (every package carries the same copy; CI overwrites it with the
+root file anyway). Copy it — never hand-write it, and never rely on
+`~/.npmrc` (npm reads only the package's own `.npmrc` plus the global
+one; it does NOT walk up to the repo root):
 
+```bash
+cp ../../../.npmrc package/<vendorCode>/<suiteCode>/.npmrc
 ```
-@zerobias-org:registry=https://pkg.zerobias.org
-//pkg.zerobias.org/:_authToken=${ZB_TOKEN}
+
+It routes every scope to `pkg.zerobias.org` with `${ZB_TOKEN}` and sets
+`omit-lockfile-registry-resolved=true`.
+
+**`npm-shrinkwrap.json`** is REQUIRED and ships in the tarball (listed in
+`files[]`; CI and the dataloader install with `npm ci` when present).
+Dependencies use the `"*"` spec — never `"latest"` or a `^` range: with a
+URL-free lock, `npm ci` rejects a `latest` pin the moment the vendor
+republishes, and `^` blocks major bumps and prereleases. Generate the
+shrinkwrap in the package dir AFTER `package.json` is final — never
+`npm shrinkwrap` (ENOWORKSPACES):
+
+```bash
+npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json
 ```
+
+Verify `grep -c '"resolved"' npm-shrinkwrap.json` → `0`. Refresh it later
+with `npm update --package-lock-only --no-workspaces` (an existing lock
+is never re-resolved by `npm install`). Commit it — it is part of the
+gate-stamp `sourceHash`, so `git add` it BEFORE the final gate.
 
 **package.json** (matches the existing corpus — keep conventions):
 
@@ -163,10 +187,10 @@ scaffold actually copied it — dotfiles are easy to miss):
     "url": "git@github.com:zerobias-org/suite.git",
     "directory": "package/<vendorCode>/<suiteCode>/"
   },
-  "publishConfig": { "registry": "https://pkg.zerobias.org/" },
-  "files": ["index.yml", "logo.*"],
+  "publishConfig": { "registry": "https://pkg.zerobias.org" },
+  "files": ["index.yml", "logo.*", "npm-shrinkwrap.json"],
   "dependencies": {
-    "@zerobias-org/vendor-<vendorCode>": "latest"
+    "@zerobias-org/vendor-<vendorCode>": "*"
   },
   "zerobias": {
     "dataloader-version": "1.0.0",
@@ -261,8 +285,10 @@ CI's publishGuard rejects publishes without a valid committed stamp. CI
 does not rerun your tests — it validates the committed stamp.
 
 If you gated before adding new files, re-gate after `git add`.
-Legacy `npm install` / `npm shrinkwrap` / `npm run validate` are gone —
-zbb owns the lifecycle. Don't commit a shrinkwrap.
+Legacy `npm shrinkwrap` / `npm run validate` are gone — zbb owns the
+lifecycle. The only npm step you run yourself is the shrinkwrap
+generation from Phase 2 (`npm install --package-lock-only --no-workspaces`);
+commit the resulting `npm-shrinkwrap.json`.
 
 ## Phase 5 — publishOrg + load into the user's org
 

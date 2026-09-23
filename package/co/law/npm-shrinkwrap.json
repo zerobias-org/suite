@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-co-law",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-co-law",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-co": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-co": {
+      "version": "2.0.1",
+      "integrity": "sha512-mlQW+rXqUTeXrPyKVBzqkrJ7bRX3TPbkLSB4qmFzzfkHlySbswD+R9u+huWpFWvETcISWuwEmFkXuje9waaQpQ==",
+      "license": "ISC"
+    }
+  }
+}

@@ -11,14 +11,15 @@
     "directory": "package/eu/eprivacy/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-eu": "latest"
+    "@zerobias-org/vendor-eu": "*"
   },
   "zerobias": {
     "package": "eu.eprivacy",

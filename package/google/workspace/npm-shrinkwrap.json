@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-google-workspace",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-google-workspace",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-google": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-google": {
+      "version": "2.0.3",
+      "integrity": "sha512-EeW3nLLCFnpBoVPAMadHGtjtCnnwSJ/Ty9M8YgLw1cp/K45Kgfe1dcAmzC7iejQsb5lVdKm3+H4fNP8XaqJo2A==",
+      "license": "ISC"
+    }
+  }
+}

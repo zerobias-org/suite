@@ -11,14 +11,15 @@
     "directory": "package/bm/dpa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-bm": "latest"
+    "@zerobias-org/vendor-bm": "*"
   },
   "zerobias": {
     "package": "bm.dpa",

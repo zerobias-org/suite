@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-it-pdpc",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-it-pdpc",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-it": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-it": {
+      "version": "2.0.1",
+      "integrity": "sha512-rPobSiCsI/rpUUHtGQwnB4gVDM87LP+I45uYLYaoxLuARVbJu3pvOrJwfhmEIBeGvFCJrSkiz+JMQMFCEUTZAw==",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-cn-csl",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-cn-csl",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-cn": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-cn": {
+      "version": "2.0.1",
+      "integrity": "sha512-gtY2n5ZuDJ0XCmlKWTp2FiEdL1WM9ksQagJL0MR+WPHNEwSxqGc+4ZkpdyEyJ5idxvEcBPEeduvVBEo5xetu9Q==",
+      "license": "ISC"
+    }
+  }
+}

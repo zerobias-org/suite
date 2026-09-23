@@ -11,14 +11,15 @@
     "directory": "package/ie/dpa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-ie": "latest"
+    "@zerobias-org/vendor-ie": "*"
   },
   "zerobias": {
     "package": "ie.dpa",

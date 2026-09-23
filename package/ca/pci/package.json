@@ -11,14 +11,15 @@
     "directory": "package/ca/pci/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-ca": "^1.0.0"
+    "@zerobias-org/vendor-ca": "*"
   },
   "zerobias": {
     "package": "ca.pci",

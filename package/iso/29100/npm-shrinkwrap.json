@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-iso-29100",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-iso-29100",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-iso": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-iso": {
+      "version": "2.0.1",
+      "integrity": "sha512-n+EJE40ntAiXv231Xkv8ldjemOE8sYgY3BPg9Ve3pbbhLL3GsvtAmzSys5Kt6zM1O8zIsF3beIk2wBEtiYLB/A==",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-ie-dpa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-ie-dpa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ie": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ie": {
+      "version": "2.0.1",
+      "integrity": "sha512-91wpclwhfOCYNEkJqHolJkqmCmuyHiVwE6XPro8AU89AlCYGbZ4cZd3TU73mLk9xlV9UmuOLri0Gb5PDHgJJjg==",
+      "license": "ISC"
+    }
+  }
+}

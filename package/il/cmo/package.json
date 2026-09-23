@@ -11,14 +11,15 @@
     "directory": "package/il/cmo/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-il": "latest"
+    "@zerobias-org/vendor-il": "*"
   },
   "zerobias": {
     "package": "il.cmo",

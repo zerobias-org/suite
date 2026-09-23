@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-de-bait",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-de-bait",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-de": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-de": {
+      "version": "2.0.1",
+      "integrity": "sha512-TN1XnjJeEYPYKmdR3VevSk0tysxiBBvsMODpCDCS92CjKcldm8iaK2f8/mGIytfgO9ls/Vc2EgQJIeou1bQ7RA==",
+      "license": "ISC"
+    }
+  }
+}

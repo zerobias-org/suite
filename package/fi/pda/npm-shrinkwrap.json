@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-fi-pda",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-fi-pda",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-fi": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-fi": {
+      "version": "2.0.1",
+      "integrity": "sha512-naw0xtrMrbrvgPHCjD2g0neRZOS217c4Z7xqo0p2cK4epdKbKdvnXhdOh69eTHA4WJK1M8P/OihpeCqsdKBuzg==",
+      "license": "ISC"
+    }
+  }
+}

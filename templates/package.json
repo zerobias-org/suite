@@ -11,14 +11,15 @@
     "directory": "package/{vendor}/{code}/"
   },
   "publishConfig": {
-    "registry": "https://pkg.zerobias.org/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-{vendor}": "latest"
+    "@zerobias-org/vendor-{vendor}": "*"
   },
   "zerobias": {
     "dataloader-version": "1.0.0",

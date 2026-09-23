@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-lu-pp_rppd",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-lu-pp_rppd",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-lu": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-lu": {
+      "version": "2.0.1",
+      "integrity": "sha512-rzyoSY/tBKYdzM7C5TAUsg6IOyziFUKx7yYIbz9tUAX71bTxEDdpBspdLD2qblgUnedaGi0f5wjS0fojj71r/A==",
+      "license": "ISC"
+    }
+  }
+}
