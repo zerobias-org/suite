@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-za-popia",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-za-popia",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-za": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-za": {
+      "version": "2.0.1",
+      "integrity": "sha512-frw7es4h8eE8De94eYWlKm+hAI84M2kOg6KskScqgqjVWM9i+9iFfT8dYEm9zzVy68ON9jeCJk+zEwtFg8tD4Q==",
+      "license": "ISC"
+    }
+  }
+}

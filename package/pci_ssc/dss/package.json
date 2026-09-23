@@ -11,14 +11,15 @@
     "directory": "package/pci_ssc/dss/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-pci_ssc": "latest"
+    "@zerobias-org/vendor-pci_ssc": "*"
   },
   "zerobias": {
     "package": "pci_ssc.dss",

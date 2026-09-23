@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us_va-cdpa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_va-cdpa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_va": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_va": {
+      "version": "2.0.1",
+      "integrity": "sha512-XscGaYAWecT1DQLDPl9lDXP05ERHxacRKErZTf/pZjMJBQN2B1oF+SBdiOsAIpVI8J9m5JPaHaAG2unQptY1Mw==",
+      "license": "ISC"
+    }
+  }
+}

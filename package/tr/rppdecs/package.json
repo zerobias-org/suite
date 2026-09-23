@@ -11,14 +11,15 @@
     "directory": "package/tr/rppdecs/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-tr": "latest"
+    "@zerobias-org/vendor-tr": "*"
   },
   "zerobias": {
     "package": "tr.rppdecs",

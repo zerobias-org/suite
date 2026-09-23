@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us-ftc",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us-ftc",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us": {
+      "version": "2.0.1",
+      "integrity": "sha512-LLUJxtiCgjFtjPfmgMCOHH+hYEZhnaKyeXf+RI9wOMgYKUjnwSMdtM/JOjfN6slf8li93W+B1Ho8d6Ep5FJubw==",
+      "license": "ISC"
+    }
+  }
+}

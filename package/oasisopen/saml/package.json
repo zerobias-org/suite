@@ -11,14 +11,15 @@
     "directory": "package/oasisopen/saml/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-oasisopen": "latest"
+    "@zerobias-org/vendor-oasisopen": "*"
   },
   "zerobias": {
     "dataloader-version": "1.0.0",

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-tjc-camh",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-tjc-camh",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-tjc": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-tjc": {
+      "version": "1.0.1",
+      "integrity": "sha512-NMd5vjs9q5EOapbma5F4EZZf474kWwLJsONmBginT7RNmAb+paDYRHkJvy19h+B1w6NIrqBvi0OkOy8eQIZPNA==",
+      "license": "ISC"
+    }
+  }
+}

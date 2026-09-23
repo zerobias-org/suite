@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-swift-swift",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-swift-swift",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-swift": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-swift": {
+      "version": "2.0.1",
+      "integrity": "sha512-bJLCSBFM0mHHs+PgmjkwuQoo9juW/uxEX5jROtKQSfw3FkTS7P4ZnpVyQqdho0JZlIi9SGh1fQ32U+i5vsOTrw==",
+      "license": "ISC"
+    }
+  }
+}

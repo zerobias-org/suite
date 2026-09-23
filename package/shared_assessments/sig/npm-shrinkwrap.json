@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-shared_assessments-sig",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-shared_assessments-sig",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-shared_assessments": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-shared_assessments": {
+      "version": "2.0.1",
+      "integrity": "sha512-MBP7WaEG6kWttYbinOjhfKHVw9gXgX4TFuY5yOs7QfXLbKFCbKB05Vf9KYZ109ZpyAtw9vj+/HLoei1hymHMiA==",
+      "license": "ISC"
+    }
+  }
+}

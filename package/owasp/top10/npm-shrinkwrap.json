@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-owasp-top10",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-owasp-top10",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-owasp": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-owasp": {
+      "version": "2.0.1",
+      "integrity": "sha512-khldXyzaYbh5rB9M5kVL0PNecpfXeHSlH454YRb/njfw3ZBLhEOZaoU3I/d0sRYMd2+RA//IXyLJPXbSnH9dxw==",
+      "license": "ISC"
+    }
+  }
+}

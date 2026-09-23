@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us_tn-ipa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_tn-ipa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_tn": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_tn": {
+      "version": "2.0.1",
+      "integrity": "sha512-7RZWg2oABDdvQax9LmAU6q/p6OrZDKCvcmcoEP6t37xfPwbX28FBGFLwpvEmtXn5Bjdb5CHH9iihBDPhyZ1cJw==",
+      "license": "ISC"
+    }
+  }
+}

@@ -11,14 +11,15 @@
     "directory": "package/whitehouse/memo/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-whitehouse": "latest"
+    "@zerobias-org/vendor-whitehouse": "*"
   },
   "zerobias": {
     "dataloader-version": "1.0.0",

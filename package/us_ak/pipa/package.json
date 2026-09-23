@@ -11,14 +11,15 @@
     "directory": "package/us_ak/pipa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us_ak": "latest"
+    "@zerobias-org/vendor-us_ak": "*"
   },
   "zerobias": {
     "package": "us_ak.pipa",

@@ -11,14 +11,15 @@
     "directory": "package/tisax/isa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-tisax": "latest"
+    "@zerobias-org/vendor-tisax": "*"
   },
   "zerobias": {
     "package": "tisax.isa",

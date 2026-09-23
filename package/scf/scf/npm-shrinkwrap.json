@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-scf-scf",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-scf-scf",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-scf": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-scf": {
+      "version": "1.0.3",
+      "integrity": "sha512-mfxbF5SD/tZkN7WlfaRGTT/KIQDcqP1zyto8A9T3fN4F27A654lB6M7tZVQpApt5TOeBqAh/kr3WTuItMebeVw==",
+      "license": "ISC"
+    }
+  }
+}

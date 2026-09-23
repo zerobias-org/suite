@@ -11,14 +11,15 @@
     "directory": "package/oasisopen/cosai/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-oasisopen": "latest"
+    "@zerobias-org/vendor-oasisopen": "*"
   },
   "auditmation": {
     "dataloader-version": "1.0.0",

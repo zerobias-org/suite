@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us_co-cpa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_co-cpa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_co": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_co": {
+      "version": "2.0.1",
+      "integrity": "sha512-0JM8T20y+5piacqBIw221IJN0Tl7OejnHXtUkDp+t+rj1RUulXjquUqeudTXRvmOWr+u+Lzrz8nhZUEIgp13Kg==",
+      "license": "ISC"
+    }
+  }
+}

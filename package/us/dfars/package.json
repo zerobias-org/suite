@@ -11,14 +11,15 @@
     "directory": "package/us/dfars/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us": "latest"
+    "@zerobias-org/vendor-us": "*"
   },
   "zerobias": {
     "package": "us.dfars",

@@ -1,7 +1,7 @@
 {
-  "version": "2.0.1",
-  "branch": "feat/validator-allow-hyphen-dirs",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "2.0.1-uat.0",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "f5aa38e1c5f13bf003a308697caff09414fe016f9b2f222d7ebc180ce9bee500",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

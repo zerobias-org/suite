@@ -11,14 +11,15 @@
     "directory": "package/us_ca/sb327/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us_ca": "^1.0.0"
+    "@zerobias-org/vendor-us_ca": "*"
   },
   "zerobias": {
     "package": "us_ca.sb327",

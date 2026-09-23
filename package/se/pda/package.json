@@ -11,14 +11,15 @@
     "directory": "package/se/pda/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-se": "latest"
+    "@zerobias-org/vendor-se": "*"
   },
   "zerobias": {
     "package": "se.pda",

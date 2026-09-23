@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-openid-connect",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-openid-connect",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-openid": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-openid": {
+      "version": "2.0.1",
+      "integrity": "sha512-mvHG7uBuR74ajgEeUHad0xFtI3P7tsJYEVr8R9u/MCIzl9B/pYtYXGaEOaq9SAaP05lO7IQo92Edfdd+JP/vsQ==",
+      "license": "ISC"
+    }
+  }
+}

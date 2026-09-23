@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-sg-pdpa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-sg-pdpa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-sg": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-sg": {
+      "version": "2.0.1",
+      "integrity": "sha512-vyKSDy7JKSrMPEtWIrDErQKm+Doie9+/5HwjaUm68/ELnSCd6Pspr1WhmZQto1jHqDZ0UhSeEZPEvnB5eBnt5g==",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us_nv-sb220",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_nv-sb220",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_nv": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_nv": {
+      "version": "2.0.1",
+      "integrity": "sha512-2IYkGa6LY+217CRqlfZLw6ATszZpVWh7R4BOszrssLuTMjL3gVDynXFlYb90esTU6O2QtT8ZykRSbGszESY++A==",
+      "license": "ISC"
+    }
+  }
+}
