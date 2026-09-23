@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-cis-controls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Suite package Controls for vendor CIS.",
   "author": "team@zerobias.com",
   "license": "ISC",

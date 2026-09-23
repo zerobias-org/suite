@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-nist-800_181",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "NIST SP 800-181 compliance framework suite",
   "author": "team@zerobias.com",
   "license": "ISC",

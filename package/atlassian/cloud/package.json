@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-atlassian-cloud",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Suite package cloud for vendor atlassian.",
   "author": "team@zerobias.com",
   "license": "ISC",
