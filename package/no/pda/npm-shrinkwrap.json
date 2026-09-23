@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-no-pda",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-no-pda",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-no": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-no": {
+      "version": "2.0.1",
+      "integrity": "sha512-mubWc8lmSKtjvCa2+X6HyxRgHm+j1OS+kmptfU5wZSA2jqPZG+VzMnMoNHt/TzMI0V2OToTcA5NdtTC5jvb4MA==",
+      "license": "ISC"
+    }
+  }
+}

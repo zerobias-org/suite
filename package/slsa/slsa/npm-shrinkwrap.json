@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-slsa-slsa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-slsa-slsa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-slsa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-slsa": {
+      "version": "2.0.1",
+      "integrity": "sha512-bfRAzBcZpbKA9D5WUn9x7Dvc6gPHk8Yudyu8YfpzlkWAazKAykVO12IK9iZTkrjUIdLqSILfF2mmyYW/DPUlnA==",
+      "license": "ISC"
+    }
+  }
+}

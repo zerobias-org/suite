@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-sk-ppd",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-sk-ppd",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-sk": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-sk": {
+      "version": "2.0.1",
+      "integrity": "sha512-tfB6AD/vyQGGpsgEi1SkzRQbktpx1eH15r8Gbv3ue5kZIJ1/qnYTv/OLal9YENQM58HgRw1Ec3hF0myos7OuOQ==",
+      "license": "ISC"
+    }
+  }
+}

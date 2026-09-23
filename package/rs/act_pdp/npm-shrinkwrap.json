@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-rs-act_pdp",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-rs-act_pdp",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-rs": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-rs": {
+      "version": "2.0.1",
+      "integrity": "sha512-R6w7p7Fw8oXh3S0eqfpUvyknl2V88Co0fOuJn+dFAO5cWmJvePkoSiPDV2+Gr+8DSPxlNweddmUSY3MZY+NV1w==",
+      "license": "ISC"
+    }
+  }
+}

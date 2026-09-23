@@ -11,14 +11,15 @@
     "directory": "package/us_vt/vt_act171/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us_vt": "latest"
+    "@zerobias-org/vendor-us_vt": "*"
   },
   "zerobias": {
     "package": "us_vt.vt_act171",

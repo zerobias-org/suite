@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-un-wp",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-un-wp",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-un": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-un": {
+      "version": "2.0.1",
+      "integrity": "sha512-KlyAaRs40+R/xKF6ioDk5+dBvzpH5g+zTxt0xwCiSdQ71ze2LH3Y3hZWwRE3MyoSDd7L3mTc64c2zAR2W0YADQ==",
+      "license": "ISC"
+    }
+  }
+}

@@ -11,14 +11,15 @@
     "directory": "package/spdx/spdx/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-spdx": "latest"
+    "@zerobias-org/vendor-spdx": "*"
   },
   "zerobias": {
     "dataloader-version": "1.0.0",

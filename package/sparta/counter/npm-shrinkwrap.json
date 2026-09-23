@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-sparta-counter",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-sparta-counter",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-sparta": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-sparta": {
+      "version": "2.0.1",
+      "integrity": "sha512-2lMHmuGhyt57SLZE1bOUbC952hFIk3muVefgm2ytKoraqNXWDvFcuBNqHtmHkdRv8yPGINcmgJESJUplHH9QOA==",
+      "license": "ISC"
+    }
+  }
+}

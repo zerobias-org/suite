@@ -11,11 +11,12 @@
     "directory": "package/owasp/llmtop10/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.png"
+    "logo.png",
+    "npm-shrinkwrap.json"
   ],
   "auditmation": {
     "dataloader-version": "1.0.0",
@@ -23,6 +24,6 @@
     "package": "owasp.llmtop10"
   },
   "dependencies": {
-    "@zerobias-org/vendor-owasp": "latest"
+    "@zerobias-org/vendor-owasp": "*"
   }
 }

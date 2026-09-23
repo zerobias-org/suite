@@ -11,14 +11,15 @@
     "directory": "package/sa/ecc/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-sa": "latest"
+    "@zerobias-org/vendor-sa": "*"
   },
   "zerobias": {
     "package": "sa.ecc",

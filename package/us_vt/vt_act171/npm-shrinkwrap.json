@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us_vt-vt_act171",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_vt-vt_act171",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_vt": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_vt": {
+      "version": "2.0.1",
+      "integrity": "sha512-VcU9QAbkHfKch2y/1+6/FlIofJLYs2EtMhUZXJ8A9huzWTP16CXHapuk3ECtsoAB+44j++K7xiCy/rXZA0nmiQ==",
+      "license": "ISC"
+    }
+  }
+}

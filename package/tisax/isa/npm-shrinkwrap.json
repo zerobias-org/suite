@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-tisax-isa",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-tisax-isa",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-tisax": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-tisax": {
+      "version": "2.0.1",
+      "integrity": "sha512-O3Xw4PkzISTBEBNOn9l3JunwvL0/YNMeb1HqEJhlS7fsFU223NscUE60JOHa4PrsWZiBbRvWwfqe4GoC/JhJdA==",
+      "license": "ISC"
+    }
+  }
+}

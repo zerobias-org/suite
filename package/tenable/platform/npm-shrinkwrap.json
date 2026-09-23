@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-tenable-platform",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-tenable-platform",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-tenable": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-tenable": {
+      "version": "1.0.1",
+      "integrity": "sha512-o70vzcdve4f5FrP1m/bOzJRpPe0dZnTrY4zOc61tWol7/c8DQuSwfIPsCukwNzayzFNqJdk2J/3zgiV7cgbN8A==",
+      "license": "ISC"
+    }
+  }
+}

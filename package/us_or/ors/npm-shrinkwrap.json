@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-us_or-ors",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-us_or-ors",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_or": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_or": {
+      "version": "2.0.1",
+      "integrity": "sha512-8Mnn7hsftz1D1pHrmJEl2TjnY5sPwbmoiS/aPWiMJ252qoY7L6UTim3YXxRWskYwPdTbqfig/u83euZMOAeNjQ==",
+      "license": "ISC"
+    }
+  }
+}

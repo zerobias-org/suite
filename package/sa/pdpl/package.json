@@ -11,14 +11,15 @@
     "directory": "package/sa/pdpl/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-sa": "^1.0.0"
+    "@zerobias-org/vendor-sa": "*"
   },
   "zerobias": {
     "package": "sa.pdpl",

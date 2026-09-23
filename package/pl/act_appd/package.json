@@ -11,14 +11,15 @@
     "directory": "package/pl/act_appd/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-pl": "latest"
+    "@zerobias-org/vendor-pl": "*"
   },
   "zerobias": {
     "package": "pl.act_appd",

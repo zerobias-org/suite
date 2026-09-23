@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "feat/scf-vendor-migration",
-  "sourceHash": "70f37ac45d752f67b7fb1ff979ed4205b56db383754f46fbf9654fcbf67797cc",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "22edf8014dfbce4587bf0a61eb47d7e41da9a7b4e089df1e49910b86c755b67f",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

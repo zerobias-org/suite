@@ -11,14 +11,15 @@
     "directory": "package/sparta/counter/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-sparta": "latest"
+    "@zerobias-org/vendor-sparta": "*"
   },
   "zerobias": {
     "package": "sparta.counter",

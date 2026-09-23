@@ -11,14 +11,15 @@
     "directory": "package/rs/act_pdp/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-rs": "latest"
+    "@zerobias-org/vendor-rs": "*"
   },
   "zerobias": {
     "package": "rs.act_pdp",

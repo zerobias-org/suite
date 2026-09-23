@@ -11,14 +11,15 @@
     "directory": "package/us_co/cpa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us_co": "latest"
+    "@zerobias-org/vendor-us_co": "*"
   },
   "zerobias": {
     "package": "us_co.cpa",

@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-ru-federallaw",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-ru-federallaw",
+      "version": "2.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ru": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ru": {
+      "version": "2.0.1",
+      "integrity": "sha512-v0MaT3NMiceFenSogZMP0Yncx4v9nOg2XGSNlrGEF7qcms+IbTGki6UhHofoYq8oKnRxKjOoZF5USzVC6If+vA==",
+      "license": "ISC"
+    }
+  }
+}

@@ -11,14 +11,15 @@
     "directory": "package/us_tx/cdpa/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/vendor-us_tx": "^1.0.0"
+    "@zerobias-org/vendor-us_tx": "*"
   },
   "zerobias": {
     "package": "us_tx.cdpa",

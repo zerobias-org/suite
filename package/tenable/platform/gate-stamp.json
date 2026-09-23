@@ -1,7 +1,7 @@
 {
-  "version": "0.4.4-uat.0",
-  "branch": "feat/migrate-suites-batch-2",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "1.0.0-uat.0",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "3c0a45b7ca367c6e3b8b09dff605eaf7836be7368cddfee7dd8cddd14cd065f5",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
