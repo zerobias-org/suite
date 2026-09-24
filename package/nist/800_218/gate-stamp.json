@@ -1,7 +1,7 @@
 {
-  "version": "2.0.2",
-  "branch": "build/npmrc-canonical",
-  "sourceHash": "06b8b17285740a2f3364721f1e03abdcc04d2fa0a42177c81be69704d1d405f2",
+  "version": "2.0.3-uat.0",
+  "branch": "chore/retire-ssdf-duplicate-suite",
+  "sourceHash": "0582fdca51d5661b597d31497d4bf036dff717aedc924c81c275991e556ec1f4",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

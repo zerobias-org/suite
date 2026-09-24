@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/suite-nist-800_218",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/suite-nist-800_218",
-      "version": "2.0.1",
+      "version": "2.0.3",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-nist": "*"
