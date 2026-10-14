@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-hitrust-csf",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-hitrust-csf",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-hitrust": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-hitrust": {
+      "version": "1.0.1",
+      "integrity": "sha512-xruDf1EcB/KQnS+2E6S5fbEWDF5ywmqx0cOhjRXoJd/Y9J4rbWk1k7MVctnEDtnaMJDx47kHmD/dVD5kLRs/UQ==",
+      "license": "ISC"
+    }
+  }
+}

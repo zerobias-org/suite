@@ -1,0 +1,16 @@
+id: 9d7ca670-4d89-4d2f-8943-5c05b9c24b3f
+code: csf
+name: HITRUST CSF
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://hitrustalliance.net/hitrust-framework
+description: >-
+  HITRUST CSF assurance program — the HITRUST Alliance framework and
+  certification ecosystem, covering the e1, i1 and r2 validated assessments,
+  the individual assessor credentials (CCSFP, CHQP) and Authorized External
+  Assessor Organizations.
+logo: https://cdn.auditmation.io/logos/hitrust.svg
+vendorId: 1ce50800-543f-43aa-8cfd-610fea36ab6c
+vendorCode: hitrust
+vendorName: HITRUST Alliance
