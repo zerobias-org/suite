@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/suite-hitrust-csf",
+  "version": "1.0.0",
+  "description": "suite package for hitrust-csf",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/hitrust/csf/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "index.yml",
+    "logo.*",
+    "npm-shrinkwrap.json"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-hitrust": "*"
+  },
+  "zerobias": {
+    "package": "hitrust.csf",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
+  }
+}
