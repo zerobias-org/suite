@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -109,6 +109,7 @@
     "@zerobias-org/suite-gr-pi_rppd_2472": "2.0.1",
     "@zerobias-org/suite-gsa-fedramp": "2.0.1",
     "@zerobias-org/suite-hci-mediacare": "2.0.0",
+    "@zerobias-org/suite-hitrust-csf": "1.0.0",
     "@zerobias-org/suite-hk-pdo": "2.0.1",
     "@zerobias-org/suite-hu-isdfi": "2.0.1",
     "@zerobias-org/suite-id-gov_regulation": "2.0.1",
