@@ -1,0 +1,16 @@
+id: 145908b3-bab5-465d-a1d5-567318d4ad9d
+code: 800_63
+name: SP 800-63-4 - Digital Identity Guidelines
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://pages.nist.gov/800-63-4/
+description: >-
+  NIST SP 800-63-4 Digital Identity Guidelines — the four-volume suite covering
+  digital identity risk management (SP 800-63), identity proofing and enrollment
+  (SP 800-63A), authentication and authenticator management (SP 800-63B), and
+  federation and assertions (SP 800-63C).
+logo: https://cdn.auditmation.io/logos/nist.svg
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+vendorName: NIST
