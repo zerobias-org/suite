@@ -1,0 +1,14 @@
+id: 06352e3e-178a-40ff-aba6-5fa6973c1466
+code: pp_app
+name: Protection Profile for Application Software
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.niap-ccevs.org/protectionprofiles/516
+description: >-
+  NIAP Protection Profile for Application Software (PP_APP) — the Common Criteria
+  security functional and assurance requirements NIAP uses to evaluate application
+  software, across its published versions.
+vendorId: 47481e8f-4fed-4b23-8e3d-e7f8286bdfcd
+vendorCode: niap
+vendorName: National Information Assurance Partnership
