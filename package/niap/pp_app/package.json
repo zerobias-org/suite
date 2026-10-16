@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/suite-niap-pp_app",
+  "version": "1.0.0",
+  "description": "suite package for niap-pp_app",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/suite.git",
+    "directory": "package/niap/pp_app/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "index.yml",
+    "npm-shrinkwrap.json"
+  ],
+  "dependencies": {
+    "@zerobias-org/vendor-niap": "*"
+  },
+  "zerobias": {
+    "package": "niap.pp_app",
+    "import-artifact": "suite",
+    "dataloader-version": "1.0.0"
+  }
+}

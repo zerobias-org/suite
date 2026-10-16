@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/suite-niap-pp_app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/suite-niap-pp_app",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-niap": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-niap": {
+      "version": "1.0.0",
+      "integrity": "sha512-rk5fjmqwsUHu36sZxcraOKSnr4072tEoJahhydgEqhBqcq9Wqrp5jzocJxZbRdCqCBWEvqwnEJev395RHnk+fw==",
+      "license": "ISC"
+    }
+  }
+}
