@@ -1,0 +1,21 @@
+id: 0358bb62-d1bd-453d-ba03-bdf99e38e08c
+name: >-
+  ISO/IEC 27090 - Cybersecurity - Artificial intelligence (AI) - Addressing
+  security threats and compromises to AI systems
+description: >-
+  ISO/IEC 27090 provides guidance for organizations that develop or use AI
+  systems on understanding, detecting and mitigating security threats and
+  compromises specific to AI systems throughout their life cycle.
+imageUrl: https://cdn.auditmation.io/logos/iso.svg
+logo: https://cdn.auditmation.io/logos/iso.svg
+code: '27090'
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: iso
+vendorId: 88bce5f2-739b-5efd-b114-d751348f7a8a
+status: active
+url: https://www.iso.org/standard/27090
+tags: []
+aliases:
+  - ISO/IEC 27090
+  - ISO 27090
