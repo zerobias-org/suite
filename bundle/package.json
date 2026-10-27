@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -166,6 +166,7 @@
     "@zerobias-org/suite-nist-800_207": "2.0.1",
     "@zerobias-org/suite-nist-800_213a": "2.0.1",
     "@zerobias-org/suite-nist-800_218": "2.0.3",
+    "@zerobias-org/suite-nist-800_221": "1.0.0",
     "@zerobias-org/suite-nist-800_37": "2.0.1",
     "@zerobias-org/suite-nist-800_39": "2.0.1",
     "@zerobias-org/suite-nist-800_53a": "2.0.1",
