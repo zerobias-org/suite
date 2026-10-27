@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -130,6 +130,7 @@
     "@zerobias-org/suite-iso-27002": "2.0.1",
     "@zerobias-org/suite-iso-27017": "2.0.1",
     "@zerobias-org/suite-iso-27018": "2.0.1",
+    "@zerobias-org/suite-iso-27090": "1.0.0",
     "@zerobias-org/suite-iso-27701": "2.0.1",
     "@zerobias-org/suite-iso-29100": "2.0.1",
     "@zerobias-org/suite-iso-31000": "2.0.1",
