@@ -1,0 +1,17 @@
+id: a1eafb85-1c18-45ab-a63b-338b77adff29
+code: 800_221
+name: SP 800-221 - Enterprise Impact of Information and Communications Technology Risk
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://csrc.nist.gov/pubs/sp/800/221/r1/ipd
+description: >-
+  NIST SP 800-221 Enterprise Impact of Information and Communications Technology
+  Risk: Governing and Managing ICT Risk Programs Within an Enterprise Risk
+  Portfolio — guidance for integrating ICT risk management with enterprise risk
+  management (ERM), including the Revision 1 update aligned with the NIST
+  Cybersecurity Framework (CSF) 2.0.
+logo: https://cdn.auditmation.io/logos/nist.svg
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+vendorName: NIST
