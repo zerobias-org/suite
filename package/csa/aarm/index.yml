@@ -1,10 +1,7 @@
 id: 55c1e990-80e8-4ff1-a4ea-2aeac4ff95ad
 name: Autonomous Action Runtime Management
 description: >-
-  Autonomous Action Runtime Management (AARM) - an open system specification,
-  developed under the Cloud Security Alliance technical working group, for
-  securing AI-driven actions at runtime by intercepting, evaluating,
-  authorizing, and recording every agent-initiated action before execution.
+  Autonomous Action Runtime Management (AARM) - an open system specification, developed under the Cloud Security Alliance technical working group, for securing AI-driven actions at runtime by intercepting, evaluating, authorizing, and recording every agent-initiated action before execution.
 imageUrl: https://cdn.auditmation.io/logos/csa-aarm.svg
 logo: https://cdn.auditmation.io/logos/csa-aarm.svg
 code: aarm
