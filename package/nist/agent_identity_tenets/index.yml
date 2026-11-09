@@ -1,0 +1,16 @@
+id: f556c406-05d5-4512-a353-13272d86f51d
+code: agent_identity_tenets
+name: Design Tenets for Agent Identity Management Systems
+status: active
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems
+description: >-
+  NIST design tenets for identity, authentication and authorization of software
+  and AI agents, published on the NIST Cybersecurity Insights blog in October
+  2026. This is a blog post with no SP, IR or CSWP number, and the tenets are
+  interim guideposts for NCCoE agent identity demonstrations.
+logo: https://cdn.auditmation.io/logos/nist.svg
+vendorId: 0743d445-a022-5959-b0f4-593f37247130
+vendorCode: nist
+vendorName: NIST
