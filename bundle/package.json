@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -177,6 +177,7 @@
     "@zerobias-org/suite-nist-800_63b": "2.0.1",
     "@zerobias-org/suite-nist-800_66": "2.0.1",
     "@zerobias-org/suite-nist-800_82": "2.0.1",
+    "@zerobias-org/suite-nist-agent_identity_tenets": "1.0.0",
     "@zerobias-org/suite-nist-ai_600": "2.0.1",
     "@zerobias-org/suite-nist-csf": "2.0.1",
     "@zerobias-org/suite-nist-fips": "2.0.2",
