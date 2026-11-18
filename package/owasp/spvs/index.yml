@@ -1,0 +1,17 @@
+id: 766b2fd8-e4a5-4183-bc74-586367cdfbe9
+name: Secure Pipeline Verification Standard
+description: >-
+  OWASP Secure Pipeline Verification Standard (SPVS) - an OWASP project defining verifiable security requirements, in maturity levels, for software delivery pipelines across the full lifecycle: Plan, Develop, Integrate, Release and Operate.
+imageUrl: https://cdn.auditmation.io/logos/owasp-spvs.png
+logo: https://cdn.auditmation.io/logos/owasp-spvs.png
+code: spvs
+type: suite
+ownerId: 00000000-0000-0000-0000-000000000000
+vendorCode: owasp
+vendorId: 6536f81a-0e48-4982-ac04-7ae89c30e051
+status: active
+url: https://owasp.org/www-project-spvs/
+tags: []
+aliases:
+  - SPVS
+  - OWASP SPVS
