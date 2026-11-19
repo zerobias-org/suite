@@ -1,6 +1,6 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "task/suiteDev-11",
+  "branch": "fix/suiteDev-11-promote-to-public",
   "sourceHash": "bd6733ef261b536cd81d24f1ae6bb63df0ae6517c03544b5bb5132cd6812514b",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
