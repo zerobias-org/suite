@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-bundle",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "All installable suites",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -210,7 +210,7 @@
     "@zerobias-org/suite-owasp-pc": "2.0.1",
     "@zerobias-org/suite-owasp-samm": "2.0.1",
     "@zerobias-org/suite-owasp-scvs": "2.0.1",
-    "@zerobias-org/suite-owasp-spvs": "1.0.0",
+    "@zerobias-org/suite-owasp-spvs": "1.0.1",
     "@zerobias-org/suite-owasp-top10": "2.0.1",
     "@zerobias-org/suite-owasp-wstg": "2.0.1",
     "@zerobias-org/suite-pci_ssc-dss": "2.0.1",
