@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/suite-owasp-spvs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Secure Pipeline Verification Standard",
   "author": "team@zerobias.com",
   "license": "ISC",
