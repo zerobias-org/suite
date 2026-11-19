@@ -141,7 +141,8 @@ run `/create-suite`) — the
 [create-suite skill](.claude/skills/create-suite/SKILL.md) handles the
 whole flow; a ZeroBias task id is optional. Headless works too:
 `claude -p "make suite x for vendor y"` pre-flights credentials, runs to
-org load, and stops there (sign-off and PR stay human).
+the gate (or the org load, for an org-only suite), and stops there
+(sign-off and PR stay human).
 
 Hard prerequisites live in the
 [`prerequisites` skill](.claude/skills/prerequisites/SKILL.md) — run
@@ -153,12 +154,16 @@ the org). If one is missing: **install it or wait — never work around it**
 The content SDLC (the skill owns the details — don't restate them here):
 
 1. scaffold → `zbb --slot <slot> gate` (never bare `./gradlew`) → commit `gate-stamp.json`
-2. `publishOrg` → load into YOUR org → verify → 🙋 explicit user sign-off
-3. only then PR → base **`dev`**
+2. **Catalog package** (default): PR → base **`dev`**, no `zerobias.orgId`.
+3. **Org-only package** (`zerobias.orgId` set): `publishOrg` → load into that
+   org → verify → 🙋 explicit user sign-off.
+
+`zerobias.orgId` is the dataloader's package-ownership field for every
+content type, not something specific to suites. See the dataloader's
+`docs/STABLE_IDS.md` ("Declared-owner validation", "Promotion").
 
 **No ZeroBias org?** (external contributors): stop after the gate and open
-the PR against `dev` — maintainers run the org verification on their side.
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+the PR against `dev`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Dependency Chain
 
@@ -198,7 +203,7 @@ Preferred: take `vendorId` from the `store.Vendor.get` result (`id` field). Lega
 
 ## See Also
 
-- **[.claude/skills/create-suite/SKILL.md](.claude/skills/create-suite/SKILL.md)** — full new-suite walkthrough (org-first SDLC)
+- **[.claude/skills/create-suite/SKILL.md](.claude/skills/create-suite/SKILL.md)** — full new-suite walkthrough (catalog or org-only suite)
 - **`build.gradle.kts`** — validator implementation
 - **`com/platform/dataloader/src/processors/suite/`** (in the meta-repo) — source of truth for what loads on prod
 - **`org/vendor/CLAUDE.md`** — sibling content repo on the same gradle pipeline; useful reference when patterns drift
