@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "spdx.spdx"
+    "package": "spdx.spdx",
+    "documentation": "README.md"
   }
 }
