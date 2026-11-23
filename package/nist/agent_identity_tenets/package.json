@@ -24,6 +24,7 @@
   "zerobias": {
     "package": "nist.agent_identity_tenets",
     "import-artifact": "suite",
-    "dataloader-version": "1.0.0"
+    "dataloader-version": "1.0.0",
+    "documentation": "README.md"
   }
 }
