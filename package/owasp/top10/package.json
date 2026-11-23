@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "owasp.top10"
+    "package": "owasp.top10",
+    "documentation": "README.md"
   }
 }
