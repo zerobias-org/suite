@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "iso.24759"
+    "package": "iso.24759",
+    "documentation": "README.md"
   }
 }

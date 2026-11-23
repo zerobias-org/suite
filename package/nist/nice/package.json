@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "nist.nice"
+    "package": "nist.nice",
+    "documentation": "README.md"
   }
 }

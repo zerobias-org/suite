@@ -24,6 +24,7 @@
   "zerobias": {
     "package": "nist.800171",
     "import-artifact": "suite",
-    "dataloader-version": "1.0.0"
+    "dataloader-version": "1.0.0",
+    "documentation": "README.md"
   }
 }
