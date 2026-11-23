@@ -23,6 +23,7 @@
   "zerobias": {
     "package": "niap.pp_app",
     "import-artifact": "suite",
-    "dataloader-version": "1.0.0"
+    "dataloader-version": "1.0.0",
+    "documentation": "README.md"
   }
 }
