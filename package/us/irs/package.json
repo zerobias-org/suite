@@ -24,6 +24,7 @@
   "zerobias": {
     "package": "us.irs",
     "import-artifact": "suite",
-    "dataloader-version": "1.0.0"
+    "dataloader-version": "1.0.0",
+    "documentation": "README.md"
   }
 }
