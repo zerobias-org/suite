@@ -24,6 +24,7 @@
   "auditmation": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "oasisopen.cosai"
+    "package": "oasisopen.cosai",
+    "documentation": "README.md"
   }
 }
