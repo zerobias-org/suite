@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "csa.ccm"
+    "package": "csa.ccm",
+    "documentation": "README.md"
   }
 }
