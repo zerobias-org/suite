@@ -21,7 +21,8 @@
   "auditmation": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "owasp.llmtop10"
+    "package": "owasp.llmtop10",
+    "documentation": "README.md"
   },
   "dependencies": {
     "@zerobias-org/vendor-owasp": "*"
