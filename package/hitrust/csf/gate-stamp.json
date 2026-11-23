@@ -1,6 +1,6 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "task/suiteDev-3",
+  "branch": "task/task-38",
   "sourceHash": "098953d160875a5a1b70337b5a3467380644cd53d20c0c6dcb02cd04642a9578",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
@@ -11,7 +11,8 @@
     "testDirect": "passed",
     "testDocker": "passed",
     "testDataloader": "passed",
-    "buildArtifacts": "passed"
+    "buildArtifacts": "passed",
+    "dataloaderExec": "passed"
   },
   "tests": {
       "unit": { "expected": 0, "ran": 0, "status": "skipped" },
