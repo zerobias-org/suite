@@ -24,6 +24,7 @@
   "auditmation": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "csa.aicm"
+    "package": "csa.aicm",
+    "documentation": "README.md"
   }
 }

@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
-    "package": "avigilon.alta"
+    "package": "avigilon.alta",
+    "documentation": "README.md"
   }
 }
