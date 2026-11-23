@@ -25,6 +25,7 @@
     "dataloader-version": "1.0.0",
     "import-artifact": "suite",
     "package": "owasp.spvs",
-    "promote-to-public": true
+    "promote-to-public": true,
+    "documentation": "README.md"
   }
 }
